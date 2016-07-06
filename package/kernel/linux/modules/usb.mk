@@ -1338,8 +1338,15 @@ define KernelPackage/usb-net-rndis
   TITLE:=Support for RNDIS connections
   KCONFIG:=CONFIG_USB_NET_RNDIS_HOST
   FILES:= $(LINUX_DIR)/drivers/$(USBNET_DIR)/rndis_host.ko
-  AUTOLOAD:=$(call AutoProbe,rndis_host)
+#  AUTOLOAD:=$(call AutoProbe,rndis_host)
+  AUTOLOAD:=$(call AutoLoad,41,rndis_host,1)
   $(call AddDepends/usb-net,+kmod-usb-net-cdc-ether)
+
+  #TITLE:=Support for RNDIS connections
+  #KCONFIG:=CONFIG_USB_NET_RNDIS_HOST
+  #FILES:= $(LINUX_DIR)/drivers/$(USBNET_DIR)/rndis_host.ko
+  #AUTOLOAD:=$(call AutoProbe,rndis_host)
+  #$(call AddDepends/usb-net,+kmod-usb-net-cdc-ether)
 endef
 
 define KernelPackage/usb-net-rndis/description
