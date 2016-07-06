@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/utils/haveged/Makefile
+Package: haveged
+Version: 1.4-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Feeds the kernel entropy pool by timing CPU loops.
+Maintainer: 
+Source: haveged-1.4.tar.gz
+Type: ipkg
+Description: Feeds the kernel entropy pool by timing CPU loops.
+http://www.issihosts.com/haveged/
+
+@@
+
+

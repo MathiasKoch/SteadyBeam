@@ -1,0 +1,20 @@
+Source-Makefile: feeds/4g/lang/perl-dbi/Makefile
+Package: perl-dbi
+Submenu: Perl
+Version: 1.604-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: lang
+Category: Languages
+Title: Database independent interface for Perl
+Maintainer: 
+Source: DBI-1.604.tar.gz
+Type: ipkg
+Description: Database independent interface for Perl
+http://search.cpan.org/dist/DBI/
+
+@@
+
+

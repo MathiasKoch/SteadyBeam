@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/multimedia/spca5xx-view/Makefile
+Package: spca5xx-view
+Version: 1-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-video-spca5xx-le +libpthread
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: spca5xx streaming applicaton
+Maintainer: 
+Source: spca5xx-view.tar.bz2
+Type: ipkg
+Description:  This package contains a streaming daemon for spca5xx based webcams 
+http://www.acmesystems.it/
+
+@@
+
+

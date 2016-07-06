@@ -1,0 +1,236 @@
+Source-Makefile: feeds/4g/lang/python/Makefile
+Package: python
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +zlib +libffi +python-mini
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python  programming language (full)
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description:  Python is a dynamic object-oriented programming language that can be used
+ for many kinds of software development. It offers strong support for
+ integration with other languages and tools, comes with extensive standard
+ libraries, and can be learned in a few days. Many Python programmers
+ report substantial productivity gains and feel the language encourages
+ the development of higher quality, more maintainable code.
+ .
+ This package contains the full Python install.
+http://www.python.org/
+
+@@
+
+Package: python-mini
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +zlib
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python  programming language (minimal)
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description:  Python is a dynamic object-oriented programming language that can be used
+ for many kinds of software development. It offers strong support for
+ integration with other languages and tools, comes with extensive standard
+ libraries, and can be learned in a few days. Many Python programmers
+ report substantial productivity gains and feel the language encourages
+ the development of higher quality, more maintainable code.
+  .
+  This package contains only a minimal Python install.
+http://www.python.org/
+
+@@
+
+Package: python-doc
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python interactive documentation
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python interactive documentation
+http://www.python.org/
+
+@@
+
+Package: python-bzip2
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini +libbz2
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python support for Bzip2
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python support for Bzip2
+http://www.python.org/
+
+@@
+
+Package: python-expat
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini +libexpat
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python support for expat
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python support for expat
+http://www.python.org/
+
+@@
+
+Package: python-gzip
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python support for gzip
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python support for gzip
+http://www.python.org/
+
+@@
+
+Package: python-openssl
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python support for OpenSSL
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python support for OpenSSL
+http://www.python.org/
+
+@@
+
+Package: python-shutil
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python support for shutil
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python support for shutil
+http://www.python.org/
+
+@@
+
+Package: python-sqlite3
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +libsqlite3
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python support for sqlite3
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python support for sqlite3
+http://www.python.org/
+
+@@
+
+Package: python-gdbm
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini +libgdbm
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python support for gdbm
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python support for gdbm
+http://www.python.org/
+
+@@
+
+Package: python-readline
+Submenu: Python
+Version: 2.7.3rc2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-mini +libreadline +libncurses @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: python/host
+Build-Types: host
+Section: lang
+Category: Languages
+Title: Python support for readline
+Maintainer: 
+Source: Python-2.7.3rc2.tar.bz2
+Type: ipkg
+Description: Python support for readline
+http://www.python.org/
+
+@@
+
+

@@ -1,0 +1,20 @@
+Source-Makefile: feeds/4g/libs/libmodbus/Makefile
+Package: libmodbus
+Version: 3.0.2-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: libs
+Category: Libraries
+Title: libmodbus
+Maintainer: 
+Source: libmodbus-3.0.2.tar.gz
+Type: ipkg
+Description: A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Win32 
+http://www.libmodbus.org
+
+@@
+
+

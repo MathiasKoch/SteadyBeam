@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/libs/re/Makefile
+Package: libre
+Version: 0.4.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Title: Generic library for real-time communications with async IO support
+Maintainer: 
+Source: re-0.4.0.tar.gz
+Type: ipkg
+Description: Generic library for real-time communications with async IO support
+http://www.creytiv.com/
+
+@@
+
+

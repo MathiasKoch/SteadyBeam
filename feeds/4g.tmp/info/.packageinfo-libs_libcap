@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/libs/libcap/Makefile
+Package: libcap
+Version: 2.22-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: Libraries
+Title: Linux capabilities library
+Maintainer: 
+Source: libcap-2.22.tar.bz2
+Type: ipkg
+Description: Linux capabilities library
+http://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/
+
+@@
+
+

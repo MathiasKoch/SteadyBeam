@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/utils/restorefactory/Makefile
+Package: restorefactory
+Version: 1-6
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Mimic original functionality of the reset button
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Source: 
+Type: ipkg
+Description: RestoreFactory handles the reset button event and issues a "firstboot" command.
+Button and wait time can be configured with a UCI file.
+Nuno Goncalves <nunojpg@gmail.com>
+@@
+
+

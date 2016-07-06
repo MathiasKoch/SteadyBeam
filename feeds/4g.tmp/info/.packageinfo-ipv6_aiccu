@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/ipv6/aiccu/Makefile
+Package: aiccu
+Version: 20070115-9
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +ip +kmod-sit +kmod-tun
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: ipv6
+Category: IPv6
+Title: SixXS Automatic IPv6 Connectivity Client Utility
+Maintainer: 
+Source: aiccu_20070115.tar.gz
+Type: ipkg
+Description: SixXS Automatic IPv6 Connectivity Client Utility
+http://www.sixxs.net/tools/aiccu/
+
+@@
+
+

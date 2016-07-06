@@ -1,0 +1,43 @@
+Source-Makefile: feeds/4g/net/openvpn/Makefile
+Package: openvpn
+Menu: 1
+Submenu: VPN
+Version: 2.2.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-tun +libopenssl +!OPENVPN_DISABLE_LZO:liblzo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Open source VPN solution using SSL
+Maintainer: 
+Source: openvpn-2.2.2.tar.gz
+Type: ipkg
+Description:  Open source VPN solution using SSL
+http://openvpn.net
+
+@@
+Config:
+	source "project/4g/net/openvpn/Config.in"
+@@
+
+Package: openvpn-easy-rsa
+Menu: 1
+Submenu: VPN
+Version: 2.2.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +openssl-util
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Simple shell scripts to manage a Certificate Authority
+Maintainer: 
+Source: openvpn-2.2.2.tar.gz
+Type: ipkg
+Description: Simple shell scripts to manage a Certificate Authority
+http://openvpn.net
+
+@@
+
+

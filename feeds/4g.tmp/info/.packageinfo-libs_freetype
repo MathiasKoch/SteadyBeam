@@ -1,0 +1,24 @@
+Source-Makefile: feeds/4g/libs/freetype/Makefile
+Package: libfreetype
+Version: 2.4.8-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv libtool libintl libiconv
+Build-Types: host
+Section: libs
+Category: Libraries
+Title: A free, high-quality and portable font engine
+Maintainer: 
+Source: freetype-2.4.8.tar.bz2
+Type: ipkg
+Description:  The FreeType project is a team of volunteers who develop free, 
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small, 
+ efficient and ubiquitous products.
+http://www.freetype.org/
+
+@@
+
+

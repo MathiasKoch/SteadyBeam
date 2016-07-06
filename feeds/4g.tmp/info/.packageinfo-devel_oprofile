@@ -1,0 +1,38 @@
+Source-Makefile: feeds/4g/devel/oprofile/Makefile
+Package: oprofile
+Version: 0.9.7-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpopt +kmod-oprofile +libstdcpp +objdump
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: binutils libtool libintl libiconv
+Section: devel
+Category: Development
+Title: OProfile System Profiler
+Maintainer: 
+Source: oprofile-0.9.7.tar.gz
+Type: ipkg
+Description:  A transparent low-overhead system-wide profiler.
+http://oprofile.sourceforge.net
+
+@@
+
+Package: oprofile-utils
+Version: 0.9.7-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread oprofile
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: binutils libtool libintl libiconv
+Section: devel
+Category: Development
+Title: OProfile System Profiler (extra utilities)
+Maintainer: 
+Source: oprofile-0.9.7.tar.gz
+Type: ipkg
+Description: OProfile System Profiler (extra utilities)
+http://oprofile.sourceforge.net
+
+@@
+
+

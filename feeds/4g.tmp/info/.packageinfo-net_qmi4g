@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/net/qmi4g/Makefile
+Package: qmi4g
+Version: 0.0.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-qmi-wwan +libqmi-glib
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: QMI-based net interface configuration support
+Maintainer: Aleksander Morgado <aleksander@lanedo.com>
+Source: 
+Type: ipkg
+Description: Provides support for bringing up QMI-based WWAN interfaces.
+This package enables a new 'qmi4g' network protocol.
+Aleksander Morgado <aleksander@lanedo.com>
+@@
+
+

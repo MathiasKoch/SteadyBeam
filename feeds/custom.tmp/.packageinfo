@@ -1,0 +1,18 @@
+Source-Makefile: feeds/custom/steadybeam/Makefile
+Package: steadybeam
+Version: 1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Controls the steadybeam
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	A web page used for illustrating package creation
+
+@@
+
+

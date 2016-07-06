@@ -1,0 +1,14 @@
+#!/bin/sh
+
+
+if [ "$ACTION" != "ifup" ]; then
+        exit
+fi
+
+if [ "$INTERFACE" == "wan4g0" ] || [ "$INTERFACE" = "wan4g1" ]; then
+    /etc/init.d/steadybeam stop
+	echo "Restarted steadybeam" > /tmp/steadystatus
+	rm /tmp/steadybeam.log
+	sleep 2
+	/etc/init.d/steadybeam start
+fi

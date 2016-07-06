@@ -1,0 +1,20 @@
+Source-Makefile: feeds/4g/lang/perl-html-tagset/Makefile
+Package: perl-html-tagset
+Submenu: Perl
+Version: 3.20-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: lang
+Category: Languages
+Title: Data tables pertaining to HTML
+Maintainer: 
+Source: HTML-Tagset-3.20.tar.gz
+Type: ipkg
+Description: Data tables pertaining to HTML
+http://search.cpan.org/dist/HTML-Tagset/
+
+@@
+
+

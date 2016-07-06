@@ -1,0 +1,20 @@
+Source-Makefile: feeds/4g/net/haproxy/Makefile
+Package: haproxy
+Submenu: Web Servers/Proxies
+Version: 1.4.20-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre +libltdl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: The Reliable, High Performance TCP/HTTP Load Balancer
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Source: haproxy-1.4.20.tar.gz
+Type: ipkg
+Description:   Open source High Performance TCP/HTTP Load Balancer
+http://haproxy.1wt.eu/
+Thomas Heil <heil@terminal-consulting.de>
+@@
+
+

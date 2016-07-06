@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/net/keepalived/Makefile
+Package: keepalived
+Version: 1.1.19-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpopt +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Failover and monitoring daemon for LVS clusters
+Maintainer: 
+Source: keepalived-1.1.19.tar.gz
+Type: ipkg
+Description:  Failover and monitoring daemon for Linux Virtual Server (LVS) clusters.
+http://www.keepalived.org/
+
+@@
+
+

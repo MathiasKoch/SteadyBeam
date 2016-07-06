@@ -1,0 +1,19 @@
+
+# Put your custom commands here that should be executed once                                           
+# the system init finished. By default this file does nothing.                                         
+                                                                                                       
+echo "Disabling unused ethernet ports"
+
+#mmio 0x101100c0 0x08002000 
+mmio 0x101100c0 0x08002001
+mmio 0x101100c0 0x08002002
+mmio 0x101100c0 0x08002003
+mmio 0x101100c0 0x08002004
+
+echo "Allowing CPU to automatically decide clock speed"
+
+mmio 0x10000044 0x80020133
+
+echo -n "1199 68c0" > /sys/bus/usb-serial/drivers/option1/new_id
+
+exit 0

@@ -1,0 +1,19 @@
+Source-Makefile: feeds/4g/utils/tmux/Makefile
+Package: tmux
+Version: 1.6-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses +libevent2 +libpthread +librt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Terminal multiplexer
+Maintainer: 
+Source: tmux-1.6.tar.gz
+Type: ipkg
+Description:   tmux is a modern, BSD-licensed alternative to GNU screen.
+http://tmux.sourceforge.net/
+
+@@
+
+

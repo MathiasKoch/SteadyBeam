@@ -1,0 +1,9 @@
+#!/bin/sh                                                                       
+                                                                                
+SIERRAWIRELESS_PRODID="1199/68c0/0" 
+
+if [ "$PRODUCT" = "${SIERRAWIRELESS_PRODID}" ]; then                             
+    if [ "$ACTION" = "add" ]; then                           
+        echo '1199 68c0 ff' > /sys/bus/usb-serial/drivers/sierra/new_id
+    fi
+fi

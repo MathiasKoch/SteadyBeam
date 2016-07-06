@@ -1,0 +1,78 @@
+Source-Makefile: feeds/4g/sound/pulseaudio/Makefile
+Package: pulseaudio-daemon
+Version: 1.1-6
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libspeexdsp +libsndfile +libltdl +libpthread +librt +alsa-lib +libjson +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full @!UCLIBC_VERSION_0_9_30_1 @!UCLIBC_VERSION_0_9_30_2 @!UCLIBC_VERSION_0_9_30_3
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: noavahi
+Build-Depends: intltool/host libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: sound
+Category: Sound
+Title: Network sound server
+Maintainer: 
+Source: pulseaudio-1.1.tar.gz
+Type: ipkg
+Description:     PulseAudio (formerly Polypaudio) is a cross-platform, networked sound server.
+http://www.pulseaudio.org
+
+@@
+
+Package: pulseaudio-daemon-avahi
+Version: 1.1-6
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libspeexdsp +libsndfile +libltdl +libpthread +librt +alsa-lib +libjson +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full @!UCLIBC_VERSION_0_9_30_1 @!UCLIBC_VERSION_0_9_30_2 @!UCLIBC_VERSION_0_9_30_3 +dbus +libavahi-client +avahi-daemon
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: avahi
+Build-Depends: intltool/host libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: sound
+Category: Sound
+Title: Network sound server (avahi)
+Maintainer: 
+Source: pulseaudio-1.1.tar.gz
+Type: ipkg
+Description:     PulseAudio (formerly Polypaudio) is a cross-platform, networked sound server.
+  This package is compiled against dbus and avahi.
+http://www.pulseaudio.org
+
+@@
+
+Package: pulseaudio-tools
+Version: 1.1-6
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsndfile @PACKAGE_pulseaudio-daemon||PACKAGE_pulseaudio-daemon-avahi
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: noavahi
+Build-Depends: intltool/host libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: sound
+Category: Sound
+Title: Tools for Pulseaudio
+Maintainer: 
+Source: pulseaudio-1.1.tar.gz
+Type: ipkg
+Description: Tools for Pulseaudio
+http://www.pulseaudio.org
+
+@@
+
+Package: pulseaudio-profiles
+Version: 1.1-6
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @PACKAGE_pulseaudio-daemon||PACKAGE_pulseaudio-daemon-avahi
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: intltool/host libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: sound
+Category: Sound
+Title: Profiles for Pulseaudio
+Maintainer: 
+Source: pulseaudio-1.1.tar.gz
+Type: ipkg
+Description: Profiles for Pulseaudio
+http://www.pulseaudio.org
+
+@@
+
+

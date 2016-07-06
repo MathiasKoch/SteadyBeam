@@ -1,0 +1,26 @@
+Source-Makefile: feeds/4g/net/nginx/Makefile
+Package: nginx
+Menu: 1
+Submenu: Web Servers/Proxies
+Version: 1.0.15-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre +NGINX_SSL:libopenssl +zlib
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Nginx web server
+Maintainer: 
+Source: nginx-1.0.15.tar.gz
+Type: ipkg
+Description:   Nginx is a free, open-source, high-performance HTTP server
+  and reverse proxy, as well as an IMAP/POP3 proxy server,
+  written by Igor Sysoev.
+http://nginx.org/
+
+@@
+Config:
+  source "project/4g/net/nginx/Config.in"
+@@
+
+

@@ -1,0 +1,124 @@
+Source-Makefile: feeds/4g/net/dhcp4/Makefile
+Package: dhcp4
+Menu: 1
+Version: 4.2.3-P1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: net
+Category: Network
+Title: ISC DHCP-4.2.3-P1
+Maintainer: 
+Source: dhcp-4.2.3-P1.tar.gz
+Type: ipkg
+Description: -
+	This is the latest available version of the ISC DHCP suite. Generally speaking, you are unlikely
+	to have any need of this application; it has a considerably larger filesize than dnsmasq and thus
+	you should only be selecting this package because you need features only available in this suite.
+	
+http://www.isc.org/
+
+@@
+Config:
+  source "project/4g/net/dhcp4/Config.in"
+@@
+
+Package: dhcp4-relay
+Version: 4.2.3-P1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @PACKAGE_dhcp4
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: net
+Category: Network
+Title: ISC DHCP Relay
+Maintainer: 
+Source: dhcp-4.2.3-P1.tar.gz
+Type: ipkg
+Description: The DHCP relay agent is for relaying DHCP messages between separate network segments.
+	
+	This is the latest available version of the ISC DHCP suite. Generally speaking, you are unlikely
+	to have any need of this application; it has a considerably larger filesize than dnsmasq and thus
+	you should only be selecting this package because you need features only available in this suite.
+	
+http://www.isc.org/
+
+@@
+
+Package: dhcp4-server
+Version: 4.2.3-P1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @PACKAGE_dhcp4
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: net
+Category: Network
+Title: ISC DHCP Server
+Maintainer: 
+Source: dhcp-4.2.3-P1.tar.gz
+Type: ipkg
+Description: The ISC DHCP server provides comprehensive DHCP configuration and functionality for network
+hosts that have a complimentary DHCP client running.
+	
+	This is the latest available version of the ISC DHCP suite. Generally speaking, you are unlikely
+	to have any need of this application; it has a considerably larger filesize than dnsmasq and thus
+	you should only be selecting this package because you need features only available in this suite.
+	
+http://www.isc.org/
+
+@@
+
+Package: dhcp4-client
+Version: 4.2.3-P1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @PACKAGE_dhcp4
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: net
+Category: Network
+Title: ISC DHCP Client
+Maintainer: 
+Source: dhcp-4.2.3-P1.tar.gz
+Type: ipkg
+Description: The ISC DHCP client receives configuration information from a DHCP server and configures the host
+accordingly.
+	
+	This is the latest available version of the ISC DHCP suite. Generally speaking, you are unlikely
+	to have any need of this application; it has a considerably larger filesize than dnsmasq and thus
+	you should only be selecting this package because you need features only available in this suite.
+	
+http://www.isc.org/
+
+@@
+
+Package: dhcp4-omshell
+Version: 4.2.3-P1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @PACKAGE_dhcp4
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: net
+Category: Network
+Title: ISC DHCP OmShell
+Maintainer: 
+Source: dhcp-4.2.3-P1.tar.gz
+Type: ipkg
+Description: The ISC OmShell utility enables you to change the configuration of a running DHCP instance
+without having to endure the hassle of manually modifying the configuration file then
+killing and restarting it.
+	
+	This is the latest available version of the ISC DHCP suite. Generally speaking, you are unlikely
+	to have any need of this application; it has a considerably larger filesize than dnsmasq and thus
+	you should only be selecting this package because you need features only available in this suite.
+	
+http://www.isc.org/
+
+@@
+
+

@@ -1,0 +1,21 @@
+Source-Makefile: feeds/4g/libs/libpam/Makefile
+Package: libpam
+Version: 1.1.4-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @BROKEN
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: libs
+Category: Libraries
+Title: free implementation of the following DCE-RFC from Sunsoft.
+Maintainer: 
+Source: Linux-PAM-1.1.4.tar.bz2
+Type: ipkg
+Description: 	Linux-PAM is a free implementation of the following DCE-RFC from Sunsoft. 
+
+http://www.kernel.org/pub/linux/libs/pam
+
+@@
+
+

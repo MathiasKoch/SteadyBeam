@@ -1,0 +1,21 @@
+Source-Makefile: feeds/4g/libs/gperf/Makefile
+Package: gperf
+Version: 3.0.3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Types: host
+Section: libs
+Category: Libraries
+Title: Perfect hash function generator
+Maintainer: 
+Source: gperf-3.0.3.tar.gz
+Type: ipkg
+Build-Only: 1
+Description: Perfect hash function generator
+http://www.gnu.org/software/gperf
+
+@@
+
+

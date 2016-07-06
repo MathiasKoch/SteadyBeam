@@ -1,0 +1,18 @@
+Source-Makefile: feeds/4g/utils/input-utils/Makefile
+Package: input-utils
+Version: 20081014-101501-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: Utilities for the input layer of the Linux kernel
+Maintainer: 
+Source: input-20081014-101501.tar.gz
+Type: ipkg
+Description: Utilities for the input layer of the Linux kernel
+
+@@
+
+

@@ -1,0 +1,21 @@
+Source-Makefile: feeds/4g/lang/luaposix/Makefile
+Package: luaposix
+Submenu: Lua
+Version: 5.1.11-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +lua
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: lang
+Category: Languages
+Title: luaposix
+Maintainer: 
+Source: luaposix-5.1.11.tar.gz
+Type: ipkg
+Description:   luaposix is a general POSIX library for Lua providing access
+  to various low level libc functions.
+http://luaposix.luaforge.net/
+
+@@
+
+

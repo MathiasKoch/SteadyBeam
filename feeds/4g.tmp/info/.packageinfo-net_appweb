@@ -1,0 +1,21 @@
+Source-Makefile: feeds/4g/net/appweb/Makefile
+Package: appweb
+Submenu: Web Servers/Proxies
+Version: 3.2.2-1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @!avr32 +libpthread
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: Appweb Web Server
+Maintainer: 
+Source: appweb-src-3.2.2-1.tar.gz
+Type: ipkg
+Description:  Appweb is a powerful, compact embedded web server designed for dynamic web
+ applications.
+http://www.appwebserver.org/
+
+@@
+
+

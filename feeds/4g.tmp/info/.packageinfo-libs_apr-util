@@ -1,0 +1,20 @@
+Source-Makefile: feeds/4g/libs/apr-util/Makefile
+Package: libaprutil
+Version: 1.3.12-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libapr +libexpat +libsqlite3 +libuuid +BUILD_NLS:libiconv-full
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: libs
+Category: Libraries
+Title: Apache Portable Runtime Utility Library
+Maintainer: 
+Source: apr-util-1.3.12.tar.bz2
+Type: ipkg
+Description: Apache Portable Runtime Utility Library
+http://apr.apache.org/
+
+@@
+
+

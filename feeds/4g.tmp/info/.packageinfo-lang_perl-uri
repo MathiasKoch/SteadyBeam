@@ -1,0 +1,20 @@
+Source-Makefile: feeds/4g/lang/perl-uri/Makefile
+Package: perl-uri
+Submenu: Perl
+Version: 1.36-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: lang
+Category: Languages
+Title: Manipulates and accesses URI strings
+Maintainer: 
+Source: URI-1.36.tar.gz
+Type: ipkg
+Description: Manipulates and accesses URI strings
+http://search.cpan.org/dist/URI/
+
+@@
+
+

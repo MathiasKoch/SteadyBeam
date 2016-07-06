@@ -1,0 +1,20 @@
+Source-Makefile: feeds/4g/libs/neon/Makefile
+Package: libneon
+Version: 0.29.6-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libexpat
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: libs
+Category: Libraries
+Title: HTTP and WebDAV client library
+Maintainer: 
+Source: neon-0.29.6.tar.gz
+Type: ipkg
+Description: HTTP and WebDAV client library
+http://www.webdav.org/neon/
+
+@@
+
+

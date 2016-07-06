@@ -1,0 +1,21 @@
+Source-Makefile: feeds/4g/libs/libnetfilter-log/Makefile
+Package: libnetfilter-log
+Version: 1.0.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libnfnetlink +kmod-nfnetlink-log
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: libs
+Category: Libraries
+Title: API to packets logged by the kernel packet filter
+Maintainer: 
+Source: libnetfilter_log-1.0.0.tar.bz2
+Type: ipkg
+Description:  libnetfilter_log is a userspace library providing interface to
+ packets that have been logged by the kernel packet filter.
+http://www.netfilter.org/projects/libnetfilter_log/
+
+@@
+
+

@@ -1,0 +1,21 @@
+Source-Makefile: feeds/4g/utils/psmisc/Makefile
+Package: psmisc
+Version: 22.14-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: utils
+Category: Utilities
+Title: proc utilities
+Maintainer: 
+Source: psmisc-22.14.tar.gz
+Type: ipkg
+Description:  psmisc is a set of additional small useful utilities that use
+ the proc filesystem: fuser, killall, pstree, and prtstat
+http://psmisc.sourceforge.net/
+
+@@
+
+

@@ -1,0 +1,20 @@
+Source-Makefile: feeds/4g/utils/pps-tools/Makefile
+Package: pps-tools
+Submenu: Time Synchronization
+Version: 2.6.23-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @LINUX_2_6_23
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: PPS (Pulse Per Second) Userland tools
+Maintainer: 
+Source: 
+Type: ipkg
+Description:   Userland tools for GPS and DCF-77 Clock syncronization. PPS support in Kernel must be enabled.
+http://wiki.enneenne.com/index.php/LinuxPPS_support
+
+@@
+
+
