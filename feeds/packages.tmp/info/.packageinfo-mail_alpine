@@ -15,7 +15,7 @@ Source: alpine-2.20.tar.xz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
-Description:  Alpine (Alternatively Licenced Program for Internet News and Email) is a
+Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
  free software email client developed at the University of Washington.
  It is suitable for both the inexperienced email user as well as for
  the most demanding power user.
@@ -40,7 +40,7 @@ Source: alpine-2.20.tar.xz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
-Description:  Alpine (Alternatively Licenced Program for Internet News and Email) is a
+Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
  free software email client developed at the University of Washington.
  It is suitable for both the inexperienced email user as well as for
  the most demanding power user.

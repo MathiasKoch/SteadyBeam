@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/zmq/Makefile
 Package: libzmq-nc
-Version: 4.1.3-1
+Version: 4.1.4-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libuuid +libpthread +librt +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: libs
 Category: Libraries
 Title: ZeroMQ - Message Queue engine
 Maintainer: Dirk Chang <dirk@kooiot.com>
-Source: zeromq-4.1.3.tar.gz
+Source: zeromq-4.1.4.tar.gz
 License: GPL-3.0+
 LicenseFiles: LICENCE.txt
 Type: ipkg
@@ -21,7 +21,7 @@ Dirk Chang <dirk@kooiot.com>
 @@
 
 Package: libzmq-curve
-Version: 4.1.3-1
+Version: 4.1.4-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libuuid +libpthread +librt +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp +libsodium
 Conflicts: 
 Menu-Depends: 
@@ -32,7 +32,7 @@ Section: libs
 Category: Libraries
 Title: ZeroMQ - Message Queue engine (CurveZMQ)
 Maintainer: Dirk Chang <dirk@kooiot.com>
-Source: zeromq-4.1.3.tar.gz
+Source: zeromq-4.1.4.tar.gz
 License: GPL-3.0+
 LicenseFiles: LICENCE.txt
 Type: ipkg

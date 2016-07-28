@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/poco/Makefile
 Package: poco
-Version: 1.7.0-1
+Version: 1.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libstdcpp +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: libs
 Category: Libraries
 Title: Poco C++ libraries
 Maintainer: Jean-Michel Julien <jean-michel.julien@trilliantinc.com>
-Source: poco-1.7.0.tar.gz
+Source: poco-1.7.3.tar.gz
 License: BSL-1.0
 LicenseFiles: LICENSE
 Type: ipkg

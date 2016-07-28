@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/multimedia/icecast/Makefile
 Package: icecast
-Version: 2.4.2-2
+Version: 2.4.3-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libxml2 +libxslt +libogg +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Category: Multimedia
 Title: A streaming media server for Ogg/Vorbis and MP3 audio streams
 Maintainer: André Gaul <andre@gaul.io>
 Require-User: icecast=87:icecast=87
-Source: icecast-2.4.2.tar.gz
+Source: icecast-2.4.3.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: 	Icecast is a streaming media server which currently supports Ogg

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/lang/python-psycopg2/Makefile
 Package: python-psycopg2
 Submenu: Python
-Version: 2.6.1-2
+Version: 2.6.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +libpq +python-egenix-mx-base
 Conflicts: 
 Menu-Depends: 
@@ -11,12 +11,11 @@ Section: lang
 Category: Languages
 Title: PostgreSQL database adapter for Python
 Maintainer: Dmitry Trefilov <the-alien@live.ru>
-Source: psycopg2-2.6.1.tar.gz
+Source: psycopg2-2.6.2.tar.gz
 License: LGPL-3.0+
 LicenseFiles: LICENSE
 Type: ipkg
-Description:  This package contains is a PostgreSQL database adapter for the Python
- programming language.
+Description:  Psycopg is the most popular PostgreSQL adapter for the Python programming language
 http://www.initd.org/
 Dmitry Trefilov <the-alien@live.ru>
 @@

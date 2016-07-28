@@ -13,7 +13,7 @@ Source: netdiscover-0.3-pre-beta7-LINUXONLY.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: An active/passive address reconnaissance tool
-http://nixgeneration.com/~jaime/netdiscover/
+https://sourceforge.net/projects/netdiscover
 Mislav Novakovic <mislav.novakovic@sartura.hr>
 @@
 

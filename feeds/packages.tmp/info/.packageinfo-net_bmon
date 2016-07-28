@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/bmon/Makefile
 Package: bmon
 Version: 3.8-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +PACKAGE_libncursesw:libncursesw +!PACKAGE_libncursesw:libncurses +libnl-core +libnl-route +confuse +terminfo
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncursesw +libnl-core +libnl-route +confuse +terminfo
 Conflicts: 
 Menu-Depends: 
 Provides: 

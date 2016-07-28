@@ -1,30 +1,8 @@
 Source-Makefile: feeds/packages/admin/zabbix/Makefile
-Package: zabbix-agent
-Submenu: zabbix
-Version: 2.4.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
-Section: admin
-Category: Administration
-Title: Zabbix agent
-Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
-Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
-License: GPL-2.0
-LicenseFiles: COPYING
-Type: ipkg
-Description: Zabbix agent
-http://www.zabbix.com/
-Etienne CHAMPETIER <champetier.etienne@gmail.com>
-@@
-
 Package: zabbix-agentd
 Submenu: zabbix
-Version: 2.4.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Version: 3.0.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -34,7 +12,7 @@ Category: Administration
 Title: Zabbix agentd
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
+Source: zabbix-3.0.3.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -45,7 +23,7 @@ Etienne CHAMPETIER <champetier.etienne@gmail.com>
 
 Package: zabbix-extra-mac80211
 Submenu: zabbix
-Version: 2.4.6-2
+Version: 3.0.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zabbix-agentd @PACKAGE_MAC80211_DEBUGFS @KERNEL_DEBUG_FS
 Conflicts: 
 Menu-Depends: 
@@ -56,7 +34,7 @@ Category: Administration
 Title: Zabbix discovery/userparameters for mac80211
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
+Source: zabbix-3.0.3.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -69,7 +47,7 @@ Etienne CHAMPETIER <champetier.etienne@gmail.com>
 
 Package: zabbix-extra-network
 Submenu: zabbix
-Version: 2.4.6-2
+Version: 3.0.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zabbix-agentd +libuci-lua +lua
 Conflicts: 
 Menu-Depends: 
@@ -80,7 +58,7 @@ Category: Administration
 Title: Zabbix discovery/userparameters for network
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
+Source: zabbix-3.0.3.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -93,7 +71,7 @@ Etienne CHAMPETIER <champetier.etienne@gmail.com>
 
 Package: zabbix-extra-wifi
 Submenu: zabbix
-Version: 2.4.6-2
+Version: 3.0.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zabbix-agentd +libiwinfo-lua +libuci-lua +lua
 Conflicts: 
 Menu-Depends: 
@@ -104,7 +82,7 @@ Category: Administration
 Title: Zabbix discovery/userparameters for wifi
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
+Source: zabbix-3.0.3.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -117,8 +95,8 @@ Etienne CHAMPETIER <champetier.etienne@gmail.com>
 
 Package: zabbix-sender
 Submenu: zabbix
-Version: 2.4.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Version: 3.0.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -128,7 +106,7 @@ Category: Administration
 Title: Zabbix sender
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
+Source: zabbix-3.0.3.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -139,8 +117,8 @@ Etienne CHAMPETIER <champetier.etienne@gmail.com>
 
 Package: zabbix-server
 Submenu: zabbix
-Version: 2.4.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsqlite3
+Version: 3.0.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +libsqlite3
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -150,7 +128,7 @@ Category: Administration
 Title: Zabbix server
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
+Source: zabbix-3.0.3.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -161,8 +139,8 @@ Etienne CHAMPETIER <champetier.etienne@gmail.com>
 
 Package: zabbix-proxy
 Submenu: zabbix
-Version: 2.4.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsqlite3
+Version: 3.0.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +libsqlite3
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -172,7 +150,7 @@ Category: Administration
 Title: Zabbix proxy
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
+Source: zabbix-3.0.3.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -183,8 +161,8 @@ Etienne CHAMPETIER <champetier.etienne@gmail.com>
 
 Package: zabbix-get
 Submenu: zabbix
-Version: 2.4.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Version: 3.0.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -194,7 +172,7 @@ Category: Administration
 Title: Zabbix get
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Require-User: zabbix=53:zabbix=53
-Source: zabbix-2.4.6.tar.gz
+Source: zabbix-3.0.3.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg

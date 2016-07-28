@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/gpsd/Makefile
 Package: gpsd
-Version: 3.15-1
+Version: 3.15-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt +libncurses +libgps +libusb-1.0
 Conflicts: 
 Menu-Depends: 
@@ -27,7 +27,7 @@ Pushpal Sidhu <psidhu@gateworks.com>
 @@
 
 Package: gpsd-clients
-Version: 3.15-1
+Version: 3.15-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt +libncurses +libgps +libncurses +libusb-1.0
 Conflicts: 
 Menu-Depends: 
@@ -55,7 +55,7 @@ Pushpal Sidhu <psidhu@gateworks.com>
 @@
 
 Package: libgps
-Version: 3.15-1
+Version: 3.15-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt +libncurses +libcap
 Conflicts: 
 Menu-Depends: 

@@ -2,7 +2,7 @@ Source-Makefile: feeds/targets/mpc83xx/Makefile
 Target: mpc83xx
 Target-Board: mpc83xx
 Target-Name: Freescale MPC83xx
-Target-Path: /home/mathias/openwrt
+Target-Path: /home/mathias/SteadyBeam
 Target-Arch: powerpc
 Target-Arch-Packages: mpc83xx
 Target-Features: dt gpio pci squashfs targz

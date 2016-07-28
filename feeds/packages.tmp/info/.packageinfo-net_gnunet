@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/net/gnunet/Makefile
 Package: gnunet
 Menu: 1
-Version: 0.10.1-svn36918-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +ca-certificates +libgnurl +libgnutls +libidn +libltdl +libmicrohttpd +libunistring +librt +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgcrypt +libgpg-error +libidn +libltdl +libunistring +librt +zlib +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -11,8 +11,8 @@ Section: net
 Category: Network
 Title: GNUnet - a peer-to-peer framework focusing on security
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Require-User: gnunet=400:gnunet=400
-Source: gnunet-0.10.1-svn36918.tar.gz
+Require-User: gnunet=958:gnunet=958
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -32,7 +32,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-conversation
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +libgst1app +libgst1audio +libgstreamer1 +glib2 +pulseaudio-daemon +libopus +libogg
 Conflicts: 
 Menu-Depends: 
@@ -42,7 +42,7 @@ Section: net
 Category: Network
 Title: GNUnet conversation component
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -52,7 +52,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-datastore
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +libsqlite3
 Conflicts: 
 Menu-Depends: 
@@ -62,7 +62,7 @@ Section: net
 Category: Network
 Title: GNUnet data storage components
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -72,7 +72,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-dv
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet
 Conflicts: 
 Menu-Depends: 
@@ -82,7 +82,7 @@ Section: net
 Category: Network
 Title: GNUnet distance-vector routing component
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -92,7 +92,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-experiments
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +libglpk
 Conflicts: 
 Menu-Depends: 
@@ -102,7 +102,7 @@ Section: net
 Category: Network
 Title: GNUnet experimental components
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -112,7 +112,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-flat
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns
 Conflicts: 
 Menu-Depends: 
@@ -122,7 +122,7 @@ Section: net
 Category: Network
 Title: GNUnet flat storage backends
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -132,8 +132,8 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-fs
-Version: 0.10.1-svn36918-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-datastore +libextractor
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-datastore +gnunet-peerstore +libextractor
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -142,7 +142,7 @@ Section: net
 Category: Network
 Title: GNUnet file-sharing components
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -153,8 +153,8 @@ Daniel Golle <daniel@makrotopia.org>
 
 Package: gnunet-gns
 Default: y if PACKAGE_gnunet
-Version: 0.10.1-svn36918-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-vpn
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-vpn +iptables-mod-extra
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -163,8 +163,8 @@ Section: net
 Category: Network
 Title: GNUnet name resolution components
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Require-User: gnunetdns=401:gnunetdns=401
-Source: gnunet-0.10.1-svn36918.tar.gz
+Require-User: gnunet=958:gnunetdns=452
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -173,8 +173,48 @@ https://www.gnunet.org/
 Daniel Golle <daniel@makrotopia.org>
 @@
 
+Package: gnunet-gns-proxy
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +libgnurl +libmicrohttpd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: net
+Category: Network
+Title: GNUnet gns-proxy component
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: gnunet-0.10.1-svn37511.tar.gz
+License: GPL-3.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: GNUnet gns-proxy component
+https://www.gnunet.org/
+Daniel Golle <daniel@makrotopia.org>
+@@
+
+Package: gnunet-hostlist
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +libmicrohttpd +libgnurl +ca-certificates
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: net
+Category: Network
+Title: GNUnet HTTP bootstrap hostlist client and server
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: gnunet-0.10.1-svn37511.tar.gz
+License: GPL-3.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: GNUnet HTTP bootstrap hostlist client and server
+https://www.gnunet.org/
+Daniel Golle <daniel@makrotopia.org>
+@@
+
 Package: gnunet-mysql
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +gnunet-datastore +libmysqlclient
 Conflicts: 
 Menu-Depends: 
@@ -184,7 +224,7 @@ Section: net
 Category: Network
 Title: GNUnet mySQL datastore backend
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -193,8 +233,28 @@ https://www.gnunet.org/
 Daniel Golle <daniel@makrotopia.org>
 @@
 
+Package: gnunet-namestore-fcfsd
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +libmicrohttpd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: net
+Category: Network
+Title: GNUnet first-come-first-serve registration server
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: gnunet-0.10.1-svn37511.tar.gz
+License: GPL-3.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: GNUnet first-come-first-serve registration server
+https://www.gnunet.org/
+Daniel Golle <daniel@makrotopia.org>
+@@
+
 Package: gnunet-pgsql
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +gnunet-datastore +libpq
 Conflicts: 
 Menu-Depends: 
@@ -204,7 +264,7 @@ Section: net
 Category: Network
 Title: GNUnet PostgreSQL storage backends
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -213,9 +273,29 @@ https://www.gnunet.org/
 Daniel Golle <daniel@makrotopia.org>
 @@
 
+Package: gnunet-peerstore
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: net
+Category: Network
+Title: GNUnet peerstore local persistency component
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: gnunet-0.10.1-svn37511.tar.gz
+License: GPL-3.0
+LicenseFiles: COPYING
+Type: ipkg
+Description: GNUnet peerstore local persistency component
+https://www.gnunet.org/
+Daniel Golle <daniel@makrotopia.org>
+@@
+
 Package: gnunet-rest
-Version: 0.10.1-svn36918-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +jansson
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +gnunet-social +libmicrohttpd +jansson
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -224,7 +304,7 @@ Section: net
 Category: Network
 Title: GNUnet REST interface
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -234,7 +314,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-rps
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet
 Conflicts: 
 Menu-Depends: 
@@ -244,7 +324,7 @@ Section: net
 Category: Network
 Title: GNUnet RPS routing component
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -254,8 +334,8 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-social
-Version: 0.10.1-svn36918-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-sqlite
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-sqlite +libmicrohttpd +jansson
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -264,7 +344,7 @@ Section: net
 Category: Network
 Title: GNUnet social components
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -275,8 +355,8 @@ Daniel Golle <daniel@makrotopia.org>
 
 Package: gnunet-sqlite
 Default: y if PACKAGE_gnunet
-Version: 0.10.1-svn36918-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +gnunet-datastore +libsqlite3
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +gnunet-gns +gnunet-datastore +gnunet-peerstore +libsqlite3
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -285,7 +365,7 @@ Section: net
 Category: Network
 Title: GNUnet libsqlite3 storage backends
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -295,7 +375,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-transport-bluetooth
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +bluez-libs
 Conflicts: 
 Menu-Depends: 
@@ -305,7 +385,7 @@ Section: net
 Category: Network
 Title: GNUnet bluetooth transport
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -316,8 +396,8 @@ Daniel Golle <daniel@makrotopia.org>
 
 Package: gnunet-transport-http_client
 Default: y if PACKAGE_gnunet
-Version: 0.10.1-svn36918-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +libgnurl
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +libgnurl +ca-certificates
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -326,7 +406,7 @@ Section: net
 Category: Network
 Title: GNUnet HTTP/HTTPS client transport
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -336,7 +416,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-transport-http_server
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +libmicrohttpd
 Conflicts: 
 Menu-Depends: 
@@ -346,7 +426,7 @@ Section: net
 Category: Network
 Title: GNUnet HTTP/HTTPS server transport
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -356,7 +436,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-transport-wlan
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet
 Conflicts: 
 Menu-Depends: 
@@ -366,7 +446,7 @@ Section: net
 Category: Network
 Title: GNUnet WLAN transport
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -376,7 +456,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: gnunet-utils
-Version: 0.10.1-svn36918-2
+Version: 0.10.1-svn37511-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +certtool +openssl-util
 Conflicts: 
 Menu-Depends: 
@@ -386,7 +466,7 @@ Section: net
 Category: Network
 Title: GNUnet administration utililties
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -397,8 +477,8 @@ Daniel Golle <daniel@makrotopia.org>
 
 Package: gnunet-vpn
 Default: y if PACKAGE_gnunet
-Version: 0.10.1-svn36918-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +kmod-tun +iptables
+Version: 0.10.1-svn37511-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnunet +kmod-tun +iptables +firewall
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -407,7 +487,7 @@ Section: net
 Category: Network
 Title: GNUnet vpn components
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnunet-0.10.1-svn36918.tar.gz
+Source: gnunet-0.10.1-svn37511.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg

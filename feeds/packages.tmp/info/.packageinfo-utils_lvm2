@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/lvm2/Makefile
 Package: libdevmapper
-Version: 2.02.145-2
+Version: 2.02.156-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-dm +libpthread +libuuid
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: libs
 Category: Libraries
 Title: The Linux Kernel Device Mapper userspace library
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: LVM2.2.02.145.tgz
+Source: LVM2.2.02.156.tgz
 License: GPL-2.0 LGPL-2.1
 Type: ipkg
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
@@ -20,7 +20,7 @@ Daniel Golle <daniel@makrotopia.org>
 
 Package: lvm2
 Submenu: disc
-Version: 2.02.145-2
+Version: 2.02.156-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libdevmapper +libblkid +libreadline +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -29,7 +29,7 @@ Section: utils
 Category: Utilities
 Title: The Linux Logical Volume Manager
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: LVM2.2.02.145.tgz
+Source: LVM2.2.02.156.tgz
 License: GPL-2.0 LGPL-2.1
 Type: ipkg
 Description:  LVM2 refers to a new userspace toolset that provide logical volume management

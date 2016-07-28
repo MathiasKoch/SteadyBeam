@@ -1,12 +1,12 @@
 Source-Makefile: feeds/packages/lang/node-arduino-firmata/Makefile
 Package: node-arduino-firmata
 Submenu: Node.js
-Version: 0.3.3-1
+Version: 0.3.3-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node +node-serialport
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: node
+Build-Depends: node/host
 Section: lang
 Category: Languages
 Title: Node.js package to access serial ports for reading and writing

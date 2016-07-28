@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/sstp-client/Makefile
 Package: sstp-client
-Version: 1.0.10-1
+Version: 1.0.10-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libevent2 +libopenssl +ppp
 Conflicts: 
 Menu-Depends: 

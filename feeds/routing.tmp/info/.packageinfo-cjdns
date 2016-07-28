@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/cjdns/Makefile
 Package: cjdns
 Submenu: Routing and Redirection
-Version: 0.17-2
+Version: 0.17-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 +kmod-tun +libnl-tiny +libpthread +librt +libuci-lua +lua-bencode +dkjson +luasocket +lua-sha2
 Conflicts: 
 Menu-Depends: 
@@ -20,7 +20,7 @@ Lars Gierth <larsg@systemli.org>
 
 Package: cjdns-tests
 Submenu: Routing and Redirection
-Version: 0.17-2
+Version: 0.17-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt
 Conflicts: 
 Menu-Depends: 

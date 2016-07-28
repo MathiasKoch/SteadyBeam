@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/ahcpd/Makefile
 Package: ahcpd
 Version: 0.53-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +@IPV6 +ip +librt
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 +ip +librt
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -23,8 +23,8 @@ Gabriel Kerneis <gabriel@kerneis.info>
 
 Source-Makefile: feeds/routing/alfred/Makefile
 Package: alfred
-Version: 2015.2-0
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-ipv6 +librt +ALFRED_NEEDS_lua:lua +ALFRED_NEEDS_libgps:libgps
+Version: 2016.2-0
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 +librt +ALFRED_NEEDS_lua:lua +ALFRED_NEEDS_libgps:libgps
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -32,7 +32,7 @@ Section: net
 Category: Network
 Title: A.L.F.R.E.D. - Almighty Lightweight Fact Remote Exchange Daemon
 Maintainer: 
-Source: alfred-2015.2.tar.gz
+Source: alfred-2016.2.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: alfred is a user space daemon for distributing arbitrary local information over
@@ -48,7 +48,7 @@ care of distributing the local information to other alfred servers on other
 nodes. This is done via IPv6 link-local multicast, and does not require any
 configuration. A user can request data from alfred, and will receive the
 information available from all alfred servers in the network.
-http://www.open-mesh.org/
+https://www.open-mesh.org/
 
 @@
 Config:
@@ -82,7 +82,7 @@ Source-Makefile: feeds/routing/babeld/Makefile
 Package: babeld
 Submenu: Routing and Redirection
 Version: 1.7.1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +@IPV6
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -107,7 +107,7 @@ Gabriel Kerneis <gabriel@kerneis.info>
 
 Source-Makefile: feeds/routing/batctl/Makefile
 Package: batctl
-Version: 2016.0-1
+Version: 2016.2-0
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-batman-adv +libnl-tiny
 Conflicts: 
 Menu-Depends: 
@@ -116,13 +116,13 @@ Section: net
 Category: Network
 Title: B.A.T.M.A.N. Advanced user space configuration tool batctl
 Maintainer: Marek Lindner <mareklindner@neomailbox.ch>
-Source: batctl-2016.0.tar.gz
+Source: batctl-2016.2.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
 It is an easier method for configuring batman-adv and provides some
 additional tools for debugging as well. This package builds
-version 2016.0 of the user space utility.
+version 2016.2 of the user space utility.
 https://www.open-mesh.org/
 Marek Lindner <mareklindner@neomailbox.ch>
 @@
@@ -131,8 +131,8 @@ Marek Lindner <mareklindner@neomailbox.ch>
 Source-Makefile: feeds/routing/batman-adv/Makefile
 Package: kmod-batman-adv
 Submenu: Network Support
-Version: <LINUX_VERSION>+2016.0-1
-Depends: +KMOD_BATMAN_ADV_BLA:kmod-lib-crc16 +kmod-crypto-core +kmod-crypto-crc32c +kmod-lib-crc32c
+Version: <LINUX_VERSION>+2016.2-1
+Depends: +KMOD_BATMAN_ADV_BLA:kmod-lib-crc16 +kmod-crypto-crc32c +kmod-lib-crc32c +kmod-cfg80211
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -140,13 +140,13 @@ Section: kernel
 Category: Kernel modules
 Title: B.A.T.M.A.N. Adv
 Maintainer: Marek Lindner <mareklindner@neomailbox.ch>
-Source: batman-adv-2016.0.tar.gz
+Source: batman-adv-2016.2.tar.gz
 License: GPL-2.0
 Type: ipkg
 Package-Subdir: kernel
 Description: B.A.T.M.A.N. advanced is a kernel module which allows to
 build layer 2 mesh networks. This package builds
-version 2016.0 of the kernel module.
+version 2016.2 of the kernel module.
 https://www.open-mesh.org/
 Marek Lindner <mareklindner@neomailbox.ch>
 @@
@@ -218,7 +218,7 @@ Marek Lindner <lindner_marek@yahoo.de>
 Source-Makefile: feeds/routing/bird/Makefile
 Package: bird4
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -228,7 +228,7 @@ Section: net
 Category: Network
 Title: The BIRD Internet Routing Daemon (IPv4)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -251,7 +251,7 @@ http://bird.network.cz/
 
 Package: birdc4
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libreadline +libncurses +bird4
 Conflicts: 
 Menu-Depends: 
@@ -261,7 +261,7 @@ Section: net
 Category: Network
 Title: The BIRD command-line client (IPv4)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -283,7 +283,7 @@ http://bird.network.cz/
 
 Package: birdcl4
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird4
 Conflicts: 
 Menu-Depends: 
@@ -293,7 +293,7 @@ Section: net
 Category: Network
 Title: The BIRD lightweight command-line client (IPv4)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -312,7 +312,7 @@ http://bird.network.cz/
 
 Package: bird6
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -322,7 +322,7 @@ Section: net
 Category: Network
 Title: The BIRD Internet Routing Daemon (IPv6)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -345,7 +345,7 @@ http://bird.network.cz/
 
 Package: birdc6
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libreadline +libncurses +bird6
 Conflicts: 
 Menu-Depends: 
@@ -355,7 +355,7 @@ Section: net
 Category: Network
 Title: The BIRD command-line client (IPv6)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -377,7 +377,7 @@ http://bird.network.cz/
 
 Package: birdcl6
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird6
 Conflicts: 
 Menu-Depends: 
@@ -387,7 +387,7 @@ Section: net
 Category: Network
 Title: The BIRD lightweight command-line client (IPv6)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -587,8 +587,8 @@ Source-Makefile: feeds/routing/bmx7/Makefile
 Package: bmx7
 Menu: 1
 Submenu: Routing and Redirection
-Version: r2016021505-4
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libpolarssl
+Version: r2016071204-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libpolarssl +libiwinfo
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -596,7 +596,7 @@ Section: net
 Category: Network
 Title: BMX7 layer 3 routing daemon
 Maintainer: Axel Neumann <neumann@cgws.de>
-Source: bmx7-r2016021505.tar.gz
+Source: bmx7-r2016071204.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BMX7 routing daemon supporting securely-entrusted IPv6 (and IPv4in6) routing
@@ -606,7 +606,7 @@ Axel Neumann <neumann@cgws.de>
 
 Package: bmx7-uci-config
 Submenu: Routing and Redirection
-Version: r2016021505-4
+Version: r2016071204-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread bmx7 +libuci
 Conflicts: 
 Menu-Depends: 
@@ -615,7 +615,7 @@ Section: net
 Category: Network
 Title: configuration plugin based on uci (recommended!)
 Maintainer: Axel Neumann <neumann@cgws.de>
-Source: bmx7-r2016021505.tar.gz
+Source: bmx7-r2016071204.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: configuration plugin based on uci (recommended!)
@@ -623,9 +623,47 @@ http://bmx6.net/
 Axel Neumann <neumann@cgws.de>
 @@
 
+Package: bmx7-iwinfo
+Submenu: Routing and Redirection
+Version: r2016071204-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread bmx7 +libiwinfo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: link characteristics plugin based on libiwinfo (recommended!)
+Maintainer: Axel Neumann <neumann@cgws.de>
+Source: bmx7-r2016071204.tar.gz
+License: GPL-2.0
+Type: ipkg
+Description: link characteristics plugin based on libiwinfo (recommended!)
+http://bmx6.net/
+Axel Neumann <neumann@cgws.de>
+@@
+
+Package: bmx7-topology
+Submenu: Routing and Redirection
+Version: r2016071204-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread bmx7
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: topology plugin
+Maintainer: Axel Neumann <neumann@cgws.de>
+Source: bmx7-r2016071204.tar.gz
+License: GPL-2.0
+Type: ipkg
+Description: topology plugin
+http://bmx6.net/
+Axel Neumann <neumann@cgws.de>
+@@
+
 Package: bmx7-json
 Submenu: Routing and Redirection
-Version: r2016021505-4
+Version: r2016071204-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread bmx7 +libjson-c
 Conflicts: 
 Menu-Depends: 
@@ -634,7 +672,7 @@ Section: net
 Category: Network
 Title: json plugin based on json-c
 Maintainer: Axel Neumann <neumann@cgws.de>
-Source: bmx7-r2016021505.tar.gz
+Source: bmx7-r2016071204.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: json plugin based on json-c
@@ -644,7 +682,7 @@ Axel Neumann <neumann@cgws.de>
 
 Package: bmx7-sms
 Submenu: Routing and Redirection
-Version: r2016021505-4
+Version: r2016071204-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread bmx7
 Conflicts: 
 Menu-Depends: 
@@ -653,7 +691,7 @@ Section: net
 Category: Network
 Title: sms plugin
 Maintainer: Axel Neumann <neumann@cgws.de>
-Source: bmx7-r2016021505.tar.gz
+Source: bmx7-r2016071204.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: sms plugin
@@ -663,7 +701,7 @@ Axel Neumann <neumann@cgws.de>
 
 Package: bmx7-table
 Submenu: Routing and Redirection
-Version: r2016021505-4
+Version: r2016071204-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread bmx7 +bmx7-tun
 Conflicts: 
 Menu-Depends: 
@@ -672,7 +710,7 @@ Section: net
 Category: Network
 Title: plugin to announce routes from tables via tunnels
 Maintainer: Axel Neumann <neumann@cgws.de>
-Source: bmx7-r2016021505.tar.gz
+Source: bmx7-r2016071204.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: plugin to announce routes from tables via tunnels
@@ -682,7 +720,7 @@ Axel Neumann <neumann@cgws.de>
 
 Package: bmx7-tun
 Submenu: Routing and Redirection
-Version: r2016021505-4
+Version: r2016071204-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread bmx7 +kmod-ip6-tunnel +kmod-iptunnel6 +kmod-tun
 Conflicts: 
 Menu-Depends: 
@@ -691,7 +729,7 @@ Section: net
 Category: Network
 Title: ipip-based tunnel plugin (recommended!)
 Maintainer: Axel Neumann <neumann@cgws.de>
-Source: bmx7-r2016021505.tar.gz
+Source: bmx7-r2016071204.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: ipip-based tunnel plugin (recommended!)
@@ -703,7 +741,7 @@ Axel Neumann <neumann@cgws.de>
 Source-Makefile: feeds/routing/cjdns/Makefile
 Package: cjdns
 Submenu: Routing and Redirection
-Version: 0.17-2
+Version: 0.17-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 +kmod-tun +libnl-tiny +libpthread +librt +libuci-lua +lua-bencode +dkjson +luasocket +lua-sha2
 Conflicts: 
 Menu-Depends: 
@@ -722,7 +760,7 @@ Lars Gierth <larsg@systemli.org>
 
 Package: cjdns-tests
 Submenu: Routing and Redirection
-Version: 0.17-2
+Version: 0.17-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -742,8 +780,8 @@ Lars Gierth <larsg@systemli.org>
 
 Source-Makefile: feeds/routing/hnetd/Makefile
 Package: hnetd-nossl
-Version: 2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +odhcpd +odhcp6c +netifd +@IPV6
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +odhcpd +odhcp6c +netifd @IPV6
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -752,7 +790,7 @@ Section: net
 Category: Network
 Title: HNCP Homenet daemon - no authentication
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f.tar.bz2
+Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet daemon - no authentication
@@ -761,8 +799,8 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: hnetd-openssl
-Version: 2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +odhcpd +odhcp6c +netifd +libopenssl +@IPV6
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +odhcpd +odhcp6c +netifd +libopenssl @IPV6
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -771,7 +809,7 @@ Section: net
 Category: Network
 Title: HNCP Homenet daemon - authentication via OpenSSL
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f.tar.bz2
+Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet daemon - authentication via OpenSSL
@@ -780,7 +818,7 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: hnet-full
-Version: 2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f-1
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hnetd-nossl +luci-app-hnet +ip +babeld +ohybridproxy +zonestitcher +miniupnpd +minimalist-pcproxy
 Conflicts: 
 Menu-Depends: 
@@ -789,7 +827,7 @@ Section: net
 Category: Network
 Title: HNCP Homenet metapackage
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f.tar.bz2
+Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet metapackage
@@ -798,7 +836,7 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: hnet-full-secure
-Version: 2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f-1
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hnetd-openssl +luci-app-hnet +ip +babeld +ohybridproxy +zonestitcher +miniupnpd +minimalist-pcproxy
 Conflicts: 
 Menu-Depends: 
@@ -807,7 +845,7 @@ Section: net
 Category: Network
 Title: HNCP Homenet metapackage (w/ SSL)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f.tar.bz2
+Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet metapackage (w/ SSL)
@@ -816,7 +854,7 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: hnet-full-l2tp
-Version: 2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f-1
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hnetd-nossl +luci-app-hnet +ip-full +kmod-l2tp-eth +babeld +ohybridproxy +zonestitcher +miniupnpd +minimalist-pcproxy
 Conflicts: 
 Menu-Depends: 
@@ -825,7 +863,7 @@ Section: net
 Category: Network
 Title: HNCP Homenet metapackage (w/ L2TP)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f.tar.bz2
+Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet metapackage (w/ L2TP)
@@ -835,7 +873,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: luci-app-hnet
 Submenu: 3. Applications
-Version: 2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f-1
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -844,7 +882,7 @@ Section: luci
 Category: LuCI
 Title: HNCP Homenet configuration and visualization
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2015-09-29-a67835f479ca9d756128c3554e8d4c21feb03b1f.tar.bz2
+Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet configuration and visualization
@@ -869,6 +907,26 @@ License: GPL-2.0+
 Type: ipkg
 Description: 	bmx6 web application (status and configuration) for LuCi web interface
 Pau Escrich <p4u@dabax.net>
+@@
+
+
+Source-Makefile: feeds/routing/luci-app-bmx7/Makefile
+Package: luci-app-bmx7
+Submenu: 3. Applications
+Version: 0.0-alpha
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-lib-json +luci-mod-admin-full +luci-lib-httpclient +bmx7
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Title: LuCI support for BMX7
+Maintainer: Roger Pueyo Centelles <roger.pueyo@guifi.net>
+Source: 
+License: GPL-2.0+
+Type: ipkg
+Description: 	LuCI application for web-based configuration and visualization of the BMX7 routing daemon
+Roger Pueyo Centelles <roger.pueyo@guifi.net>
 @@
 
 
@@ -924,7 +982,7 @@ Steven Barth <cyrus@openwrt.org>
 Source-Makefile: feeds/routing/minimalist-pcproxy/Makefile
 Package: minimalist-pcproxy
 Version: 2015-01-12-2d6d1b0b0a3b79a9b4a9b0a7606a84600a967bcb-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox +@IPV6
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox @IPV6
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -949,8 +1007,8 @@ Markus Stenberg <fingon@iki.fi>
 Source-Makefile: feeds/routing/miniupnpd/Makefile
 Package: miniupnpd
 Submenu: Firewall
-Version: 1.9.20151212-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +iptables +libip4tc +IPV6:libip6tc +IPV6:ip6tables
+Version: 2.0-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +iptables +libip4tc +IPV6:libip6tc +IPV6:ip6tables +libuuid
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -958,7 +1016,7 @@ Section: net
 Category: Network
 Title: Lightweight UPnP IGD, NAT-PMP & PCP daemon
 Maintainer: Markus Stenberg <fingon@iki.fi>
-Source: miniupnpd-1.9.20151212.tar.gz
+Source: miniupnpd-2.0.tar.gz
 License: BSD-3-Clause
 Type: ipkg
 Description: Lightweight UPnP IGD, NAT-PMP & PCP daemon
@@ -995,8 +1053,8 @@ Steven Barth <cyrus@openwrt.org>
 Source-Makefile: feeds/routing/nat46/Makefile
 Package: kmod-nat46
 Submenu: Network Support
-Version: <LINUX_VERSION>+6-
-Depends: +kmod-ipv6
+Version: <LINUX_VERSION>+7-
+Depends: @IPV6
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1004,7 +1062,7 @@ Section: kernel
 Category: Kernel modules
 Title: Stateless NAT46 translation kernel module
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: nat46-6.tar.xz
+Source: nat46-7.tar.xz
 License: GPL-2.0
 Type: ipkg
 Package-Subdir: kernel
@@ -1013,7 +1071,7 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: map-t
-Version: 6
+Version: 7
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +map +kmod-nat46
 Conflicts: 
 Menu-Depends: 
@@ -1022,7 +1080,7 @@ Section: net
 Category: Network
 Title: MAP-T configuration support
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: nat46-6.tar.xz
+Source: nat46-7.tar.xz
 License: GPL-2.0
 Type: ipkg
 Description: MAP-T configuration support
@@ -1030,7 +1088,7 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: 464xlat
-Version: 6
+Version: 7
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-nat46
 Conflicts: 
 Menu-Depends: 
@@ -1039,7 +1097,7 @@ Section: net
 Category: Network
 Title: 464xlat CLAT support
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: nat46-6.tar.xz
+Source: nat46-7.tar.xz
 License: GPL-2.0
 Type: ipkg
 Description: 464xlat CLAT support
@@ -1050,7 +1108,7 @@ Steven Barth <cyrus@openwrt.org>
 Source-Makefile: feeds/routing/ndppd/Makefile
 Package: ndppd
 Version: 0.2.3-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-ipv6 +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1058,7 +1116,7 @@ Section: net
 Category: Network
 Title: NDP Proxy Daemon
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
-Source: ndppd-0.2.3.tar.gz
+Source: 0.2.3.tar.gz
 License: GPL-3.0+
 Type: ipkg
 Description:  ndppd, or NDP Proxy Daemon, is a daemon that proxies NDP (Neighbor Discovery
@@ -1077,7 +1135,7 @@ Gabriel Kerneis <gabriel@kerneis.info>
 Source-Makefile: feeds/routing/nodogsplash/Makefile
 Package: nodogsplash
 Submenu: Captive Portals
-Version: 0.9_beta9.9.9-6
+Version: 1.0.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +iptables-mod-ipopt
 Conflicts: 
 Menu-Depends: 
@@ -1086,7 +1144,7 @@ Section: net
 Category: Network
 Title: Open public network gateway daemon
 Maintainer: 
-Source: nodogsplash-0.9_beta9.9.9.tar.gz
+Source: nodogsplash-1.0.0.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description: 	Nodogsplash offers a simple way to open a free hotspot providing
@@ -1099,7 +1157,7 @@ https://github.com/nodogsplash/nodogsplash
 Source-Makefile: feeds/routing/ohybridproxy/Makefile
 Package: ohybridproxy
 Submenu: IP Addresses and Names
-Version: 2015-09-29-b14767d48225aad9ea56ff3e5d6883550e0cf249-1
+Version: 2016-06-28-8a28ae92c97099e771c9ede5641e3782ae809c27-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox +mdnsd
 Conflicts: 
 Menu-Depends: 
@@ -1108,7 +1166,7 @@ Section: net
 Category: Network
 Title: mdns/dns hybrid-proxy
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: ohybridproxy-2015-09-29-b14767d48225aad9ea56ff3e5d6883550e0cf249.tar.bz2
+Source: ohybridproxy-2016-06-28-8a28ae92c97099e771c9ede5641e3782ae809c27.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description:  This package provides a statically configured daemon for translating DNS
@@ -1119,7 +1177,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: zonestitcher
 Submenu: IP Addresses and Names
-Version: 2015-09-29-b14767d48225aad9ea56ff3e5d6883550e0cf249-1
+Version: 2016-06-28-8a28ae92c97099e771c9ede5641e3782ae809c27-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox
 Conflicts: 
 Menu-Depends: 
@@ -1128,7 +1186,7 @@ Section: net
 Category: Network
 Title: dynamically combine multiple DNS zones into one
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: ohybridproxy-2015-09-29-b14767d48225aad9ea56ff3e5d6883550e0cf249.tar.bz2
+Source: ohybridproxy-2016-06-28-8a28ae92c97099e771c9ede5641e3782ae809c27.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description:  This package provides a statically configured daemon for translating DNS
@@ -1486,7 +1544,7 @@ Saverio Proto <zioproto@gmail.com>
 Source-Makefile: feeds/routing/oonf-dlep-proxy/Makefile
 Package: oonf-dlep-proxy
 Submenu: OLSR.org network framework
-Version: 0.11.1
+Version: 0.12.1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt +libnl-tiny +libuci +oonf-init-scripts
 Conflicts: 
 Menu-Depends: 
@@ -1495,10 +1553,10 @@ Section: net
 Category: Network
 Title: Build DLEP Radio+Router Agent
 Maintainer: Henning Rogge <hrogge@gmail.com>
-Source: oonf-dlep-proxy-0.11.1.tar.bz2
+Source: oonf-dlep-proxy-0.12.1.tar.bz2
 Type: ipkg
 Description: Build DLEP Radio+Router Agent
-http://www.olsr.org/ 
+http://www.olsr.org/
 Henning Rogge <hrogge@gmail.com>
 @@
 
@@ -1506,7 +1564,7 @@ Henning Rogge <hrogge@gmail.com>
 Source-Makefile: feeds/routing/oonf-dlep-radio/Makefile
 Package: oonf-dlep-radio
 Submenu: OLSR.org network framework
-Version: 0.11.1
+Version: 0.12.1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt +libnl-tiny +libuci +oonf-init-scripts
 Conflicts: 
 Menu-Depends: 
@@ -1515,10 +1573,10 @@ Section: net
 Category: Network
 Title: Build DLEP Radio Agent
 Maintainer: Henning Rogge <hrogge@gmail.com>
-Source: oonf-dlep-radio-0.11.1.tar.bz2
+Source: oonf-dlep-radio-0.12.1.tar.bz2
 Type: ipkg
 Description: Build DLEP Radio Agent
-http://www.olsr.org/ 
+http://www.olsr.org/
 Henning Rogge <hrogge@gmail.com>
 @@
 
@@ -1545,8 +1603,9 @@ Henning Rogge <hrogge@gmail.com>
 
 Source-Makefile: feeds/routing/oonf-olsrd2/Makefile
 Package: oonf-olsrd2
+Menu: 1
 Submenu: OLSR.org network framework
-Version: 0.11.1
+Version: 0.12.1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt +libnl-tiny +libuci +oonf-init-scripts
 Conflicts: 
 Menu-Depends: 
@@ -1555,18 +1614,21 @@ Section: net
 Category: Network
 Title: Build Olsrd V2 Routing Agent
 Maintainer: Henning Rogge <hrogge@gmail.com>
-Source: oonf-olsrd2-0.11.1.tar.bz2
+Source: oonf-olsrd2-0.12.1.tar.bz2
 Type: ipkg
 Description: Build Olsrd V2 Routing Agent
-http://www.olsr.org/ 
+http://www.olsr.org/
 Henning Rogge <hrogge@gmail.com>
+@@
+Config:
+	source "feeds/routing/oonf-olsrd2/Config.in"
 @@
 
 
 Source-Makefile: feeds/routing/pimbd/Makefile
 Package: pimbd
 Version: 2015-08-18-68f5fc803119e4b33a88b35c096f4d6ac28b6de5-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +@IPV6 netifd
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 netifd
 Conflicts: 
 Menu-Depends: 
 Provides: 

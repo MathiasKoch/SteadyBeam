@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/gnurl/Makefile
 Package: gnurl
 Submenu: File Transfer
-Version: 7.45.0-1
+Version: 7.48.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgnurl
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: net
 Category: Network
 Title: A client-side HTTP/HTTPS transfer utility
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnurl-7.45.0.tar.bz2
+Source: gnurl-7_48_0.tar.bz2
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -20,7 +20,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: libgnurl
-Version: 7.45.0-1
+Version: 7.48.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgnutls +libidn +zlib
 Conflicts: 
 Menu-Depends: 
@@ -29,7 +29,7 @@ Section: libs
 Category: Libraries
 Title: A client-side HTTP/HTTPS transfer library
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: gnurl-7.45.0.tar.bz2
+Source: gnurl-7_48_0.tar.bz2
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg

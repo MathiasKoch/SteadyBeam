@@ -2,7 +2,7 @@ Source-Makefile: feeds/targets/iop32x/Makefile
 Target: iop32x
 Target-Board: iop32x
 Target-Name: Intel IOP32x
-Target-Path: /home/mathias/openwrt
+Target-Path: /home/mathias/SteadyBeam
 Target-Arch: arm
 Target-Arch-Packages: iop32x
 Target-Features: broken gpio pci rtc squashfs

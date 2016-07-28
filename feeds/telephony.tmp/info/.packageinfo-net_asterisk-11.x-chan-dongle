@@ -9,14 +9,14 @@ Provides:
 Section: net
 Category: Network
 Title: Huawei UMTS 3G dongle support
-Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Maintainer: Jiri Slachta <jiri@slachta.eu>
 Source: asterisk11-chan-dongle-1.1r35.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYRIGHT.txt LICENSE.txt
 Type: ipkg
 Description:  Asterisk channel driver for Huawei UMTS 3G dongle.
 https://code.google.com/p/asterisk-chan-dongle/
-Jiri Slachta <slachta@cesnet.cz>
+Jiri Slachta <jiri@slachta.eu>
 @@
 
 

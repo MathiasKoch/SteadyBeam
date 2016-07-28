@@ -1,7 +1,7 @@
 Source-Makefile: feeds/telephony/libs/dahdi-linux/Makefile
 Package: kmod-dahdi
 Submenu: Voice over IP
-Version: <LINUX_VERSION>+2.10.2-2
+Version: <LINUX_VERSION>+2.11.1-1
 Depends: @USB_SUPPORT +kmod-lib-crc-ccitt
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: kernel
 Category: Kernel modules
 Title: DAHDI basic infrastructure
 Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
-Source: dahdi-linux-2.10.2.tar.gz
+Source: dahdi-linux-2.11.1.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -22,7 +22,7 @@ Vittorio Gambaletta <openwrt@vittgam.net>
 
 Package: kmod-dahdi-echocan-oslec
 Submenu: Voice over IP
-Version: <LINUX_VERSION>+2.10.2-2
+Version: <LINUX_VERSION>+2.11.1-1
 Depends: kmod-dahdi +kmod-echo
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +31,7 @@ Section: kernel
 Category: Kernel modules
 Title: DAHDI OSLEC echo canceller support
 Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
-Source: dahdi-linux-2.10.2.tar.gz
+Source: dahdi-linux-2.11.1.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -43,7 +43,7 @@ Vittorio Gambaletta <openwrt@vittgam.net>
 
 Package: kmod-dahdi-dummy
 Submenu: Voice over IP
-Version: <LINUX_VERSION>+2.10.2-2
+Version: <LINUX_VERSION>+2.11.1-1
 Depends: kmod-dahdi
 Conflicts: 
 Menu-Depends: 
@@ -52,7 +52,7 @@ Section: kernel
 Category: Kernel modules
 Title: dummy DAHDI driver
 Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
-Source: dahdi-linux-2.10.2.tar.gz
+Source: dahdi-linux-2.11.1.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -65,7 +65,7 @@ Vittorio Gambaletta <openwrt@vittgam.net>
 
 Package: kmod-dahdi-hfcs
 Submenu: Voice over IP
-Version: <LINUX_VERSION>+2.10.2-2
+Version: <LINUX_VERSION>+2.11.1-1
 Depends: @PCI_SUPPORT kmod-dahdi
 Conflicts: 
 Menu-Depends: 
@@ -74,7 +74,7 @@ Section: kernel
 Category: Kernel modules
 Title: DAHDI driver for HFC-S PCI
 Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
-Source: dahdi-linux-2.10.2.tar.gz
+Source: dahdi-linux-2.11.1.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE
 Type: ipkg

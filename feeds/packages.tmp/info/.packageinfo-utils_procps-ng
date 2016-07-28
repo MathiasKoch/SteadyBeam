@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/procps-ng/Makefile
 Package: procps-ng-free
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: utils
 Category: Utilities
 Title: Applet free from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -21,7 +21,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-kill
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -30,7 +30,7 @@ Section: utils
 Category: Utilities
 Title: Applet kill from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -41,7 +41,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-pgrep
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -50,7 +50,7 @@ Section: utils
 Category: Utilities
 Title: Applet pgrep from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -61,7 +61,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-pkill
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -70,7 +70,7 @@ Section: utils
 Category: Utilities
 Title: Applet pkill from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -81,7 +81,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-pmap
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -90,7 +90,7 @@ Section: utils
 Category: Utilities
 Title: Applet pmap from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -101,7 +101,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-ps
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -110,7 +110,7 @@ Section: utils
 Category: Utilities
 Title: Applet ps from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -121,7 +121,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-pwdx
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -130,7 +130,7 @@ Section: utils
 Category: Utilities
 Title: Applet pwdx from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -141,7 +141,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-skill
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -150,7 +150,7 @@ Section: utils
 Category: Utilities
 Title: Applet skill from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -161,7 +161,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-slabtop
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -170,7 +170,7 @@ Section: utils
 Category: Utilities
 Title: Applet slabtop from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -181,7 +181,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-snice
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -190,7 +190,7 @@ Section: utils
 Category: Utilities
 Title: Applet snice from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -201,7 +201,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-tload
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -210,7 +210,7 @@ Section: utils
 Category: Utilities
 Title: Applet tload from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -221,7 +221,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-top
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -230,7 +230,7 @@ Section: utils
 Category: Utilities
 Title: Applet top from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -241,7 +241,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-uptime
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -250,7 +250,7 @@ Section: utils
 Category: Utilities
 Title: Applet uptime from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -261,7 +261,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-vmstat
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -270,7 +270,7 @@ Section: utils
 Category: Utilities
 Title: Applet vmstat from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -281,7 +281,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-w
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -290,7 +290,7 @@ Section: utils
 Category: Utilities
 Title: Applet w from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -301,7 +301,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng-watch
 Default: y
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread procps-ng
 Conflicts: 
 Menu-Depends: 
@@ -310,7 +310,7 @@ Section: utils
 Category: Utilities
 Title: Applet watch from the procps-ng package
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg
@@ -321,7 +321,7 @@ Gergely Kiss <mail.gery@gmail.com>
 
 Package: procps-ng
 Menu: 1
-Version: 3.3.11-1
+Version: 3.3.11-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -330,7 +330,7 @@ Section: utils
 Category: Utilities
 Title: procps-ng utilities
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: procps-ng-3.3.11-de985eced583f18df273146b110491b0f7404aab.tar.gz
+Source: procps-ng-3.3.11-8a198e3eafbde0b627e9992b41d26e6762e4f8c7.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg

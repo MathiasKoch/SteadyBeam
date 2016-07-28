@@ -10,14 +10,14 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: The GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:  Full versions of standard GNU utilities. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient and
  smaller.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-base64
@@ -30,13 +30,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility base64 from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU base64 utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-basename
@@ -49,13 +49,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility basename from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU basename utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-cat
@@ -68,13 +68,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility cat from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU cat utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chcon
@@ -87,13 +87,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility chcon from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU chcon utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chgrp
@@ -106,13 +106,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility chgrp from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU chgrp utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chmod
@@ -125,13 +125,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility chmod from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU chmod utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chown
@@ -144,13 +144,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility chown from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU chown utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-chroot
@@ -163,13 +163,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility chroot from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU chroot utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-cksum
@@ -182,13 +182,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility cksum from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU cksum utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-comm
@@ -201,13 +201,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility comm from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU comm utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-cp
@@ -220,13 +220,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility cp from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU cp utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-csplit
@@ -239,13 +239,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility csplit from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU csplit utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-cut
@@ -258,13 +258,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility cut from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU cut utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-date
@@ -277,13 +277,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility date from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU date utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-dd
@@ -296,13 +296,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility dd from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU dd utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-dir
@@ -315,13 +315,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility dir from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU dir utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-dircolors
@@ -334,13 +334,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility dircolors from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU dircolors utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-dirname
@@ -353,13 +353,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility dirname from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU dirname utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-du
@@ -372,13 +372,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility du from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU du utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-echo
@@ -391,13 +391,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility echo from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU echo utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-env
@@ -410,13 +410,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility env from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU env utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-expand
@@ -429,13 +429,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility expand from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU expand utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-expr
@@ -448,13 +448,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility expr from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU expr utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-factor
@@ -467,13 +467,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility factor from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU factor utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-false
@@ -486,13 +486,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility false from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU false utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-fmt
@@ -505,13 +505,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility fmt from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU fmt utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-fold
@@ -524,13 +524,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility fold from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU fold utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-groups
@@ -543,13 +543,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility groups from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU groups utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-head
@@ -562,13 +562,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility head from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU head utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-hostid
@@ -581,13 +581,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility hostid from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU hostid utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-id
@@ -600,13 +600,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility id from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU id utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-install
@@ -619,13 +619,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility install from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU install utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-join
@@ -638,13 +638,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility join from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU join utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-kill
@@ -657,13 +657,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility kill from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU kill utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-link
@@ -676,13 +676,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility link from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU link utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-ln
@@ -695,13 +695,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility ln from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU ln utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-logname
@@ -714,13 +714,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility logname from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU logname utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-ls
@@ -733,13 +733,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility ls from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU ls utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-md5sum
@@ -752,13 +752,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility md5sum from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU md5sum utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mkdir
@@ -771,13 +771,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility mkdir from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU mkdir utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mkfifo
@@ -790,13 +790,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility mkfifo from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU mkfifo utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mknod
@@ -809,13 +809,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility mknod from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU mknod utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mktemp
@@ -828,13 +828,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility mktemp from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU mktemp utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-mv
@@ -847,13 +847,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility mv from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU mv utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-nice
@@ -866,13 +866,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility nice from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU nice utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-nl
@@ -885,13 +885,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility nl from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU nl utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-nohup
@@ -904,13 +904,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility nohup from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU nohup utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-nproc
@@ -923,13 +923,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility nproc from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU nproc utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-od
@@ -942,13 +942,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility od from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU od utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-paste
@@ -961,13 +961,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility paste from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU paste utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-pathchk
@@ -980,13 +980,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility pathchk from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU pathchk utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-pinky
@@ -999,13 +999,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility pinky from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU pinky utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-pr
@@ -1018,13 +1018,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility pr from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU pr utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-printenv
@@ -1037,13 +1037,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility printenv from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU printenv utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-printf
@@ -1056,13 +1056,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility printf from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU printf utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-ptx
@@ -1075,13 +1075,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility ptx from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU ptx utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-pwd
@@ -1094,13 +1094,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility pwd from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU pwd utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-readlink
@@ -1113,13 +1113,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility readlink from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU readlink utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-realpath
@@ -1132,13 +1132,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility realpath from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU realpath utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-rm
@@ -1151,13 +1151,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility rm from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU rm utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-rmdir
@@ -1170,13 +1170,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility rmdir from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU rmdir utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-runcon
@@ -1189,13 +1189,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility runcon from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU runcon utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-seq
@@ -1208,13 +1208,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility seq from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU seq utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha1sum
@@ -1227,13 +1227,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sha1sum from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sha1sum utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha224sum
@@ -1246,13 +1246,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sha224sum from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sha224sum utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha256sum
@@ -1265,13 +1265,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sha256sum from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sha256sum utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha384sum
@@ -1284,13 +1284,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sha384sum from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sha384sum utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sha512sum
@@ -1303,13 +1303,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sha512sum from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sha512sum utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-shred
@@ -1322,13 +1322,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility shred from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU shred utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-shuf
@@ -1341,13 +1341,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility shuf from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU shuf utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sleep
@@ -1360,13 +1360,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sleep from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sleep utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sort
@@ -1379,13 +1379,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sort from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sort utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-split
@@ -1398,13 +1398,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility split from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU split utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-stat
@@ -1417,13 +1417,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility stat from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU stat utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-stdbuf
@@ -1436,13 +1436,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility stdbuf from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU stdbuf utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-stty
@@ -1455,13 +1455,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility stty from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU stty utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sum
@@ -1474,13 +1474,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sum from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sum utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-sync
@@ -1493,13 +1493,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility sync from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU sync utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tac
@@ -1512,13 +1512,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility tac from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU tac utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tail
@@ -1531,13 +1531,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility tail from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU tail utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tee
@@ -1550,13 +1550,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility tee from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU tee utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-test
@@ -1569,13 +1569,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility test from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU test utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-timeout
@@ -1588,13 +1588,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility timeout from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU timeout utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-touch
@@ -1607,13 +1607,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility touch from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU touch utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tr
@@ -1626,13 +1626,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility tr from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU tr utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-true
@@ -1645,13 +1645,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility true from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU true utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-truncate
@@ -1664,13 +1664,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility truncate from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU truncate utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tsort
@@ -1683,13 +1683,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility tsort from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU tsort utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-tty
@@ -1702,13 +1702,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility tty from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU tty utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-uname
@@ -1721,13 +1721,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility uname from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU uname utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-unexpand
@@ -1740,13 +1740,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility unexpand from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU unexpand utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-uniq
@@ -1759,13 +1759,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility uniq from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU uniq utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-unlink
@@ -1778,13 +1778,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility unlink from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU unlink utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-uptime
@@ -1797,13 +1797,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility uptime from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU uptime utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-users
@@ -1816,13 +1816,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility users from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU users utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-vdir
@@ -1835,13 +1835,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility vdir from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU vdir utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-wc
@@ -1854,13 +1854,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility wc from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU wc utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-who
@@ -1873,13 +1873,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility who from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU who utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-whoami
@@ -1892,13 +1892,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility whoami from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU whoami utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: coreutils-yes
@@ -1911,13 +1911,13 @@ Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Title: Utility yes from the GNU core utilities
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: coreutils-8.23.tar.xz
 Type: ipkg
 Description:   Full version of standard GNU yes utility. Normally, you would not use this
   package, since the functionality in BusyBox is more than sufficient.
 http://www.gnu.org/software/coreutils/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 

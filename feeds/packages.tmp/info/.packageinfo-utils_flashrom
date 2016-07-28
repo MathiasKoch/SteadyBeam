@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/flashrom/Makefile
 Package: flashrom
-Version: 0.9.9-1
+Version: 0.9.9-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +(TARGET_x86||TARGET_x86_64):dmidecode +libftdi1 +libusb-1.0 +libusb-compat +pciutils
 Conflicts: 
 Menu-Depends: 
@@ -23,7 +23,7 @@ http://www.flashrom.org/
 @@
 
 Package: flashrom-pci
-Version: 0.9.9-1
+Version: 0.9.9-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +(TARGET_x86||TARGET_x86_64):dmidecode +pciutils
 Conflicts: 
 Menu-Depends: 
@@ -45,7 +45,7 @@ http://www.flashrom.org/
 @@
 
 Package: flashrom-spi
-Version: 0.9.9-1
+Version: 0.9.9-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -67,7 +67,7 @@ http://www.flashrom.org/
 @@
 
 Package: flashrom-usb
-Version: 0.9.9-1
+Version: 0.9.9-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libftdi1 +libusb-1.0 +libusb-compat
 Conflicts: 
 Menu-Depends: 

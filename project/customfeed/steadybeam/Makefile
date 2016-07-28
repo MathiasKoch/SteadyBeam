@@ -88,7 +88,7 @@ define Package/steadybeam/install
 	$(INSTALL_DIR) $(1)/etc/steadybeam
 	$(INSTALL_DIR) $(1)/etc/init.d
 	#$(INSTALL_CONF) $(PKG_BUILD_DIR)/steadybeam.conf $(1)/etc/steadybeam/
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/steadybeam.init $(1)/etc/init.d/steadybeam
+	#$(INSTALL_BIN) $(PKG_BUILD_DIR)/steadybeam.init $(1)/etc/init.d/steadybeam
 endef
 
 

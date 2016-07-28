@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/dnscrypt-proxy/Makefile
 Package: dnscrypt-proxy
 Submenu: IP Addresses and Names
-Version: 1.6.1-1
+Version: 1.6.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsodium
 Conflicts: 
 Menu-Depends: 
@@ -25,7 +25,7 @@ Damiano Renfer <damiano.renfer@gmail.com>
 
 Package: hostip
 Submenu: IP Addresses and Names
-Version: 1.6.1-1
+Version: 1.6.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsodium
 Conflicts: 
 Menu-Depends: 

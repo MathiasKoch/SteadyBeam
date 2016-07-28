@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/glpk/Makefile
 Package: libglpk
-Version: 4.58-1
+Version: 4.60-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: libs
 Category: Libraries
 Title: The GNU Linear Programming Kit
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: glpk-4.58.tar.gz
+Source: glpk-4.60.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -22,7 +22,7 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 
 Package: glpsol
-Version: 4.58-1
+Version: 4.60-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libglpk
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +31,7 @@ Section: libs
 Category: Libraries
 Title: The GNU Linear Programming Kit (glpsol)
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: glpk-4.58.tar.gz
+Source: glpk-4.60.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg

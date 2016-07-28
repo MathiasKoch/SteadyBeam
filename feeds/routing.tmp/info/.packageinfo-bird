@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/bird/Makefile
 Package: bird4
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: net
 Category: Network
 Title: The BIRD Internet Routing Daemon (IPv4)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -34,7 +34,7 @@ http://bird.network.cz/
 
 Package: birdc4
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libreadline +libncurses +bird4
 Conflicts: 
 Menu-Depends: 
@@ -44,7 +44,7 @@ Section: net
 Category: Network
 Title: The BIRD command-line client (IPv4)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -66,7 +66,7 @@ http://bird.network.cz/
 
 Package: birdcl4
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird4
 Conflicts: 
 Menu-Depends: 
@@ -76,7 +76,7 @@ Section: net
 Category: Network
 Title: The BIRD lightweight command-line client (IPv4)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -95,7 +95,7 @@ http://bird.network.cz/
 
 Package: bird6
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -105,7 +105,7 @@ Section: net
 Category: Network
 Title: The BIRD Internet Routing Daemon (IPv6)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -128,7 +128,7 @@ http://bird.network.cz/
 
 Package: birdc6
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libreadline +libncurses +bird6
 Conflicts: 
 Menu-Depends: 
@@ -138,7 +138,7 @@ Section: net
 Category: Network
 Title: The BIRD command-line client (IPv6)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -160,7 +160,7 @@ http://bird.network.cz/
 
 Package: birdcl6
 Submenu: Routing and Redirection
-Version: 1.5.0-1
+Version: 1.6.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird6
 Conflicts: 
 Menu-Depends: 
@@ -170,7 +170,7 @@ Section: net
 Category: Network
 Title: The BIRD lightweight command-line client (IPv6)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.5.0.tar.gz
+Source: bird-1.6.0.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables

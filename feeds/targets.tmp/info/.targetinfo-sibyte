@@ -2,7 +2,7 @@ Source-Makefile: feeds/targets/sibyte/Makefile
 Target: sibyte
 Target-Board: sibyte
 Target-Name: Broadcom/SiByte SB-1
-Target-Path: /home/mathias/openwrt
+Target-Path: /home/mathias/SteadyBeam
 Target-Arch: mips
 Target-Arch-Packages: sibyte
 Target-Features: broken fpu pci ramdisk rtc

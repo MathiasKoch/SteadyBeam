@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/seafile-seahub/Makefile
 Package: seafile-seahub
 Version: 4.1.2-3fb1288f920de03a4e2e6a06b60671ce98971742
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +simplejson +python-imglib +python-setuptools
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python +simplejson +pillow +python-setuptools
 Conflicts: 
 Menu-Depends: 
 Provides: 

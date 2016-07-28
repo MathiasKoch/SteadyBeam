@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/fwknop/Makefile
 Package: fwknopd
 Submenu: Firewall
-Version: 2.6.8-1
+Version: 2.6.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +iptables +libfko +libpcap +FWKNOP_GPG:gnupg
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: net
 Category: Network
 Title: FireWall KNock OPerator Daemon
 Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
-Source: fwknop-2.6.8.tar.bz2
+Source: fwknop-2.6.9.tar.bz2
 License: GPLv2
 Type: ipkg
 Description:     Fwknop implements an authorization scheme known as Single Packet Authorization
@@ -31,7 +31,7 @@ Config:
 
 Package: fwknop
 Submenu: Firewall
-Version: 2.6.8-1
+Version: 2.6.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libfko
 Conflicts: 
 Menu-Depends: 
@@ -40,7 +40,7 @@ Section: net
 Category: Network
 Title: FireWall KNock OPerator Client
 Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
-Source: fwknop-2.6.8.tar.bz2
+Source: fwknop-2.6.9.tar.bz2
 License: GPLv2
 Type: ipkg
 Description:     Fwknop implements an authorization scheme known as Single Packet Authorization
@@ -58,7 +58,7 @@ Jonathan Bennett <JBennett@incomsystems.biz>
 
 Package: libfko
 Submenu: Firewall
-Version: 2.6.8-1
+Version: 2.6.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -67,7 +67,7 @@ Section: libs
 Category: Libraries
 Title: FireWall KNock OPerator Library
 Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
-Source: fwknop-2.6.8.tar.bz2
+Source: fwknop-2.6.9.tar.bz2
 License: GPLv2
 Type: ipkg
 Description:     Fwknop implements an authorization scheme known as Single Packet Authorization

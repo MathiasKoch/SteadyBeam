@@ -1,0 +1,104 @@
+
+
+--- a/arch/mips/include/asm/mach-ralink/pinmux.h
++++ b/arch/mips/include/asm/mach-ralink/pinmux.h
+@@ -33,6 +33,7 @@ struct rt2880_pmx_func {
+ 	int *pins;
+ 
+ 	int *groups;
++	int **group_names;
+ 	int group_count;
+ 
+ 	int enabled;
+
+--- a/arch/mips/ralink/rt305x.c
++++ b/arch/mips/ralink/rt305x.c
+@@ -23,6 +23,22 @@
+ 
+ static struct rt2880_pmx_func i2c_func[] =  { FUNC("i2c", 0, 1, 2) };
+ static struct rt2880_pmx_func spi_func[] = { FUNC("spi", 0, 3, 4) };
++static struct rt2880_pmx_func uartf_low_func[] = {
++	FUNC("pcm uartf", RT305X_GPIO_MODE_PCM_UARTF, 7, 4),
++	FUNC("pcm i2s", RT305X_GPIO_MODE_PCM_I2S, 7, 4),
++	FUNC("uartf i2s", RT305X_GPIO_MODE_I2S_UARTF, 7, 4),
++	FUNC("pcm gpio", RT305X_GPIO_MODE_PCM_GPIO, 7, 4),
++	FUNC("gpio uartf", RT305X_GPIO_MODE_GPIO_UARTF, 7, 4),
++	FUNC("gpio i2s", RT305X_GPIO_MODE_GPIO_I2S, 7, 4),
++};
++static struct rt2880_pmx_func uartf_high_func[] = {
++	FUNC("pcm uartf", RT305X_GPIO_MODE_PCM_UARTF, 11, 4),
++	FUNC("pcm i2s", RT305X_GPIO_MODE_PCM_I2S, 11, 4),
++	FUNC("uartf i2s", RT305X_GPIO_MODE_I2S_UARTF, 11, 4),
++	FUNC("pcm gpio", RT305X_GPIO_MODE_PCM_GPIO, 11, 4),
++	FUNC("gpio uartf", RT305X_GPIO_MODE_GPIO_UARTF, 11, 4),
++	FUNC("gpio i2s", RT305X_GPIO_MODE_GPIO_I2S, 11, 4),
++};
+ static struct rt2880_pmx_func uartf_func[] = {
+ 	FUNC("uartf", RT305X_GPIO_MODE_UARTF, 7, 8),
+ 	FUNC("pcm uartf", RT305X_GPIO_MODE_PCM_UARTF, 7, 8),
+@@ -82,6 +98,10 @@ static struct rt2880_pmx_group rt5350_pi
+ 	GRP("spi", spi_func, 1, RT305X_GPIO_MODE_SPI),
+ 	GRP("uartf", uartf_func, RT305X_GPIO_MODE_UART0_MASK,
+ 		RT305X_GPIO_MODE_UART0_SHIFT),
++	GRP("uartf_low", uartf_low_func, RT305X_GPIO_MODE_GPIO_UARTF,
++	       	RT305X_GPIO_MODE_UART0_SHIFT), 
++	GRP("uartf_high", uartf_high_func, RT305X_GPIO_MODE_GPIO_UARTF, 
++		RT305X_GPIO_MODE_UART0_SHIFT),
+ 	GRP("uartlite", uartlite_func, 1, RT305X_GPIO_MODE_UART1),
+ 	GRP("jtag", jtag_func, 1, RT305X_GPIO_MODE_JTAG),
+ 	GRP("led", rt5350_led_func, 1, RT5350_GPIO_MODE_PHY_LED),
+
+--- a/drivers/pinctrl/pinctrl-rt2880.c
++++ b/drivers/pinctrl/pinctrl-rt2880.c
+@@ -1,4 +1,5 @@
+ /*
++/*
+  *  linux/drivers/pinctrl/pinctrl-rt2880.c
+  *
+  *  This program is free software; you can redistribute it and/or modify
+@@ -187,11 +187,8 @@ static int rt2880_pmx_group_get_groups(s
+ {
+ 	struct rt2880_priv *p = pinctrl_dev_get_drvdata(pctrldev);
+ 
+-	if (p->func[func]->group_count == 1)
+-		*groups = &p->group_names[p->func[func]->groups[0]];
+-	else
+-		*groups = p->group_names;
+-
++	if (p->func[func]->group_count != 0)
++		*groups = p->func[func]->group_names;
+ 	*num_groups = p->func[func]->group_count;
+ 
+ 	return 0;
+@@ -317,12 +314,30 @@ static int rt2880_pinmux_index(struct rt
+ 	for (i = 0; i < p->group_count; i++) {
+ 		for (j = 0; j < p->groups[i].func_count; j++) {
+ 			f[c] = &p->groups[i].func[j];
+-			f[c]->groups = devm_kzalloc(p->dev, sizeof(int), GFP_KERNEL);
++			f[c]->groups = devm_kzalloc(p->dev, sizeof(int) * p->group_count, GFP_KERNEL);
++			if (!f[c]->groups)
++					return -1;
++			f[c]->group_names = devm_kzalloc(p->dev, sizeof(char *) * p->group_count, GFP_KERNEL);
++			if (!f[c]->group_names)
++					return -1;
+ 			f[c]->groups[0] = i;
+ 			f[c]->group_count = 1;
+ 			c++;
+ 		}
+ 	}
++	f[0]->group_names = p->group_names;
++		for (c = 1; c < p->func_count; c++){
++			f[c]->group_count = 0;
++		for (i = 0; i < p->group_count; i++) {
++				for (j = 0; j < p->groups[i].func_count; j++) {
++					if ( strcmp(f[c]->name, p->groups[i].func[j].name) == 0){
++						f[c]->groups[f[c]->group_count] = i;
++					f[c]->group_names[f[c]->group_count] = p->groups[i].name;
++					f[c]->group_count++;
++				}
++			}
++		}
++	}
+ 	return 0;
+ }
+ 

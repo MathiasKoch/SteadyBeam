@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/utils/eudev/Makefile
 Package: eudev
 Menu: 1
-Version: 3.1.5-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librt +EUDEV_EXTRA_blkid:libblkid +EUDEV_EXTRA_kmod:libkmod
+Version: 3.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +EUDEV_EXTRA_blkid:libblkid +EUDEV_EXTRA_kmod:libkmod +librt +libudev
 Conflicts: udev
 Menu-Depends: 
 Provides: udev
@@ -11,7 +11,7 @@ Section: base
 Category: Base system
 Title: Dynamic device management subsystem
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: eudev-3.1.5.tar.gz
+Source: eudev-3.2.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: udev allows Linux users to have a dynamic /dev directory and it
@@ -25,6 +25,25 @@ Daniel Golle <daniel@makrotopia.org>
 @@
 Config:
 	source "feeds/packages/utils/eudev/Config.in"
+@@
+
+Package: libudev
+Version: 3.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: gperf/host
+Section: libs
+Category: Libraries
+Title: Dynamic device management subsystem
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Source: eudev-3.2.tar.gz
+License: GPL-2.0
+Type: ipkg
+Description: Dynamic device management subsystem
+https://wiki.gentoo.org/wiki/Project:Eudev
+Daniel Golle <daniel@makrotopia.org>
 @@
 
 

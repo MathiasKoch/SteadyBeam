@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/libffi/Makefile
 Package: libffi
-Version: 3.0.13-1
+Version: 3.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: libs
 Category: Libraries
 Title: Foreign Function Interface (FFI) library
 Maintainer: Peter Wagner <tripolar@gmx.at>
-Source: libffi-3.0.13.tar.gz
+Source: libffi-3.2.1.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg

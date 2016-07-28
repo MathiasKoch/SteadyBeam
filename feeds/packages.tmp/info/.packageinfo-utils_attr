@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/attr/Makefile
 Package: attr
 Submenu: Filesystem
-Version: 20150922-1
+Version: 20160302-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libattr
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: utils
 Category: Utilities
 Title: Extended attributes (xattr) manipulation utils
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: attr-20150922.tar.gz
+Source: attr-20160302.tar.gz
 License: LGPL-2.1 GPL-2.0
 LicenseFiles: doc/COPYING doc/COPYING.LGPL
 Type: ipkg
@@ -25,7 +25,7 @@ Maxim Storchak <m.storchak@gmail.com>
 
 Package: libattr
 Submenu: Filesystem
-Version: 20150922-1
+Version: 20160302-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -34,7 +34,7 @@ Section: libs
 Category: Libraries
 Title: Extended attributes (xattr) manipulation library
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: attr-20150922.tar.gz
+Source: attr-20160302.tar.gz
 License: LGPL-2.1 GPL-2.0
 LicenseFiles: doc/COPYING doc/COPYING.LGPL
 Type: ipkg

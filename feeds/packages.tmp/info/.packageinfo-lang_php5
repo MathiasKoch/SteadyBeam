@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/lang/php5/Makefile
 Package: php5
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre +zlib +PHP5_LIBXML:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: lang
 Category: Languages
 Title: PHP5 Hypertext preprocessor
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -44,8 +44,8 @@ Config:
 
 Package: php5-cgi
 Submenu: PHP
-Version: 5.6.18-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
+Version: 5.6.21-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-intl:libstdcpp
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -54,7 +54,7 @@ Section: lang
 Category: Languages
 Title: PHP5 Hypertext preprocessor (CGI & FastCGI)
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -67,8 +67,8 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-cli
 Submenu: PHP
-Version: 5.6.18-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
+Version: 5.6.21-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-intl:libstdcpp
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -77,7 +77,7 @@ Section: lang
 Category: Languages
 Title: PHP5 Hypertext preprocessor (CLI)
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -90,7 +90,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-fastcgi
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +php5-cgi
 Conflicts: 
 Menu-Depends: 
@@ -100,7 +100,7 @@ Section: lang
 Category: Languages
 Title: FastCGI startup script
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -112,7 +112,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-fpm
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +php5-cgi
 Conflicts: 
 Menu-Depends: 
@@ -122,7 +122,7 @@ Section: lang
 Category: Languages
 Title: PHP5 Hypertext preprocessor (FPM)
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -135,7 +135,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-calendar
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -145,7 +145,7 @@ Section: lang
 Category: Languages
 Title: Calendar shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -156,7 +156,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-ctype
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -166,7 +166,7 @@ Section: lang
 Category: Languages
 Title: Ctype shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -177,7 +177,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-curl
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-curl:libcurl
 Conflicts: 
 Menu-Depends: 
@@ -187,7 +187,7 @@ Section: lang
 Category: Languages
 Title: cURL shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -198,7 +198,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-dom
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +@PHP5_LIBXML +PACKAGE_php5-mod-dom:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -208,7 +208,7 @@ Section: lang
 Category: Languages
 Title: DOM shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -219,7 +219,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-exif
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -229,7 +229,7 @@ Section: lang
 Category: Languages
 Title: EXIF shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -240,7 +240,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-fileinfo
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -250,7 +250,7 @@ Section: lang
 Category: Languages
 Title: Fileinfo shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -261,7 +261,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-ftp
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-ftp:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -271,7 +271,7 @@ Section: lang
 Category: Languages
 Title: FTP shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -282,7 +282,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-gd
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-gd:libjpeg +PACKAGE_php5-mod-gd:libpng
 Conflicts: 
 Menu-Depends: 
@@ -292,7 +292,7 @@ Section: lang
 Category: Languages
 Title: GD graphics shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -303,7 +303,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-gettext
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-gettext:libintl-full
 Conflicts: 
 Menu-Depends: 
@@ -313,7 +313,7 @@ Section: lang
 Category: Languages
 Title: Gettext shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -324,7 +324,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-gmp
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-gmp:libgmp
 Conflicts: 
 Menu-Depends: 
@@ -334,7 +334,7 @@ Section: lang
 Category: Languages
 Title: GMP shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -345,7 +345,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-hash
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -355,7 +355,7 @@ Section: lang
 Category: Languages
 Title: Hash shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -366,7 +366,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-iconv
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -376,7 +376,7 @@ Section: lang
 Category: Languages
 Title: iConv shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -385,9 +385,30 @@ http://www.php.net/
 W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 @@
 
+Package: php5-mod-intl
+Submenu: PHP
+Version: 5.6.21-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-intl:icu
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Section: lang
+Category: Languages
+Title: Internationalization Functions shared module
+Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
+Source: php-5.6.21.tar.xz
+License: PHPv3.01
+LicenseFiles: LICENSE
+Type: ipkg
+Description: Internationalization Functions shared module
+http://www.php.net/
+W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
+@@
+
 Package: php5-mod-json
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -397,7 +418,7 @@ Section: lang
 Category: Languages
 Title: JSON shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -408,7 +429,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-ldap
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-ldap:libopenldap +PACKAGE_php5-mod-ldap:libsasl2
 Conflicts: 
 Menu-Depends: 
@@ -418,7 +439,7 @@ Section: lang
 Category: Languages
 Title: LDAP shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -429,7 +450,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-mbstring
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -439,7 +460,7 @@ Section: lang
 Category: Languages
 Title: MBString shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -450,7 +471,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-mcrypt
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-mcrypt:libmcrypt +PACKAGE_php5-mod-mcrypt:libltdl
 Conflicts: 
 Menu-Depends: 
@@ -460,7 +481,7 @@ Section: lang
 Category: Languages
 Title: Mcrypt shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -471,7 +492,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-mysql
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-mysql:libmysqlclient
 Conflicts: 
 Menu-Depends: 
@@ -481,7 +502,7 @@ Section: lang
 Category: Languages
 Title: MySQL shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -492,7 +513,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-mysqli
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-mysqli:libmysqlclient
 Conflicts: 
 Menu-Depends: 
@@ -502,7 +523,7 @@ Section: lang
 Category: Languages
 Title: MySQL Improved Extension shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -513,7 +534,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-opcache
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -523,7 +544,7 @@ Section: lang
 Category: Languages
 Title: OPcache shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -534,7 +555,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-openssl
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-openssl:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -544,7 +565,7 @@ Section: lang
 Category: Languages
 Title: OpenSSL shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -555,7 +576,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-pcntl
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -565,7 +586,7 @@ Section: lang
 Category: Languages
 Title: PCNTL shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -576,7 +597,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-pdo
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -586,7 +607,7 @@ Section: lang
 Category: Languages
 Title: PHP Data Objects shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -597,7 +618,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-pdo-mysql
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +php5-mod-pdo +PACKAGE_php5-mod-pdo-mysql:libmysqlclient
 Conflicts: 
 Menu-Depends: 
@@ -607,7 +628,7 @@ Section: lang
 Category: Languages
 Title: PDO driver for MySQL shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -618,7 +639,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-pdo-pgsql
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +php5-mod-pdo +PACKAGE_php5-mod-pdo-pgsql:libpq
 Conflicts: 
 Menu-Depends: 
@@ -628,7 +649,7 @@ Section: lang
 Category: Languages
 Title: PDO driver for PostgreSQL shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -639,7 +660,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-pdo-sqlite
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +php5-mod-pdo +PACKAGE_php5-mod-pdo-sqlite:libsqlite3 +PACKAGE_php5-mod-pdo-sqlite:librt
 Conflicts: 
 Menu-Depends: 
@@ -649,7 +670,7 @@ Section: lang
 Category: Languages
 Title: PDO driver for SQLite 3.x shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -660,7 +681,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-pgsql
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-pgsql:libpq
 Conflicts: 
 Menu-Depends: 
@@ -670,7 +691,7 @@ Section: lang
 Category: Languages
 Title: PostgreSQL shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -681,7 +702,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-session
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -691,7 +712,7 @@ Section: lang
 Category: Languages
 Title: Session shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -702,7 +723,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-shmop
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -712,7 +733,7 @@ Section: lang
 Category: Languages
 Title: Shared Memory shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -723,7 +744,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-simplexml
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +@PHP5_LIBXML +PACKAGE_php5-mod-simplexml:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -733,7 +754,7 @@ Section: lang
 Category: Languages
 Title: SimpleXML shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -744,7 +765,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-soap
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +@PHP5_LIBXML +PACKAGE_php5-mod-soap:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -754,7 +775,7 @@ Section: lang
 Category: Languages
 Title: SOAP shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -765,7 +786,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-sockets
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -775,7 +796,7 @@ Section: lang
 Category: Languages
 Title: Sockets shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -786,7 +807,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-sqlite3
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-sqlite3:libsqlite3
 Conflicts: 
 Menu-Depends: 
@@ -796,7 +817,7 @@ Section: lang
 Category: Languages
 Title: SQLite3 shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -807,7 +828,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-sysvmsg
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -817,7 +838,7 @@ Section: lang
 Category: Languages
 Title: System V messages shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -828,7 +849,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-sysvsem
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -838,7 +859,7 @@ Section: lang
 Category: Languages
 Title: System V shared memory shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -849,7 +870,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-sysvshm
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -859,7 +880,7 @@ Section: lang
 Category: Languages
 Title: System V semaphore shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -870,7 +891,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-tokenizer
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5
 Conflicts: 
 Menu-Depends: 
@@ -880,7 +901,7 @@ Section: lang
 Category: Languages
 Title: Tokenizer shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -891,7 +912,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-xml
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PHP5_LIBXML:libxml2 +!PHP5_LIBXML:libexpat
 Conflicts: 
 Menu-Depends: 
@@ -901,7 +922,7 @@ Section: lang
 Category: Languages
 Title: XML shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -912,7 +933,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-xmlreader
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +@PHP5_LIBXML +PACKAGE_php5-mod-xmlreader:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -922,7 +943,7 @@ Section: lang
 Category: Languages
 Title: XMLReader shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -933,7 +954,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-xmlwriter
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +@PHP5_LIBXML +PACKAGE_php5-mod-xmlwriter:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -943,7 +964,7 @@ Section: lang
 Category: Languages
 Title: XMLWriter shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -954,7 +975,7 @@ W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
 
 Package: php5-mod-zip
 Submenu: PHP
-Version: 5.6.18-1
+Version: 5.6.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php5 +PACKAGE_php5-mod-zip:zlib
 Conflicts: 
 Menu-Depends: 
@@ -964,7 +985,7 @@ Section: lang
 Category: Languages
 Title: ZIP shared module
 Maintainer: W. Michael Petullo <mike@flyn.org>, Michael Heimpold <mhei@heimpold.de>
-Source: php-5.6.18.tar.xz
+Source: php-5.6.21.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg

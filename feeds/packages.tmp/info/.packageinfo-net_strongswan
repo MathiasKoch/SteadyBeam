@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/strongswan/Makefile
 Package: strongswan
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +ip +kmod-crypto-authenc +kmod-ipsec +kmod-ipsec4 +IPV6:kmod-ipsec6 +kmod-ipt-ipsec +iptables-mod-ipsec
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: net
 Category: Network
 Title: StrongSwan
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
@@ -24,7 +24,7 @@ Config:
 
 Package: strongswan-default
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-charon +strongswan-mod-aes +strongswan-mod-attr +strongswan-mod-connmark +strongswan-mod-constraints +strongswan-mod-des +strongswan-mod-dnskey +strongswan-mod-fips-prf +strongswan-mod-gmp +strongswan-mod-hmac +strongswan-mod-kernel-netlink +strongswan-mod-md5 +strongswan-mod-nonce +strongswan-mod-pem +strongswan-mod-pgp +strongswan-mod-pkcs1 +strongswan-mod-pubkey +strongswan-mod-random +strongswan-mod-rc2 +strongswan-mod-resolve +strongswan-mod-revocation +strongswan-mod-sha1 +strongswan-mod-sha2 +strongswan-mod-socket-default +strongswan-mod-sshkey +strongswan-mod-stroke +strongswan-mod-updown +strongswan-mod-x509 +strongswan-mod-xauth-generic +strongswan-mod-xcbc +strongswan-utils
 Conflicts: 
 Menu-Depends: 
@@ -33,7 +33,7 @@ Section: net
 Category: Network
 Title: StrongSwan (default)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
@@ -44,8 +44,8 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-full
 Submenu: VPN
-Version: 5.3.5-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-charon +strongswan-mod-addrblock +strongswan-mod-aes +strongswan-mod-af-alg +strongswan-mod-agent +strongswan-mod-attr +strongswan-mod-attr-sql +strongswan-mod-blowfish +strongswan-mod-ccm +strongswan-mod-cmac +strongswan-mod-constraints +strongswan-mod-connmark +strongswan-mod-coupling +strongswan-mod-ctr +strongswan-mod-curl +strongswan-mod-des +strongswan-mod-dhcp +strongswan-mod-dnskey +strongswan-mod-duplicheck +strongswan-mod-eap-identity +strongswan-mod-eap-md5 +strongswan-mod-eap-mschapv2 +strongswan-mod-eap-radius +strongswan-mod-eap-tls +strongswan-mod-farp +strongswan-mod-fips-prf +strongswan-mod-gcm +strongswan-mod-gcrypt +strongswan-mod-gmp +strongswan-mod-ha +strongswan-mod-hmac +strongswan-mod-kernel-netlink +strongswan-mod-ldap +strongswan-mod-led +strongswan-mod-load-tester +strongswan-mod-nonce +strongswan-mod-md4 +strongswan-mod-md5 +strongswan-mod-mysql +strongswan-mod-openssl +strongswan-mod-pem +strongswan-mod-pgp +strongswan-mod-pkcs1 +strongswan-mod-pkcs7 +strongswan-mod-pkcs8 +strongswan-mod-pkcs11 +strongswan-mod-pkcs12 +strongswan-mod-pubkey +strongswan-mod-random +strongswan-mod-rc2 +strongswan-mod-resolve +strongswan-mod-revocation +strongswan-mod-sha1 +strongswan-mod-sha2 +strongswan-mod-smp +strongswan-mod-socket-default +strongswan-mod-sql +strongswan-mod-sqlite +strongswan-mod-sshkey +strongswan-mod-stroke +strongswan-mod-test-vectors +strongswan-mod-uci +strongswan-mod-unity +strongswan-mod-updown +strongswan-mod-whitelist +strongswan-mod-x509 +strongswan-mod-xauth-eap +strongswan-mod-xauth-generic +strongswan-mod-xcbc +strongswan-utils @DEVEL
+Version: 5.4.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-charon +strongswan-mod-addrblock +strongswan-mod-aes +strongswan-mod-af-alg +strongswan-mod-agent +strongswan-mod-attr +strongswan-mod-attr-sql +strongswan-mod-blowfish +strongswan-mod-ccm +strongswan-mod-cmac +strongswan-mod-constraints +strongswan-mod-connmark +strongswan-mod-coupling +strongswan-mod-ctr +strongswan-mod-curl +strongswan-mod-des +strongswan-mod-dhcp +strongswan-mod-dnskey +strongswan-mod-duplicheck +strongswan-mod-eap-identity +strongswan-mod-eap-md5 +strongswan-mod-eap-mschapv2 +strongswan-mod-eap-radius +strongswan-mod-eap-tls +strongswan-mod-farp +strongswan-mod-fips-prf +strongswan-mod-forecast +strongswan-mod-gcm +strongswan-mod-gcrypt +strongswan-mod-gmp +strongswan-mod-ha +strongswan-mod-hmac +strongswan-mod-kernel-netlink +strongswan-mod-ldap +strongswan-mod-led +strongswan-mod-load-tester +strongswan-mod-nonce +strongswan-mod-md4 +strongswan-mod-md5 +strongswan-mod-mysql +strongswan-mod-openssl +strongswan-mod-pem +strongswan-mod-pgp +strongswan-mod-pkcs1 +strongswan-mod-pkcs7 +strongswan-mod-pkcs8 +strongswan-mod-pkcs11 +strongswan-mod-pkcs12 +strongswan-mod-pubkey +strongswan-mod-random +strongswan-mod-rc2 +strongswan-mod-resolve +strongswan-mod-revocation +strongswan-mod-sha1 +strongswan-mod-sha2 +strongswan-mod-smp +strongswan-mod-socket-default +strongswan-mod-sql +strongswan-mod-sqlite +strongswan-mod-sshkey +strongswan-mod-stroke +strongswan-mod-test-vectors +strongswan-mod-uci +strongswan-mod-unity +strongswan-mod-updown +strongswan-mod-whitelist +strongswan-mod-x509 +strongswan-mod-xauth-eap +strongswan-mod-xauth-generic +strongswan-mod-xcbc +strongswan-utils @DEVEL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -53,13 +53,13 @@ Section: net
 Category: Network
 Title: StrongSwan (full)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This meta-package contains dependencies for all of the strongswan plugins
  except kernel-libipsec,
- socket-dynamic and which are ommitted in favor of the kernel-netlink and
+ socket-dynamic and which are omitted in favor of the kernel-netlink and
  socket-default plugins.
 http://www.strongswan.org/
 Steven Barth <cyrus@openwrt.org>
@@ -67,7 +67,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-minimal
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-charon +strongswan-mod-aes +strongswan-mod-gmp +strongswan-mod-hmac +strongswan-mod-kernel-netlink +strongswan-mod-nonce +strongswan-mod-pubkey +strongswan-mod-random +strongswan-mod-sha1 +strongswan-mod-socket-default +strongswan-mod-stroke +strongswan-mod-updown +strongswan-mod-x509 +strongswan-mod-xcbc
 Conflicts: 
 Menu-Depends: 
@@ -76,7 +76,7 @@ Section: net
 Category: Network
 Title: StrongSwan (minimal)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
@@ -87,7 +87,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-isakmp
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-charon +strongswan-mod-aes +strongswan-mod-des +strongswan-mod-gmpdh +strongswan-mod-hmac +strongswan-mod-kernel-netlink +strongswan-mod-md5 +strongswan-mod-nonce +strongswan-mod-pubkey +strongswan-mod-random +strongswan-mod-sha1 +strongswan-mod-socket-default +strongswan-mod-stroke +strongswan-mod-uci +strongswan-mod-updown +strongswan-utils
 Conflicts: 
 Menu-Depends: 
@@ -96,7 +96,7 @@ Section: net
 Category: Network
 Title: StrongSwan (isakmp)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
@@ -109,7 +109,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-charon
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -118,7 +118,7 @@ Section: net
 Category: Network
 Title: StrongSwan IKEv1/IKEv2 keying daemon
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
@@ -129,7 +129,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-utils
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -138,7 +138,7 @@ Section: net
 Category: Network
 Title: StrongSwan utilities
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
@@ -149,7 +149,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-libtls
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -158,7 +158,7 @@ Section: net
 Category: Network
 Title: StrongSwan libtls
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
@@ -170,7 +170,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-addrblock
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -179,7 +179,7 @@ Section: net
 Category: Network
 Title: StrongSwan RFC 3779 address block constraint support plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan RFC 3779 address block constraint support plugin
@@ -189,7 +189,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-aes
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -198,7 +198,7 @@ Section: net
 Category: Network
 Title: StrongSwan AES crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan AES crypto plugin
@@ -208,7 +208,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-af-alg
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +kmod-crypto-user
 Conflicts: 
 Menu-Depends: 
@@ -217,7 +217,7 @@ Section: net
 Category: Network
 Title: StrongSwan AF_ALG crypto interface to Linux Crypto API plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan AF_ALG crypto interface to Linux Crypto API plugin
@@ -227,7 +227,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-agent
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -236,7 +236,7 @@ Section: net
 Category: Network
 Title: StrongSwan SSH agent signing plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan SSH agent signing plugin
@@ -246,7 +246,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-attr
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -255,7 +255,7 @@ Section: net
 Category: Network
 Title: StrongSwan file based config plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan file based config plugin
@@ -265,7 +265,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-attr-sql
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-charon
 Conflicts: 
 Menu-Depends: 
@@ -274,7 +274,7 @@ Section: net
 Category: Network
 Title: StrongSwan SQL based config plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan SQL based config plugin
@@ -284,7 +284,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-blowfish
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -293,7 +293,7 @@ Section: net
 Category: Network
 Title: StrongSwan Blowfish crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan Blowfish crypto plugin
@@ -303,7 +303,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-ccm
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -312,7 +312,7 @@ Section: net
 Category: Network
 Title: StrongSwan CCM AEAD wrapper crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan CCM AEAD wrapper crypto plugin
@@ -322,7 +322,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-cmac
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -331,7 +331,7 @@ Section: net
 Category: Network
 Title: StrongSwan CMAC crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan CMAC crypto plugin
@@ -341,7 +341,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-connmark
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -350,7 +350,7 @@ Section: net
 Category: Network
 Title: StrongSwan netfilter connection marking plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan netfilter connection marking plugin
@@ -360,7 +360,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-constraints
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -369,7 +369,7 @@ Section: net
 Category: Network
 Title: StrongSwan advanced X509 constraint checking plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan advanced X509 constraint checking plugin
@@ -379,7 +379,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-coupling
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -388,7 +388,7 @@ Section: net
 Category: Network
 Title: StrongSwan IKEv2 plugin to couple peer certificates permanently to authentication plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan IKEv2 plugin to couple peer certificates permanently to authentication plugin
@@ -398,7 +398,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-ctr
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -407,7 +407,7 @@ Section: net
 Category: Network
 Title: StrongSwan Counter Mode wrapper crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan Counter Mode wrapper crypto plugin
@@ -417,7 +417,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-curl
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +PACKAGE_strongswan-mod-curl:libcurl
 Conflicts: 
 Menu-Depends: 
@@ -426,7 +426,7 @@ Section: net
 Category: Network
 Title: StrongSwan cURL fetcher plugin plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan cURL fetcher plugin plugin
@@ -436,7 +436,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-des
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -445,7 +445,7 @@ Section: net
 Category: Network
 Title: StrongSwan DES crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan DES crypto plugin
@@ -455,7 +455,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-dhcp
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -464,7 +464,7 @@ Section: net
 Category: Network
 Title: StrongSwan DHCP based attribute provider plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan DHCP based attribute provider plugin
@@ -474,7 +474,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-dnskey
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -483,7 +483,7 @@ Section: net
 Category: Network
 Title: StrongSwan DNS RR key decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan DNS RR key decoding plugin
@@ -493,7 +493,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-duplicheck
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -502,7 +502,7 @@ Section: net
 Category: Network
 Title: StrongSwan advanced duplicate checking plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan advanced duplicate checking plugin
@@ -512,7 +512,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-eap-identity
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -521,7 +521,7 @@ Section: net
 Category: Network
 Title: StrongSwan EAP identity helper plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan EAP identity helper plugin
@@ -531,7 +531,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-eap-md5
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -540,7 +540,7 @@ Section: net
 Category: Network
 Title: StrongSwan EAP MD5 (CHAP) EAP auth plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan EAP MD5 (CHAP) EAP auth plugin
@@ -550,7 +550,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-eap-mschapv2
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-mod-md4 +strongswan-mod-des
 Conflicts: 
 Menu-Depends: 
@@ -559,7 +559,7 @@ Section: net
 Category: Network
 Title: StrongSwan EAP MS-CHAPv2 EAP auth plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan EAP MS-CHAPv2 EAP auth plugin
@@ -569,7 +569,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-eap-radius
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -578,7 +578,7 @@ Section: net
 Category: Network
 Title: StrongSwan EAP RADIUS auth plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan EAP RADIUS auth plugin
@@ -588,7 +588,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-eap-tls
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-libtls
 Conflicts: 
 Menu-Depends: 
@@ -597,7 +597,7 @@ Section: net
 Category: Network
 Title: StrongSwan EAP TLS auth plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan EAP TLS auth plugin
@@ -607,7 +607,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-farp
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -616,7 +616,7 @@ Section: net
 Category: Network
 Title: StrongSwan fake arp respsonses plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan fake arp respsonses plugin
@@ -626,7 +626,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-fips-prf
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-mod-sha1
 Conflicts: 
 Menu-Depends: 
@@ -635,7 +635,7 @@ Section: net
 Category: Network
 Title: StrongSwan FIPS PRF crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan FIPS PRF crypto plugin
@@ -643,9 +643,28 @@ http://www.strongswan.org/
 Steven Barth <cyrus@openwrt.org>
 @@
 
+Package: strongswan-mod-forecast
+Submenu: VPN
+Version: 5.4.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +kmod-ipt-conntrack-extra
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: StrongSwan forward multi/broadcast traffic plugin
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Source: strongswan-5.4.0.tar.bz2
+License: GPL-2.0+
+Type: ipkg
+Description: StrongSwan forward multi/broadcast traffic plugin
+http://www.strongswan.org/
+Steven Barth <cyrus@openwrt.org>
+@@
+
 Package: strongswan-mod-gcm
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -654,7 +673,7 @@ Section: net
 Category: Network
 Title: StrongSwan GCM AEAD wrapper crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan GCM AEAD wrapper crypto plugin
@@ -664,7 +683,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-gcrypt
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +PACKAGE_strongswan-mod-gcrypt:libgcrypt
 Conflicts: 
 Menu-Depends: 
@@ -673,7 +692,7 @@ Section: net
 Category: Network
 Title: StrongSwan libgcrypt plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan libgcrypt plugin
@@ -683,7 +702,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-gmp
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +PACKAGE_strongswan-mod-gmp:libgmp
 Conflicts: 
 Menu-Depends: 
@@ -692,7 +711,7 @@ Section: net
 Category: Network
 Title: StrongSwan libgmp plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan libgmp plugin
@@ -702,7 +721,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-gmpdh
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -711,7 +730,7 @@ Section: net
 Category: Network
 Title: StrongSwan DH-Groups; no libgmp dep plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan DH-Groups; no libgmp dep plugin
@@ -721,7 +740,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-ha
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -730,7 +749,7 @@ Section: net
 Category: Network
 Title: StrongSwan high availability cluster plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan high availability cluster plugin
@@ -740,7 +759,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-hmac
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -749,7 +768,7 @@ Section: net
 Category: Network
 Title: StrongSwan HMAC crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan HMAC crypto plugin
@@ -759,7 +778,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-kernel-libipsec
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -768,7 +787,7 @@ Section: net
 Category: Network
 Title: StrongSwan libipsec kernel interface plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan libipsec kernel interface plugin
@@ -778,7 +797,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-kernel-netlink
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -787,7 +806,7 @@ Section: net
 Category: Network
 Title: StrongSwan netlink kernel interface plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan netlink kernel interface plugin
@@ -797,7 +816,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-ldap
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +PACKAGE_strongswan-mod-ldap:libopenldap
 Conflicts: 
 Menu-Depends: 
@@ -806,7 +825,7 @@ Section: net
 Category: Network
 Title: StrongSwan LDAP plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan LDAP plugin
@@ -816,7 +835,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-led
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -825,7 +844,7 @@ Section: net
 Category: Network
 Title: StrongSwan LED blink on IKE activity plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan LED blink on IKE activity plugin
@@ -835,7 +854,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-load-tester
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -844,7 +863,7 @@ Section: net
 Category: Network
 Title: StrongSwan load testing plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan load testing plugin
@@ -854,7 +873,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-nonce
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -863,7 +882,7 @@ Section: net
 Category: Network
 Title: StrongSwan nonce genereation plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan nonce genereation plugin
@@ -873,7 +892,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-md4
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -882,7 +901,7 @@ Section: net
 Category: Network
 Title: StrongSwan MD4 crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan MD4 crypto plugin
@@ -892,7 +911,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-md5
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -901,7 +920,7 @@ Section: net
 Category: Network
 Title: StrongSwan MD5 crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan MD5 crypto plugin
@@ -911,7 +930,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-mysql
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-mod-sql +PACKAGE_strongswan-mod-mysql:libmysqlclient-r
 Conflicts: 
 Menu-Depends: 
@@ -920,7 +939,7 @@ Section: net
 Category: Network
 Title: StrongSwan MySQL database interface plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan MySQL database interface plugin
@@ -930,7 +949,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-openssl
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +PACKAGE_strongswan-mod-openssl:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -939,7 +958,7 @@ Section: net
 Category: Network
 Title: StrongSwan OpenSSL crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan OpenSSL crypto plugin
@@ -949,7 +968,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-pem
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -958,7 +977,7 @@ Section: net
 Category: Network
 Title: StrongSwan PEM decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan PEM decoding plugin
@@ -968,7 +987,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-pgp
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -977,7 +996,7 @@ Section: net
 Category: Network
 Title: StrongSwan PGP key decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan PGP key decoding plugin
@@ -987,7 +1006,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-pkcs1
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -996,7 +1015,7 @@ Section: net
 Category: Network
 Title: StrongSwan PKCS1 key decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan PKCS1 key decoding plugin
@@ -1006,7 +1025,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-pkcs7
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1015,7 +1034,7 @@ Section: net
 Category: Network
 Title: StrongSwan PKCS7 key decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan PKCS7 key decoding plugin
@@ -1025,7 +1044,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-pkcs8
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1034,7 +1053,7 @@ Section: net
 Category: Network
 Title: StrongSwan PKCS8 key decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan PKCS8 key decoding plugin
@@ -1044,7 +1063,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-pkcs11
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1053,7 +1072,7 @@ Section: net
 Category: Network
 Title: StrongSwan PKCS11 key decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan PKCS11 key decoding plugin
@@ -1063,7 +1082,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-pkcs12
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1072,7 +1091,7 @@ Section: net
 Category: Network
 Title: StrongSwan PKCS12 key decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan PKCS12 key decoding plugin
@@ -1082,7 +1101,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-pubkey
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1091,7 +1110,7 @@ Section: net
 Category: Network
 Title: StrongSwan raw public key plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan raw public key plugin
@@ -1101,7 +1120,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-random
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1110,7 +1129,7 @@ Section: net
 Category: Network
 Title: StrongSwan RNG plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan RNG plugin
@@ -1120,7 +1139,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-rc2
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1129,7 +1148,7 @@ Section: net
 Category: Network
 Title: StrongSwan RC2 crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan RC2 crypto plugin
@@ -1139,7 +1158,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-resolve
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1148,7 +1167,7 @@ Section: net
 Category: Network
 Title: StrongSwan DNS resolver plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan DNS resolver plugin
@@ -1158,7 +1177,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-revocation
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1167,7 +1186,7 @@ Section: net
 Category: Network
 Title: StrongSwan X509 CRL/OCSP revocation plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan X509 CRL/OCSP revocation plugin
@@ -1177,7 +1196,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-sha1
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1186,7 +1205,7 @@ Section: net
 Category: Network
 Title: StrongSwan SHA1 crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan SHA1 crypto plugin
@@ -1196,7 +1215,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-sha2
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1205,7 +1224,7 @@ Section: net
 Category: Network
 Title: StrongSwan SHA2 crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan SHA2 crypto plugin
@@ -1215,7 +1234,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-smp
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +PACKAGE_strongswan-mod-smp:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -1224,7 +1243,7 @@ Section: net
 Category: Network
 Title: StrongSwan SMP configuration and control interface plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan SMP configuration and control interface plugin
@@ -1234,7 +1253,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-socket-default
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1243,7 +1262,7 @@ Section: net
 Category: Network
 Title: StrongSwan default socket implementation for charon plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan default socket implementation for charon plugin
@@ -1253,7 +1272,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-socket-dynamic
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1262,7 +1281,7 @@ Section: net
 Category: Network
 Title: StrongSwan dynamic socket implementation for charon plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan dynamic socket implementation for charon plugin
@@ -1272,7 +1291,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-sql
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1281,7 +1300,7 @@ Section: net
 Category: Network
 Title: StrongSwan SQL database interface plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan SQL database interface plugin
@@ -1291,7 +1310,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-sqlite
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-mod-sql +PACKAGE_strongswan-mod-sqlite:libsqlite3
 Conflicts: 
 Menu-Depends: 
@@ -1300,7 +1319,7 @@ Section: net
 Category: Network
 Title: StrongSwan SQLite database interface plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan SQLite database interface plugin
@@ -1310,7 +1329,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-sshkey
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1319,7 +1338,7 @@ Section: net
 Category: Network
 Title: StrongSwan SSH key decoding plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan SSH key decoding plugin
@@ -1329,8 +1348,8 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-stroke
 Submenu: VPN
-Version: 5.3.5-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-utils
+Version: 5.4.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +strongswan-charon +strongswan-utils
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1338,7 +1357,7 @@ Section: net
 Category: Network
 Title: StrongSwan Stroke plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan Stroke plugin
@@ -1348,7 +1367,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-test-vectors
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1357,7 +1376,7 @@ Section: net
 Category: Network
 Title: StrongSwan crypto test vectors plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan crypto test vectors plugin
@@ -1367,7 +1386,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-uci
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan +PACKAGE_strongswan-mod-uci:libuci
 Conflicts: 
 Menu-Depends: 
@@ -1376,7 +1395,7 @@ Section: net
 Category: Network
 Title: StrongSwan UCI config interface plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan UCI config interface plugin
@@ -1386,7 +1405,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-unity
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1395,7 +1414,7 @@ Section: net
 Category: Network
 Title: StrongSwan Cisco Unity extension plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan Cisco Unity extension plugin
@@ -1405,7 +1424,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-updown
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1414,7 +1433,7 @@ Section: net
 Category: Network
 Title: StrongSwan updown firewall plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan updown firewall plugin
@@ -1424,7 +1443,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-whitelist
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1433,7 +1452,7 @@ Section: net
 Category: Network
 Title: StrongSwan peer identity whitelisting plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan peer identity whitelisting plugin
@@ -1443,7 +1462,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-x509
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1452,7 +1471,7 @@ Section: net
 Category: Network
 Title: StrongSwan x509 certificate plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan x509 certificate plugin
@@ -1462,7 +1481,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-xauth-eap
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1471,7 +1490,7 @@ Section: net
 Category: Network
 Title: StrongSwan EAP XAuth backend plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan EAP XAuth backend plugin
@@ -1481,7 +1500,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-xauth-generic
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1490,7 +1509,7 @@ Section: net
 Category: Network
 Title: StrongSwan generic XAuth backend plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan generic XAuth backend plugin
@@ -1500,7 +1519,7 @@ Steven Barth <cyrus@openwrt.org>
 
 Package: strongswan-mod-xcbc
 Submenu: VPN
-Version: 5.3.5-1
+Version: 5.4.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +strongswan
 Conflicts: 
 Menu-Depends: 
@@ -1509,7 +1528,7 @@ Section: net
 Category: Network
 Title: StrongSwan xcbc crypto plugin
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: strongswan-5.3.5.tar.bz2
+Source: strongswan-5.4.0.tar.bz2
 License: GPL-2.0+
 Type: ipkg
 Description: StrongSwan xcbc crypto plugin

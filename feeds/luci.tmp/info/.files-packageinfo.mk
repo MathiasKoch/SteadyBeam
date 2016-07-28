@@ -1,5 +1,6 @@
 $(eval $(call PackageDir,applications_luci-app-adblock,applications/luci-app-adblock,))
 $(eval $(call PackageDir,applications_luci-app-ahcp,applications/luci-app-ahcp,))
+$(eval $(call PackageDir,applications_luci-app-aria2,applications/luci-app-aria2,))
 $(eval $(call PackageDir,applications_luci-app-asterisk,applications/luci-app-asterisk,))
 $(eval $(call PackageDir,applications_luci-app-commands,applications/luci-app-commands,))
 $(eval $(call PackageDir,applications_luci-app-coovachilli,applications/luci-app-coovachilli,))

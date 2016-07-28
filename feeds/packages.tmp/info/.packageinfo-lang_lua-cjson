@@ -6,6 +6,8 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +lua
 Conflicts: 
 Menu-Depends: 
 Provides: 
+Build-Depends/host: lua/host
+Build-Types: host
 Section: lang
 Category: Languages
 Title: Lua CJSON parser

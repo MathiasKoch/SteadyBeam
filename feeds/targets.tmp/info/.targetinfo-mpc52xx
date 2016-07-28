@@ -2,7 +2,7 @@ Source-Makefile: feeds/targets/mpc52xx/Makefile
 Target: mpc52xx
 Target-Board: mpc52xx
 Target-Name: Freescale MPC52xx
-Target-Path: /home/mathias/openwrt
+Target-Path: /home/mathias/SteadyBeam
 Target-Arch: powerpc
 Target-Arch-Packages: mpc52xx
 Target-Features: dt ext4 gpio pci targz usb

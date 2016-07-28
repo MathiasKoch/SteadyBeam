@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/keepalived/Makefile
 Package: keepalived
-Version: 1.2.16-2
+Version: 1.2.16-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libnl-genl +libopenssl
 Conflicts: 
 Menu-Depends: 

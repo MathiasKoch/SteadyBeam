@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/ethtool/Makefile
 Package: ethtool
-Version: 4.2-1
+Version: 4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: net
 Category: Network
 Title: Display or change ethernet card settings
 Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
-Source: ethtool-4.2.tar.xz
+Source: ethtool-4.5.tar.xz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg

@@ -2,7 +2,7 @@ Source-Makefile: feeds/targets/cobalt/Makefile
 Target: cobalt
 Target-Board: cobalt
 Target-Name: Cobalt Microservers
-Target-Path: /home/mathias/openwrt
+Target-Path: /home/mathias/SteadyBeam
 Target-Arch: mipsel
 Target-Arch-Packages: cobalt
 Target-Features: display ext4 pci rtc targz usb

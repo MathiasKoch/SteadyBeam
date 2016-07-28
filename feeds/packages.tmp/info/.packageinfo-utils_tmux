@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/tmux/Makefile
 Package: tmux
-Version: 2.1-1
+Version: 2.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses +libevent2 +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: utils
 Category: Utilities
 Title: Terminal multiplexer
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: tmux-2.1.tar.gz
+Source: tmux-2.2.tar.gz
 License: ISC
 LicenseFiles: COPYING
 Type: ipkg

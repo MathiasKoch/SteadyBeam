@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/nut/Makefile
 Package: nut
 Menu: 1
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +NUT_DRIVER_SNMP:libnetsnmp +NUT_DRIVER_USB:libusb-compat +NUT_SSL:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -27,7 +27,7 @@ Config:
 @@
 
 Package: nut-web-cgi
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut +libgd
 Conflicts: 
 Menu-Depends: 
@@ -48,7 +48,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-avahi-service
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut +avahi-daemon
 Conflicts: 
 Menu-Depends: 
@@ -68,7 +68,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-al175
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -87,7 +87,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bcmxcp
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -106,7 +106,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-belkin
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -125,7 +125,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-belkinunv
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -144,7 +144,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bestfcom
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -163,7 +163,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bestfortress
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -182,7 +182,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bestuferrups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -201,7 +201,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bestups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -220,7 +220,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-dummy-ups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -239,7 +239,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-etapro
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -258,7 +258,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-everups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -277,7 +277,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-gamatronic
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -296,7 +296,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-genericups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -315,7 +315,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-isbmex
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -334,7 +334,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-liebert
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -353,7 +353,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-liebert-esp2
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -372,7 +372,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-masterguard
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -391,7 +391,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-metasys
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -410,7 +410,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-oldmge-shut
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -429,7 +429,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-mge-utalk
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -448,7 +448,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-microdowell
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -467,7 +467,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-mge-shut
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -486,7 +486,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-oneac
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -505,7 +505,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-optiups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -524,7 +524,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-powercom
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -543,7 +543,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-rhino
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -562,7 +562,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-safenet
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -581,7 +581,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-solis
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -600,7 +600,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-tripplite
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -619,7 +619,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-tripplitesu
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -638,7 +638,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-upscode2
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -657,7 +657,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-victronups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -676,7 +676,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-powerpanel
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -695,7 +695,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-blazer_ser
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -714,7 +714,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-clone
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -733,7 +733,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-ivtscd
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -752,7 +752,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-apcsmart
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -771,7 +771,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-apcsmart-old
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -790,7 +790,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-apcupsd-ups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -809,7 +809,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-riello_ser
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
 Conflicts: 
 Menu-Depends: 
@@ -828,7 +828,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-snmp-ups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SNMP
 Conflicts: 
 Menu-Depends: 
@@ -847,7 +847,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-usbhid-ups
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -866,7 +866,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bcmxcp_usb
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -885,7 +885,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-tripplite_usb
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -904,7 +904,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-blazer_usb
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -923,7 +923,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-richcomm_usb
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -942,7 +942,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-riello_usb
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -961,7 +961,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-nutdrv_atcl_usb
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -980,7 +980,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-nutdrv_qx
-Version: 2.7.4-1
+Version: 2.7.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 

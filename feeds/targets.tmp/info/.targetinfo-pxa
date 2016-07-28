@@ -2,7 +2,7 @@ Source-Makefile: feeds/targets/pxa/Makefile
 Target: pxa
 Target-Board: pxa
 Target-Name: Marvell/Intel PXA2xx
-Target-Path: /home/mathias/openwrt
+Target-Path: /home/mathias/SteadyBeam
 Target-Arch: arm
 Target-Arch-Packages: pxa
 Target-Features: broken gpio squashfs

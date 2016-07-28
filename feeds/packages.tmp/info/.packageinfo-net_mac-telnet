@@ -8,14 +8,14 @@ Provides:
 Section: net
 Category: Network
 Title: MAC-Telnet / MAC-SSH server
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: mac-telnet-2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:     Open source MAC Telnet client and server utilities for connecting to
     Mikrotik RouterOS routers and Linux machines via MAC address.
 https://github.com/jow-/MAC-Telnet
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 Config:
   config MACTELNET_PLAIN_SUPPORT
@@ -36,14 +36,14 @@ Provides:
 Section: net
 Category: Network
 Title: MAC-Telnet / MAC-SSH client
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: mac-telnet-2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:     Open source MAC Telnet client and server utilities for connecting to
     Mikrotik RouterOS routers and Linux machines via MAC address.
 https://github.com/jow-/MAC-Telnet
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: mac-telnet-ping
@@ -55,14 +55,14 @@ Provides:
 Section: net
 Category: Network
 Title: MAC-Telnet / MAC-SSH ping
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: mac-telnet-2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:     Open source MAC Telnet client and server utilities for connecting to
     Mikrotik RouterOS routers and Linux machines via MAC address.
 https://github.com/jow-/MAC-Telnet
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: mac-telnet-discover
@@ -74,14 +74,14 @@ Provides:
 Section: net
 Category: Network
 Title: MAC-Telnet / MAC-SSH discover
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: mac-telnet-2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:     Open source MAC Telnet client and server utilities for connecting to
     Mikrotik RouterOS routers and Linux machines via MAC address.
 https://github.com/jow-/MAC-Telnet
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 

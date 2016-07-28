@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/pimbd/Makefile
 Package: pimbd
 Version: 2015-08-18-68f5fc803119e4b33a88b35c096f4d6ac28b6de5-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +@IPV6 netifd
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 netifd
 Conflicts: 
 Menu-Depends: 
 Provides: 

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/lang/python-pyopenssl/Makefile
 Package: python-pyopenssl
 Submenu: Python
-Version: 0.15.1-1
+Version: 16.0.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python-light +python-cryptography +python-six
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: lang
 Category: Languages
 Title: python-pyopenssl
 Maintainer: Jeffery To <jeffery.to@gmail.com>
-Source: pyOpenSSL-0.15.1.tar.gz
+Source: pyOpenSSL-16.0.0.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg

@@ -2,7 +2,7 @@ Source-Makefile: feeds/targets/sparc/Makefile
 Target: sparc
 Target-Board: sparc
 Target-Name: Sun UltraSPARC
-Target-Path: /home/mathias/openwrt
+Target-Path: /home/mathias/SteadyBeam
 Target-Arch: sparc
 Target-Arch-Packages: sparc
 Target-Features: broken display dt ext4 fpu pci rtc squashfs tgz

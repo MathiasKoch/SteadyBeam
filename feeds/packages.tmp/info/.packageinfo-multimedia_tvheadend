@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/multimedia/tvheadend/Makefile
 Package: tvheadend
-Version: 4.0.7-1
+Version: 4.0.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +librt +zlib +TVHEADEND_AVAHI_SUPPORT:libavahi-client +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: multimedia
 Category: Multimedia
 Title: Tvheadend is a TV streaming server for Linux
 Maintainer: Jan Čermák <jan.cermak@nic.cz>
-Source: tvheadend-v4.0.7.tar.gz
+Source: tvheadend-v4.0.9.tar.gz
 License: GPL-3.0
 LicenseFiles: LICENSE.md
 Type: ipkg

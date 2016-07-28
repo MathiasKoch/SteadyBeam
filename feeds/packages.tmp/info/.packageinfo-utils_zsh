@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/zsh/Makefile
 Package: zsh
-Version: 5.1.1-1
+Version: 5.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses +libncursesw +libpcre +librt
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: utils
 Category: Utilities
 Title: The Z shell
 Maintainer: Vadim A. Misbakh-Soloviov <openwrt-zsh@mva.name>
-Source: zsh-5.1.1.tar.xz
+Source: zsh-5.2.tar.xz
 License: ZSH
 Type: ipkg
 Description:         Zsh is a UNIX command interpreter (shell) usable as an interactive

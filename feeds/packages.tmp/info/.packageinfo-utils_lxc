@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/lxc/Makefile
 Package: lxc
 Menu: 1
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -24,7 +24,7 @@ Config:
 @@
 
 Package: lxc-common
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc
 Conflicts: 
 Menu-Depends: 
@@ -43,7 +43,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-hooks
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc
 Conflicts: 
 Menu-Depends: 
@@ -62,7 +62,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-configs
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc
 Conflicts: 
 Menu-Depends: 
@@ -81,7 +81,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-templates
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc
 Conflicts: 
 Menu-Depends: 
@@ -100,7 +100,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: liblxc
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +libcap +libpthread +LXC_SECCOMP:libseccomp
 Conflicts: 
 Menu-Depends: 
@@ -119,7 +119,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-lua
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +liblua +liblxc +luafilesystem
 Conflicts: 
 Menu-Depends: 
@@ -138,7 +138,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-init
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -156,8 +156,30 @@ http://lxc.sourceforge.net/
 Luka Perkov <luka@openwrt.org>
 @@
 
+Package: lxc-auto
+Version: 1.1.5-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +lxc-start +lxc-stop
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua
+Section: utils
+Category: Utilities
+Title: (initscript)
+Maintainer: Luka Perkov <luka@openwrt.org>
+Source: lxc-1.1.5.tar.gz
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Type: ipkg
+Description:  LXC is the userspace control package for Linux Containers, a lightweight
+ virtual system mechanism sometimes described as "chroot on steroids".
+ This package adds and initscript for starting and stopping the containers
+ on boot and shutdown.
+http://lxc.sourceforge.net/
+Luka Perkov <luka@openwrt.org>
+@@
+
 Package: lxc-attach
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -176,7 +198,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-autostart
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -195,7 +217,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-cgroup
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -214,7 +236,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-clone
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -233,7 +255,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-config
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -252,7 +274,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-console
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -271,8 +293,8 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-create
-Version: 1.1.5-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc +lxc-configs +lxc-hooks +lxc-templates
+Version: 1.1.5-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc +lxc-configs +lxc-hooks +lxc-templates +flock
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -290,7 +312,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-destroy
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -309,7 +331,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-device
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -328,7 +350,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-execute
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -347,7 +369,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-freeze
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -366,7 +388,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-info
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -385,7 +407,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-monitor
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -404,7 +426,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-snapshot
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -423,7 +445,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-start
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -442,7 +464,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-stop
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -461,7 +483,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-unfreeze
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -480,7 +502,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-unshare
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -499,7 +521,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-usernsexec
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -518,7 +540,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-wait
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -537,7 +559,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-monitord
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -556,7 +578,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-user-nic
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
 Conflicts: 
 Menu-Depends: 
@@ -575,7 +597,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-checkconfig
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common
 Conflicts: 
 Menu-Depends: 
@@ -594,7 +616,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-ls
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +lxc-config
 Conflicts: 
 Menu-Depends: 
@@ -613,7 +635,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: lxc-top
-Version: 1.1.5-1
+Version: 1.1.5-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +lxc-lua +luafilesystem @BROKEN
 Conflicts: 
 Menu-Depends: 

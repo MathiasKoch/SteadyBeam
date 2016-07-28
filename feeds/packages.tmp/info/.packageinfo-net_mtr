@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/mtr/Makefile
 Package: mtr
-Version: 0.85+newdns-dd2b750-2
+Version: 0.85+newdns-dd2b75080bc5406ba0b438953b36b72204ba114b-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: net
 Category: Network
 Title: Full screen ncurses traceroute tool
 Maintainer: 
-Source: mtr-dd2b750.tar.gz
+Source: mtr-dd2b75080bc5406ba0b438953b36b72204ba114b.tar.gz
 License: GPL-2.0+
 LicenseFiles: COPYING
 Type: ipkg

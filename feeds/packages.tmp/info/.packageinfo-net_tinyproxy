@@ -9,12 +9,12 @@ Provides:
 Section: net
 Category: Network
 Title: Tinyproxy is a lightweight HTTP and HTTPS proxy
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: tinyproxy-1.8.3.tar.bz2
 Type: ipkg
 Description: Tinyproxy is a lightweight HTTP and HTTPS proxy
 http://tinyproxy.sourceforge.net/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 

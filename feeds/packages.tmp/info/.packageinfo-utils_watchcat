@@ -12,7 +12,7 @@ Maintainer: Roger D <rogerdammit@gmail.com>
 Source: 
 License: GPL-2.0
 Type: ipkg
-Description: Allows to configure a periodically reboot, or after loosing internet connectivity. Configured trough UCI /etc/config/system.
+Description: Allows to configure a periodically reboot, or after losing internet connectivity. Configured trough UCI /etc/config/system.
 Roger D <rogerdammit@gmail.com>
 @@
 

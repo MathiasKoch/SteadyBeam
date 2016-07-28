@@ -1,7 +1,6 @@
 Source-Makefile: feeds/packages/libs/intltool/Makefile
 Package: intltool
-Prereq-Check: 1
-Version: 0.40.6-2
+Version: 0.40.6-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 

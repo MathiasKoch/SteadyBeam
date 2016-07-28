@@ -8,7 +8,7 @@ Provides:
 Section: net
 Category: Network
 Title: wshaper
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: 
 Type: ipkg
 Description:  A script to do traffing shaping with the HTB algorithm.
@@ -17,7 +17,7 @@ Description:  A script to do traffing shaping with the HTB algorithm.
  * Allow 'surfing' at reasonable speeds while up or downloading
  * Make sure uploads don't harm downloads, and the other way around
 http://lartc.org/wondershaper/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 

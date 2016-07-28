@@ -2,7 +2,7 @@ Source-Makefile: feeds/targets/cns21xx/Makefile
 Target: cns21xx
 Target-Board: cns21xx
 Target-Name: Cavium Networks Econa CNS21xx
-Target-Path: /home/mathias/openwrt
+Target-Path: /home/mathias/SteadyBeam
 Target-Arch: arm
 Target-Arch-Packages: cns21xx
 Target-Features: broken gpio squashfs

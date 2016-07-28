@@ -10,13 +10,13 @@ Build-Depends: libncurses libreadline libtool libintl libiconv
 Section: utils
 Category: Utilities
 Title: MySQL Server
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: mysql-5.1.73.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: MySQL Server
 http://dev.mysql.com/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: libmysqlclient
@@ -29,13 +29,13 @@ Build-Depends: libncurses libreadline libtool libintl libiconv
 Section: libs
 Category: Libraries
 Title: MySQL client library
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: mysql-5.1.73.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: MySQL client library
 http://dev.mysql.com/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: libmysqlclient-r
@@ -48,13 +48,13 @@ Build-Depends: libncurses libreadline libtool libintl libiconv
 Section: libs
 Category: Libraries
 Title: MySQL client library threadsafe
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: mysql-5.1.73.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: MySQL client library threadsafe
 http://dev.mysql.com/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 

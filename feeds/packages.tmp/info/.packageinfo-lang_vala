@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/lang/vala/Makefile
 Package: vala
-Version: 0.29.3-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Version: 0.32.0-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +glib2 +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -12,7 +12,7 @@ Section: lang
 Category: Languages
 Title: C-sharp like language for the GObject system
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
-Source: vala-0.29.3.tar.xz
+Source: vala-0.32.0.tar.xz
 License: LGPL-2.1
 Type: ipkg
 Description: Vala is a C-sharp like language for the GObject system. This package contains

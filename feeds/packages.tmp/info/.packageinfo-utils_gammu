@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/gammu/Makefile
 Package: gammu
-Version: 1.37.0-1
+Version: 1.37.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libcurl +glib2 +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +PACKAGE_python:python +PACKAGE_bluez-libs:bluez-libs +PACKAGE_libmysqlclient:libmysqlclient +PACKAGE_unixodbc:unixodbc +PACKAGE_libpq:libpq +PACKAGE_libusb-1.0:libusb-1.0
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: utils
 Category: Utilities
 Title: Cell phone/modem SMS and control tool
 Maintainer: Vitaly Protsko <villy@sft.ru>
-Source: gammu-1.37.0.tar.xz
+Source: gammu-1.37.3.tar.xz
 Type: ipkg
 Description: Cell phone/modem SMS and control tool
 http://dl.cihar.com/gammu/releases/

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/sound/squeezelite/Makefile
 Package: squeezelite-mini
 Menu: 1
-Version: 1.8-2
+Version: 1.8.4-743-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +alsa-lib +SQUEEZELITE_RESAMPLE:libsoxr
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Section: sound
 Category: Sound
 Title: Headless squeezebox emulator (minimal)
 Maintainer: Ted Hess <thess@kitschensync.net>
-Source: squeezelite-1.8-8b8dfe6918ebe45ade5f3d9b68d453d7b8128d99.tar.gz
+Source: squeezelite-1.8.4-743-e37ed17fed9e11a7346cbe9f1e1deeccc051f42e.tar.gz
 License: GPL-3.0
 LicenseFiles: LICENSE.txt
 Type: ipkg
@@ -25,7 +25,7 @@ Description:         Squeezelite is a small headless squeezebox emulator for lin
     Optional resampling to match sound device
     .
     This package will dynamically load installed codecs.
-https://code.google.com/p/squeezelite/
+https://github.com/ralph-irving/squeezelite
 Ted Hess <thess@kitschensync.net>
 @@
 Config:
@@ -53,7 +53,7 @@ Config:
 
 Package: squeezelite-full
 Menu: 1
-Version: 1.8-2
+Version: 1.8.4-743-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +alsa-lib +SQUEEZELITE_RESAMPLE:libsoxr +libflac +libvorbis +libmad +libfaad2 +SQUEEZELITE_WMA:libffmpeg-audio-dec
 Conflicts: 
 Menu-Depends: 
@@ -64,12 +64,12 @@ Section: sound
 Category: Sound
 Title: Headless squeezebox emulator (full)
 Maintainer: Ted Hess <thess@kitschensync.net>
-Source: squeezelite-1.8-8b8dfe6918ebe45ade5f3d9b68d453d7b8128d99.tar.gz
+Source: squeezelite-1.8.4-743-e37ed17fed9e11a7346cbe9f1e1deeccc051f42e.tar.gz
 License: GPL-3.0
 LicenseFiles: LICENSE.txt
 Type: ipkg
 Description: Headless squeezebox emulator (full)
-https://code.google.com/p/squeezelite/
+https://github.com/ralph-irving/squeezelite
 Ted Hess <thess@kitschensync.net>
 @@
 Config:

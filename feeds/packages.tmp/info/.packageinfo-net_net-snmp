@@ -8,7 +8,7 @@ Provides:
 Section: libs
 Category: Libraries
 Title: Open source SNMP implementation (libraries)
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: net-snmp-5.4.4.tar.gz
 License: MIT BSD-3-Clause-Clear
 Type: ipkg
@@ -20,7 +20,7 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  .
  This package contains shared libraries, needed by other programs.
 http://www.net-snmp.org/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: snmp-utils
@@ -32,7 +32,7 @@ Provides:
 Section: net
 Category: Network
 Title: Open source SNMP implementation (utilities)
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: net-snmp-5.4.4.tar.gz
 License: MIT BSD-3-Clause-Clear
 Type: ipkg
@@ -44,7 +44,7 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  .
  This package contains SNMP client utilities.
 http://www.net-snmp.org/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: snmpd
@@ -56,7 +56,7 @@ Provides:
 Section: net
 Category: Network
 Title: Open source SNMP implementation (daemon)
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: net-snmp-5.4.4.tar.gz
 License: MIT BSD-3-Clause-Clear
 Type: ipkg
@@ -68,7 +68,7 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  .
  This package contains the SNMP agent, dynamically linked.
 http://www.net-snmp.org/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 Package: snmpd-static
@@ -80,7 +80,7 @@ Provides:
 Section: net
 Category: Network
 Title: Open source SNMP implementation (daemon)
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Maintainer: Jo-Philipp Wich <jo@mein.io>
 Source: net-snmp-5.4.4.tar.gz
 License: MIT BSD-3-Clause-Clear
 Type: ipkg
@@ -92,7 +92,7 @@ Description:  Simple Network Management Protocol (SNMP) is a widely used protoco
  .
  This package contains the SNMP agent, statically linked.
 http://www.net-snmp.org/
-Jo-Philipp Wich <jow@openwrt.org>
+Jo-Philipp Wich <jo@mein.io>
 @@
 
 

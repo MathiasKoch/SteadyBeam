@@ -235,7 +235,7 @@ tiny-ac)
 	set_usb_led "$board:green:usb"
 	;;
 vocore)
-	ucidef_set_led_netdev "eth" "ETH" "$board:orange:eth" "eth0"
+	#ucidef_set_led_netdev "eth" "ETH" "$board:orange:eth" "eth0"
 	set_wifi_led "$board:green:status"
 	;;
 w502u)

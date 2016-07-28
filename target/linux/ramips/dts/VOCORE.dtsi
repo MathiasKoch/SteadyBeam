@@ -1,15 +1,22 @@
+/ {
+        palmbus@10000000 {
+                uartlite@c00 {
+                        status = "okay";
+                };
+        };
+};
 /include/ "rt5350.dtsi"
 
 / {
 	compatible = "VoCore", "ralink,rt5350-soc";
 	model = "VoCore";
 
-	chosen {
-		bootargs = "console=ttyS0,57600";
-		#bootargs = "console=null";
-	};
 
 	palmbus@10000000 {
+		uart@500 {
+			status = "okay";
+		};
+
 		gpio1: gpio@660 {
 			status = "okay";
 		};
@@ -28,20 +35,23 @@
 			};
 
 		};
-
-		uart@500 {
-			status = "okay";
-		};
 	};
 
 	pinctrl {
+		uartf_pins: uartf {
+            uartf {
+                ralink,group = "uartf_low";
+                ralink,function = "gpio uartf";
+            };
+        };
 		state_default: pinctrl0 {
 			gpio {
-				ralink,group = "jtag", "led";
+				ralink,group = "jtag", "led", "spi_cs1", "uartf_high";
 				ralink,function = "gpio";
 			};
 		};
 	};
+
 
 	ethernet@10100000 {
 		mtd-mac-address = <&factory 0x4>;
@@ -67,99 +77,92 @@
 		compatible = "gpio-export";
 		#size-cells = <0>;
 
+		/* MODEM_RESET */
 		gpio0 {
-			gpio-export,name = "gpio0";
-			gpio-export,direction_may_change = <1>;
-			gpios = <&gpio0 0 0>;
+			gpio-export,name = "modem_reset";
+			gpio-export,output = <1>;
+			gpios = <&gpio0 0 1>;
 		};
 
-
-		/* JTAG */
-		gpio17 {
-			/* JTAG_TDO */
-			gpio-export,name = "gpio17";
-			gpio-export,direction_may_change = <1>;
-			gpios = <&gpio0 17 0>;
+		/* BLUE_LED */
+		gpio4 {
+			gpio-export,name = "blue";
+			gpio-export,output = <0>;
+			gpios = <&gpio0 4 1>;
 		};
 
+		/* GREEN_LED */
+		gpio5 {
+			gpio-export,name = "green";
+			gpio-export,output = <0>;
+			gpios = <&gpio0 5 1>;
+		};
+
+		/* MOTOR_INDEX */
+		gpio13 {
+			gpio-export,name = "motor_index";
+			gpio-export,direction_may_change = <1>;
+			gpios = <&gpio0 13 0>;
+		};
+
+		/* MPU_INTERRUPT */
 		gpio18 {
-			/* JTAG_TDI */
-			gpio-export,name = "gpio18";
+			gpio-export,name = "mpu_int";
 			gpio-export,direction_may_change = <1>;
 			gpios = <&gpio0 18 0>;
 		};
 
+		/* MODEM_POWER */
 		gpio19 {
-			/* JTAG_TMS */
-			gpio-export,name = "gpio19";
-			gpio-export,direction_may_change = <1>;
+			gpio-export,name = "modem_power";
+			gpio-export,output = <1>;
 			gpios = <&gpio0 19 0>;
 		};
 
+		/* MODEM_DPR */
 		gpio20 {
-			/* JTAG_TCLK */
-			gpio-export,name = "gpio20";
+			gpio-export,name = "modem_dpr";
 			gpio-export,direction_may_change = <1>;
 			gpios = <&gpio0 20 0>;
 		};
 
-		gpio21 {
-			/* JTAG_TRST_N */
-			gpio-export,name = "gpio21";
-			gpio-export,direction_may_change = <1>;
-			gpios = <&gpio0 21 0>;
-		};
-
-		/* ETH LEDs */
-		gpio22 {
-			/* ETH0_LED */
-			gpio-export,name = "gpio22";
-			gpio-export,direction_may_change = <1>;
-			gpios = <&gpio1 0 0>;
-		};
-
+		/* MOTOR_POS */
 		gpio23 {
-			/* ETH1_LED */
-			gpio-export,name = "gpio23";
+			gpio-export,name = "motor_pos";
 			gpio-export,direction_may_change = <1>;
 			gpios = <&gpio1 1 0>;
 		};
 
+		/* MOTOR_DIR */
 		gpio24 {
-			/* ETH2_LED */
-			gpio-export,name = "gpio24";
+			gpio-export,name = "motor_dir";
 			gpio-export,direction_may_change = <1>;
 			gpios = <&gpio1 2 0>;
 		};
 
+		/* MOTOR_START */
 		gpio25 {
-			/* ETH3_LED */
-			gpio-export,name = "gpio25";
+			gpio-export,name = "motor_start";
 			gpio-export,direction_may_change = <1>;
 			gpios = <&gpio1 3 0>;
 		};
 
-		gpio26 {
-			/* ETH4_LED */
-			gpio-export,name = "gpio26";
-			gpio-export,direction_may_change = <1>;
-			gpios = <&gpio1 4 0>;
+		/* RED_LED */
+		gpio27 {
+			gpio-export,name = "red";
+			gpio-export,output = <0>;
+			gpios = <&gpio1 5 1>;
 		};
+
 	};
 
-	gpio-leds {
+	/*gpio-leds {
 		compatible = "gpio-leds";
 
 		status {
-			/* UARTF_RXD */
 			label = "vocore:green:status";
 			gpios = <&gpio0 10 0>;
 		};
 
-		eth {
-			/* UARTF_DTR_N */
-			label = "vocore:orange:eth";
-			gpios = <&gpio0 11 0>;
-		};
-	};
+	};*/
 };

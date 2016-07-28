@@ -8,13 +8,13 @@ Provides:
 Section: utils
 Category: Utilities
 Title: Event Test Program
-Maintainer: Pushpal Sidhu (psidhu@gateworks.com)
+Maintainer: Pushpal Sidhu <psidhu@gateworks.com>
 Source: evtest-1.33.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:   Utility to test event driven devices such as keyboards and mice
-Pushpal Sidhu (psidhu@gateworks.com)
+Pushpal Sidhu <psidhu@gateworks.com>
 @@
 
 
