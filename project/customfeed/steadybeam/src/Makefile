@@ -11,8 +11,27 @@ gpio_fcn.o: gpio_fcn.c
 steadybeam.o: steadybeam.c
 	$(CC) $(CFLAGS) $(INCLUDE) -c steadybeam.c -o steadybeam.o
 
-steadybeam: steadybeam.o gpio_fcn.o
+nmea.o: nmea/nmea.c
+	$(CC) $(CFLAGS) $(INCLUDE) -c nmea/nmea.c -o nmea/nmea.o
+
+parser.o: nmea/parser.c
+	$(CC) $(CFLAGS) $(INCLUDE) -c nmea/parser.c -o nmea/parser.o
+
+gpgga.o: parsers/gpgga.c
+	$(CC) $(CFLAGS) $(INCLUDE) -c parsers/gpgga.c -o parsers/gpgga.o
+
+gpgll.o: parsers/gpgll.c
+	$(CC) $(CFLAGS) $(INCLUDE) -c parsers/gpgll.c -o parsers/gpgll.o
+
+gprmc.o: parsers/gprmc.c
+	$(CC) $(CFLAGS) $(INCLUDE) -c parsers/gprmc.c -o parsers/gprmc.o
+
+parse.o: parsers/parse.c
+	$(CC) $(CFLAGS) $(INCLUDE) -c parsers/parse.c -o parsers/parse.o
+
+steadybeam: steadybeam.o gpio_fcn.o nmea.o parser.o gpgga.o gpgll.o gprmc.o parse.o
 	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
+
 
 # remove object files and executable when user executes "make clean"
 clean:
