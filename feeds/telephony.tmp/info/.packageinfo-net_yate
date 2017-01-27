@@ -10,14 +10,14 @@ Provides:
 Section: net
 Category: Network
 Title: Yet Another Telephony Engine
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description: Yet Another Telephony Engine
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-collection-basic
@@ -30,14 +30,14 @@ Provides:
 Section: net
 Category: Network
 Title: Basic Yate Server
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description: Basic Yate Server
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-scripts-perl
@@ -50,14 +50,14 @@ Provides:
 Section: net
 Category: Network
 Title: Perl module for Yate
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description: Perl module for Yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-sounds
@@ -70,14 +70,14 @@ Provides:
 Section: net
 Category: Network
 Title: Sounds for Yate
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description: Sounds for Yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-accfile
@@ -90,14 +90,14 @@ Provides:
 Section: net
 Category: Network
 Title: SIP or H.323 client (from file)
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     SIP or H.323 client (from file) module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-alsachan
@@ -110,14 +110,14 @@ Provides:
 Section: net
 Category: Network
 Title: ALSA Sound Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     ALSA Sound Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-amrnbcodec
@@ -130,14 +130,14 @@ Provides:
 Section: net
 Category: Network
 Title: AMR-NB Codec
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     AMR-NB Codec module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-analog
@@ -150,14 +150,14 @@ Provides:
 Section: net
 Category: Network
 Title: Analog (e.g. POTS) Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Analog (e.g. POTS) Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-analogdetect
@@ -170,14 +170,14 @@ Provides:
 Section: net
 Category: Network
 Title: Analog Data Detector
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Analog Data Detector module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-analyzer
@@ -190,14 +190,14 @@ Provides:
 Section: net
 Category: Network
 Title: Test Call Generator and AQ Analyzer
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Test Call Generator and AQ Analyzer module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-cache
@@ -210,14 +210,14 @@ Provides:
 Section: net
 Category: Network
 Title: CNAM and LNP memory caches
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     CNAM and LNP memory caches module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-callcounters
@@ -230,14 +230,14 @@ Provides:
 Section: net
 Category: Network
 Title: Count Active Call Legs
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Count Active Call Legs module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-callfork
@@ -250,14 +250,14 @@ Provides:
 Section: net
 Category: Network
 Title: Call Forker
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Call Forker module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-callgen
@@ -270,14 +270,14 @@ Provides:
 Section: net
 Category: Network
 Title: Call Generator
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Call Generator module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ccongestion
@@ -290,14 +290,14 @@ Provides:
 Section: net
 Category: Network
 Title: Accept Status from Installed Engine Monitors
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Accept Status from Installed Engine Monitors module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-cdrbuild
@@ -310,14 +310,14 @@ Provides:
 Section: net
 Category: Network
 Title: Call Detail Record Builder
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Call Detail Record Builder module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-cdrcombine
@@ -330,14 +330,14 @@ Provides:
 Section: net
 Category: Network
 Title: Call Detail Records per call instead of per call leg
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Call Detail Records per call instead of per call leg module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-cdrfile
@@ -350,14 +350,14 @@ Provides:
 Section: net
 Category: Network
 Title: Call Detail Record to File
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Call Detail Record to File module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ciscosm
@@ -370,14 +370,14 @@ Provides:
 Section: net
 Category: Network
 Title: SS7 Support
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     SS7 Support module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-clustering
@@ -390,14 +390,14 @@ Provides:
 Section: net
 Category: Network
 Title: Clustering Server Support
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Clustering Server Support module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-conference
@@ -410,14 +410,14 @@ Provides:
 Section: net
 Category: Network
 Title: Conference Room Mixer
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Conference Room Mixer module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-cpuload
@@ -430,14 +430,14 @@ Provides:
 Section: net
 Category: Network
 Title: Monitor CPU load and Inform Yate
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Monitor CPU load and Inform Yate module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-dbpbx
@@ -450,14 +450,14 @@ Provides:
 Section: net
 Category: Network
 Title: PBX IVR and Multi-routing from Database
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     PBX IVR and Multi-routing from Database module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-dbwave
@@ -470,14 +470,14 @@ Provides:
 Section: net
 Category: Network
 Title: Wav Media for DB Storage
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Wav Media for DB Storage module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-dumbchan
@@ -490,14 +490,14 @@ Provides:
 Section: net
 Category: Network
 Title: Dummy Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Dummy Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-enumroute
@@ -510,14 +510,14 @@ Provides:
 Section: net
 Category: Network
 Title: ENUM Routing
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     ENUM Routing module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-eventlogs
@@ -530,14 +530,14 @@ Provides:
 Section: net
 Category: Network
 Title: Write events and alarms to log files
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Write events and alarms to log files module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-extmodule
@@ -550,14 +550,14 @@ Provides:
 Section: net
 Category: Network
 Title: External Module Handler
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     External Module Handler module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-faxchan
@@ -570,14 +570,14 @@ Provides:
 Section: net
 Category: Network
 Title: Spandsp Fax Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Spandsp Fax Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-filetransfer
@@ -590,14 +590,14 @@ Provides:
 Section: net
 Category: Network
 Title: File Transfer Driver
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     File Transfer Driver module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-gvoice
@@ -610,14 +610,14 @@ Provides:
 Section: net
 Category: Network
 Title: Google Voice support
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Google Voice support module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-heartbeat
@@ -630,14 +630,14 @@ Provides:
 Section: net
 Category: Network
 Title: Linux-HA compatible heartbeat
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Linux-HA compatible heartbeat module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ilbccodec
@@ -650,14 +650,14 @@ Provides:
 Section: net
 Category: Network
 Title: iLBC Codec
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     iLBC Codec module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ilbcwebrtc
@@ -670,14 +670,14 @@ Provides:
 Section: net
 Category: Network
 Title: iLBC Codec from the WebRTC project
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     iLBC Codec from the WebRTC project module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-isaccodec
@@ -690,14 +690,14 @@ Provides:
 Section: net
 Category: Network
 Title: internet Speech Audio Codec
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     internet Speech Audio Codec module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-isupmangler
@@ -710,14 +710,14 @@ Provides:
 Section: net
 Category: Network
 Title: ISUP parameter mangling in a STP
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     ISUP parameter mangling in a STP module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-jabberclient
@@ -730,14 +730,14 @@ Provides:
 Section: net
 Category: Network
 Title: Jabber Client
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Jabber Client module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-jabberserver
@@ -750,14 +750,14 @@ Provides:
 Section: net
 Category: Network
 Title: Jabber Server
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Jabber Server module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-javascript
@@ -770,14 +770,14 @@ Provides:
 Section: net
 Category: Network
 Title: Routing using the embedded Javascript language
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Routing using the embedded Javascript language module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-jbfeatures
@@ -790,14 +790,14 @@ Provides:
 Section: net
 Category: Network
 Title: Jabber Server Features
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Jabber Server Features module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-lateroute
@@ -810,14 +810,14 @@ Provides:
 Section: net
 Category: Network
 Title: Last Chance Routing
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Last Chance Routing module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-mgcpca
@@ -830,14 +830,14 @@ Provides:
 Section: net
 Category: Network
 Title: Media Gateway Control Protocol Agent
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Media Gateway Control Protocol Agent module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-mgcpgw
@@ -850,14 +850,14 @@ Provides:
 Section: net
 Category: Network
 Title: Media Gateway Control Protocol Gateway
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Media Gateway Control Protocol Gateway module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-moh
@@ -870,14 +870,14 @@ Provides:
 Section: net
 Category: Network
 Title: On Hold (music) Generator
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     On Hold (music) Generator module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-monitoring
@@ -890,14 +890,14 @@ Provides:
 Section: net
 Category: Network
 Title: Monitoring/gathering Information
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Monitoring/gathering Information module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-mrcpspeech
@@ -910,14 +910,14 @@ Provides:
 Section: net
 Category: Network
 Title: MRCP v2 Voice/Tone Detector and Synthesizer
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     MRCP v2 Voice/Tone Detector and Synthesizer module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-msgsniff
@@ -930,14 +930,14 @@ Provides:
 Section: net
 Category: Network
 Title: Sample Message Sniffer
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Sample Message Sniffer module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-mux
@@ -950,14 +950,14 @@ Provides:
 Section: net
 Category: Network
 Title: Data Multiplexor
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Data Multiplexor module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-mysqldb
@@ -970,14 +970,14 @@ Provides:
 Section: net
 Category: Network
 Title: MySQL Backend DB
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     MySQL Backend DB module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-openssl
@@ -990,14 +990,14 @@ Provides:
 Section: net
 Category: Network
 Title: Encrypted transport (OpenSSL)
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Encrypted transport (OpenSSL) module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-osschan
@@ -1010,14 +1010,14 @@ Provides:
 Section: net
 Category: Network
 Title: OSS Sound Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     OSS Sound Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-park
@@ -1030,14 +1030,14 @@ Provides:
 Section: net
 Category: Network
 Title: Call Parking
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Call Parking module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-pbx
@@ -1050,14 +1050,14 @@ Provides:
 Section: net
 Category: Network
 Title: PBX Message Handlers
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     PBX Message Handlers module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-pbxassist
@@ -1070,14 +1070,14 @@ Provides:
 Section: net
 Category: Network
 Title: Full featured PBX and IVR
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Full featured PBX and IVR module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-pgsqldb
@@ -1090,14 +1090,14 @@ Provides:
 Section: net
 Category: Network
 Title: PostgrestSQL Backend DB
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     PostgrestSQL Backend DB module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-presence
@@ -1110,14 +1110,14 @@ Provides:
 Section: net
 Category: Network
 Title: Presence
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Presence module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-queues
@@ -1130,14 +1130,14 @@ Provides:
 Section: net
 Category: Network
 Title: Call Distribution and Queues from Database
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Call Distribution and Queues from Database module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-queuesnotify
@@ -1150,14 +1150,14 @@ Provides:
 Section: net
 Category: Network
 Title: Notify when queued call status changes
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Notify when queued call status changes module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-regexroute
@@ -1170,14 +1170,14 @@ Provides:
 Section: net
 Category: Network
 Title: Regular Expression Based Routing
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Regular Expression Based Routing module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-regfile
@@ -1190,14 +1190,14 @@ Provides:
 Section: net
 Category: Network
 Title: Registration based on users in file
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Registration based on users in file module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-register
@@ -1210,14 +1210,14 @@ Provides:
 Section: net
 Category: Network
 Title: Call Detail Record to a database
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Call Detail Record to a database module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-rmanager
@@ -1230,14 +1230,14 @@ Provides:
 Section: net
 Category: Network
 Title: Yate Remote Management
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Yate Remote Management module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-sigtransport
@@ -1250,14 +1250,14 @@ Provides:
 Section: net
 Category: Network
 Title: SIGTRAN (SS7 over IP) connection provider
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     SIGTRAN (SS7 over IP) connection provider module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-sip_cnam_lnp
@@ -1270,14 +1270,14 @@ Provides:
 Section: net
 Category: Network
 Title: Query CNAM and LNP databases using SIP INVITE
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Query CNAM and LNP databases using SIP INVITE module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-sipfeatures
@@ -1290,14 +1290,14 @@ Provides:
 Section: net
 Category: Network
 Title: SIP Features (SUBSCRIBE/NOTIFY)
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     SIP Features (SUBSCRIBE/NOTIFY) module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-speexcodec
@@ -1310,14 +1310,14 @@ Provides:
 Section: net
 Category: Network
 Title: Speex Codec
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Speex Codec module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-subscription
@@ -1330,14 +1330,14 @@ Provides:
 Section: net
 Category: Network
 Title: Subcription handler and presence notifier
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Subcription handler and presence notifier module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-tdmcard
@@ -1350,14 +1350,14 @@ Provides:
 Section: net
 Category: Network
 Title: TDM Cards Signalling and Data Driver
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     TDM Cards Signalling and Data Driver module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-tonedetect
@@ -1370,14 +1370,14 @@ Provides:
 Section: net
 Category: Network
 Title: Detectors for Various Tones
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Detectors for Various Tones module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-tonegen
@@ -1390,14 +1390,14 @@ Provides:
 Section: net
 Category: Network
 Title: Tones Generator
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Tones Generator module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-users
@@ -1410,14 +1410,14 @@ Provides:
 Section: net
 Category: Network
 Title: Users
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Users module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-wavefile
@@ -1430,14 +1430,14 @@ Provides:
 Section: net
 Category: Network
 Title: Wav file Record and Playback
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Wav file Record and Playback module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-wpcard
@@ -1450,14 +1450,14 @@ Provides:
 Section: net
 Category: Network
 Title: Wanpipe PRI cards Signalling and Data Driver
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Wanpipe PRI cards Signalling and Data Driver module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-yiaxchan
@@ -1470,14 +1470,14 @@ Provides:
 Section: net
 Category: Network
 Title: IAX Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     IAX Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-yjinglechan
@@ -1490,14 +1490,14 @@ Provides:
 Section: net
 Category: Network
 Title: Jingle Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Jingle Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-yradius
@@ -1510,14 +1510,14 @@ Provides:
 Section: net
 Category: Network
 Title: RADIUS Client
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     RADIUS Client module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-yrtpchan
@@ -1530,14 +1530,14 @@ Provides:
 Section: net
 Category: Network
 Title: RTP Channel and Other Data Helper
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     RTP Channel and Other Data Helper module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ysigchan
@@ -1550,14 +1550,14 @@ Provides:
 Section: net
 Category: Network
 Title: SS7/ISDN Protocols - Yate Signalling Library
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     SS7/ISDN Protocols - Yate Signalling Library module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ysipchan
@@ -1570,14 +1570,14 @@ Provides:
 Section: net
 Category: Network
 Title: SIP Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     SIP Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ysnmpagent
@@ -1590,14 +1590,14 @@ Provides:
 Section: net
 Category: Network
 Title: SNMP Protocol Agent
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     SNMP Protocol Agent module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ysockschan
@@ -1610,14 +1610,14 @@ Provides:
 Section: net
 Category: Network
 Title: SOCKS Channel
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     SOCKS Channel module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-ystunchan
@@ -1630,14 +1630,14 @@ Provides:
 Section: net
 Category: Network
 Title: STUN Support
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     STUN Support module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: yate-mod-zlibcompress
@@ -1650,14 +1650,14 @@ Provides:
 Section: net
 Category: Network
 Title: Zlib Compression
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: yate-5.5.0-1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
 Description:     Zlib Compression module for yate
 http://yate.null.ro/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 

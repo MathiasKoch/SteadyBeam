@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/libimobiledevice/Makefile
 Package: libimobiledevice
-Version: 1.2.1-1
+Version: 1.2.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +libplist +libusbmuxd +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: libs
 Category: Libraries
 Title: A library that talks to Apple devices.
 Maintainer: Lukasz Baj <l.baj@radytek.com>
-Source: libimobiledevice-1.2.1-df1f5c4d70d0c19ad40072f5246ca457e7f9849e.tar.gz
+Source: libimobiledevice-1.2.0-53eb963f8e6d607cca6b50381c10820a5e8357f4.tar.gz
 License: LGPL-2.1+
 LicenseFiles: COPYING.LESSER
 Type: ipkg
@@ -21,7 +21,7 @@ Lukasz Baj <l.baj@radytek.com>
 @@
 
 Package: libimobiledevice-utils
-Version: 1.2.1-1
+Version: 1.2.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libimobiledevice
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +31,7 @@ Section: utils
 Category: Utilities
 Title: A library that talks to Apple devices.
 Maintainer: Lukasz Baj <l.baj@radytek.com>
-Source: libimobiledevice-1.2.1-df1f5c4d70d0c19ad40072f5246ca457e7f9849e.tar.gz
+Source: libimobiledevice-1.2.0-53eb963f8e6d607cca6b50381c10820a5e8357f4.tar.gz
 License: LGPL-2.1+
 LicenseFiles: COPYING.LESSER
 Type: ipkg

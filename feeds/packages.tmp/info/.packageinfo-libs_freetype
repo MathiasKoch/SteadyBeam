@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/freetype/Makefile
 Package: libfreetype
-Version: 2.5.5-2
+Version: 2.5.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libbz2
 Conflicts: 
 Menu-Depends: 

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/multimedia/mjpg-streamer/Makefile
 Package: mjpg-streamer
 Menu: 1
-Version: r182-8
+Version: r182-7
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libjpeg +MJPG_STREAMER_V4L2:libv4l
 Conflicts: 
 Menu-Depends: 

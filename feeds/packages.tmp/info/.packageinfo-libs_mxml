@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/mxml/Makefile
 Package: mxml
-Version: 2.9-1
+Version: 2.8-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: libs
 Category: Libraries
 Title: Mini-XML
 Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
-Source: mxml-2.9.tar.gz
+Source: mxml-2.8.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg

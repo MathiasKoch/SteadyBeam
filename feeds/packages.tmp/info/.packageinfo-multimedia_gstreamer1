@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/multimedia/gstreamer1/Makefile
 Package: libgst1check
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +libgstreamer1
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer check unit testing library (core)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gstreamer-1.6.2.tar.xz
+Source: gstreamer-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -23,7 +23,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: libgst1controller
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +libgstreamer1
 Conflicts: 
 Menu-Depends: 
@@ -33,7 +33,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer dynamic parameter control library (core)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gstreamer-1.6.2.tar.xz
+Source: gstreamer-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -46,7 +46,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: libgst1net
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +libgstreamer1
 Conflicts: 
 Menu-Depends: 
@@ -56,7 +56,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer network classes library (core)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gstreamer-1.6.2.tar.xz
+Source: gstreamer-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -69,7 +69,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: libgstreamer1
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +glib2 +libpthread +libxml2
 Conflicts: 
 Menu-Depends: 
@@ -79,7 +79,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer library (core)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gstreamer-1.6.2.tar.xz
+Source: gstreamer-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -92,7 +92,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gstreamer1-libs
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +ALL:gstreamer1
 Conflicts: 
 Menu-Depends: 
@@ -102,7 +102,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer core libraries
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gstreamer-1.6.2.tar.xz
+Source: gstreamer-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -142,7 +142,7 @@ Config:
 @@
 
 Package: gstreamer1-utils
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +libgstreamer1 +gstreamer1-libs
 Conflicts: 
 Menu-Depends: 
@@ -152,7 +152,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer utilities
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gstreamer-1.6.2.tar.xz
+Source: gstreamer-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -164,7 +164,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gstreamer1
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +libgst1check +libgst1controller +libgst1net
 Conflicts: 
 Menu-Depends: 
@@ -174,7 +174,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer (All libraries)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gstreamer-1.6.2.tar.xz
+Source: gstreamer-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg

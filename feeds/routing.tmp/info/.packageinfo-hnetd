@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/hnetd/Makefile
 Package: hnetd-nossl
-Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +odhcpd +odhcp6c +netifd @IPV6
+Version: 2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +odhcpd +odhcp6c +netifd +ip +@IPV6
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10,7 +10,7 @@ Section: net
 Category: Network
 Title: HNCP Homenet daemon - no authentication
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
+Source: hnetd-2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet daemon - no authentication
@@ -19,8 +19,8 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: hnetd-openssl
-Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +odhcpd +odhcp6c +netifd +libopenssl @IPV6
+Version: 2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +odhcpd +odhcp6c +netifd +ip +libopenssl +@IPV6
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -29,7 +29,7 @@ Section: net
 Category: Network
 Title: HNCP Homenet daemon - authentication via OpenSSL
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
+Source: hnetd-2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet daemon - authentication via OpenSSL
@@ -38,8 +38,8 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: hnet-full
-Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hnetd-nossl +luci-app-hnet +ip +babeld +ohybridproxy +zonestitcher +miniupnpd +minimalist-pcproxy
+Version: 2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hnetd-nossl +luci-app-hnet +babeld +ohybridproxy +miniupnpd +minimalist-pcproxy
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -47,7 +47,7 @@ Section: net
 Category: Network
 Title: HNCP Homenet metapackage
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
+Source: hnetd-2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet metapackage
@@ -56,44 +56,26 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: hnet-full-secure
-Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hnetd-openssl +luci-app-hnet +ip +babeld +ohybridproxy +zonestitcher +miniupnpd +minimalist-pcproxy
+Version: 2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hnetd-openssl +luci-app-hnet +babeld +ohybridproxy +miniupnpd +minimalist-pcproxy
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Section: net
 Category: Network
-Title: HNCP Homenet metapackage (w/ SSL)
+Title: HNCP Homenet metapackage
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
+Source: hnetd-2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16.tar.bz2
 License: GPL-2.0
 Type: ipkg
-Description: HNCP Homenet metapackage (w/ SSL)
-https://github.com/sbyx/hnetd
-Steven Barth <cyrus@openwrt.org>
-@@
-
-Package: hnet-full-l2tp
-Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +hnetd-nossl +luci-app-hnet +ip-full +kmod-l2tp-eth +babeld +ohybridproxy +zonestitcher +miniupnpd +minimalist-pcproxy
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: net
-Category: Network
-Title: HNCP Homenet metapackage (w/ L2TP)
-Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
-License: GPL-2.0
-Type: ipkg
-Description: HNCP Homenet metapackage (w/ L2TP)
+Description: HNCP Homenet metapackage
 https://github.com/sbyx/hnetd
 Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: luci-app-hnet
 Submenu: 3. Applications
-Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
+Version: 2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -102,7 +84,7 @@ Section: luci
 Category: LuCI
 Title: HNCP Homenet configuration and visualization
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: hnetd-2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e.tar.bz2
+Source: hnetd-2016-05-17-9ab71adbf0a7ad2a0964e48641b19b016b37df16.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: HNCP Homenet configuration and visualization

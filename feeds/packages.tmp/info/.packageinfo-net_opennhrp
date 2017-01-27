@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/opennhrp/Makefile
 Package: opennhrp
 Submenu: VPN
-Version: 0.14.1-2
+Version: 0.14.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcares +ipsec-tools +ip +kmod-gre
 Conflicts: 
 Menu-Depends: 

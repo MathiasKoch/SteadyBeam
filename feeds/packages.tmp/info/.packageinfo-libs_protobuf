@@ -10,7 +10,7 @@ Build-Types: host
 Section: libs
 Category: Libraries
 Title: A structured data encoding library
-Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
+Maintainer: Obinou <obconseil@gmail.com>
 Source: protobuf-2.6.1.tar.bz2
 License: BSD-3-Clause
 LicenseFiles: LICENSE
@@ -19,7 +19,7 @@ Description:  Protocol Buffers are a way of encoding structured data in an effic
  yet extensible format. Google uses Protocol Buffers for almost all
  of its internal RPC protocols and file formats.
 http://code.google.com/p/protobuf/
-Jacob Siverskog <jacob@teenageengineering.com>
+Obinou <obconseil@gmail.com>
 @@
 
 

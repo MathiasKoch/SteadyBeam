@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/lang/perl-lockfile-simple/Makefile
 Package: perl-lockfile-simple
 Submenu: Perl
-Version: 0.208-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-sys
+Version: 0.208-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
 Provides: 

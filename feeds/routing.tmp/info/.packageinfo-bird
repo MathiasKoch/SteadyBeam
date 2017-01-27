@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/bird/Makefile
 Package: bird4
 Submenu: Routing and Redirection
-Version: 1.6.0-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -10,8 +10,8 @@ Build-Depends: libncurses libreadline
 Section: net
 Category: Network
 Title: The BIRD Internet Routing Daemon (IPv4)
-Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.6.0.tar.gz
+Maintainer: 
+Source: bird-1.4.5.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -29,12 +29,12 @@ routing tables and redistribution between the protocols with a powerful
 configuration syntax.
 
 http://bird.network.cz/
-Álvaro Fernández Rojas <noltari@gmail.com>
+
 @@
 
 Package: birdc4
 Submenu: Routing and Redirection
-Version: 1.6.0-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libreadline +libncurses +bird4
 Conflicts: 
 Menu-Depends: 
@@ -43,8 +43,8 @@ Build-Depends: libncurses libreadline
 Section: net
 Category: Network
 Title: The BIRD command-line client (IPv4)
-Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.6.0.tar.gz
+Maintainer: 
+Source: bird-1.4.5.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -61,12 +61,12 @@ Unless you can't afford dependency on ncurses and readline, you
 should install BIRD command-line client together with BIRD.
 
 http://bird.network.cz/
-Álvaro Fernández Rojas <noltari@gmail.com>
+
 @@
 
 Package: birdcl4
 Submenu: Routing and Redirection
-Version: 1.6.0-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird4
 Conflicts: 
 Menu-Depends: 
@@ -75,8 +75,8 @@ Build-Depends: libncurses libreadline
 Section: net
 Category: Network
 Title: The BIRD lightweight command-line client (IPv4)
-Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.6.0.tar.gz
+Maintainer: 
+Source: bird-1.4.5.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -90,12 +90,12 @@ protocols, telling BIRD to show various information, telling it to show
 a routing table filtered by a filter, or asking BIRD to reconfigure.
 
 http://bird.network.cz/
-Álvaro Fernández Rojas <noltari@gmail.com>
+
 @@
 
 Package: bird6
 Submenu: Routing and Redirection
-Version: 1.6.0-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -104,8 +104,8 @@ Build-Depends: libncurses libreadline
 Section: net
 Category: Network
 Title: The BIRD Internet Routing Daemon (IPv6)
-Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.6.0.tar.gz
+Maintainer: 
+Source: bird-1.4.5.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -123,12 +123,12 @@ routing tables and redistribution between the protocols with a powerful
 configuration syntax.
 
 http://bird.network.cz/
-Álvaro Fernández Rojas <noltari@gmail.com>
+
 @@
 
 Package: birdc6
 Submenu: Routing and Redirection
-Version: 1.6.0-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libreadline +libncurses +bird6
 Conflicts: 
 Menu-Depends: 
@@ -137,8 +137,8 @@ Build-Depends: libncurses libreadline
 Section: net
 Category: Network
 Title: The BIRD command-line client (IPv6)
-Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.6.0.tar.gz
+Maintainer: 
+Source: bird-1.4.5.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -155,12 +155,12 @@ Unless you can't afford dependency on ncurses and readline, you
 should install BIRD command-line client together with BIRD.
 
 http://bird.network.cz/
-Álvaro Fernández Rojas <noltari@gmail.com>
+
 @@
 
 Package: birdcl6
 Submenu: Routing and Redirection
-Version: 1.6.0-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird6
 Conflicts: 
 Menu-Depends: 
@@ -169,8 +169,8 @@ Build-Depends: libncurses libreadline
 Section: net
 Category: Network
 Title: The BIRD lightweight command-line client (IPv6)
-Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: bird-1.6.0.tar.gz
+Maintainer: 
+Source: bird-1.4.5.tar.gz
 License: GPL-2.0
 Type: ipkg
 Description: BIRD is an internet routing daemon which manages TCP/IP routing tables
@@ -184,7 +184,7 @@ protocols, telling BIRD to show various information, telling it to show
 a routing table filtered by a filter, or asking BIRD to reconfigure.
 
 http://bird.network.cz/
-Álvaro Fernández Rojas <noltari@gmail.com>
+
 @@
 
 

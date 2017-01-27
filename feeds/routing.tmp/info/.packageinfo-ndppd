@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/ndppd/Makefile
 Package: ndppd
 Version: 0.2.3-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-ipv6 +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -9,7 +9,7 @@ Section: net
 Category: Network
 Title: NDP Proxy Daemon
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
-Source: 0.2.3.tar.gz
+Source: ndppd-0.2.3.tar.gz
 License: GPL-3.0+
 Type: ipkg
 Description:  ndppd, or NDP Proxy Daemon, is a daemon that proxies NDP (Neighbor Discovery

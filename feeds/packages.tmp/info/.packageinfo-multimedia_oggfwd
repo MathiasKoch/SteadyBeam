@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/multimedia/oggfwd/Makefile
 Package: oggfwd
 Submenu: Streaming
-Version: 20150412-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libshout-full
+Version: 20150412-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libshout
 Conflicts: 
 Menu-Depends: 
 Provides: 

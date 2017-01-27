@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/net/nut/Makefile
 Package: nut
 Menu: 1
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +NUT_DRIVER_SNMP:libnetsnmp +NUT_DRIVER_USB:libusb-compat +NUT_SSL:libopenssl
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +NUT_DRIVER_SNMP:libnetsnmp +NUT_DRIVER_USB:libusb-compat +NUT_SSL:libopenssl
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10,7 +10,7 @@ Section: net
 Category: Network
 Title: Network UPS Tools
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -26,50 +26,9 @@ Config:
 	source "feeds/packages/net/nut/Config.in"
 @@
 
-Package: nut-web-cgi
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut +libgd
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: net
-Category: Network
-Title:  Web CGI interface
-Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
-License: GPL-2.0
-LicenseFiles: LICENSE-GPL2
-Type: ipkg
-Description: The CGI programs are clients that run through your web server.
-They allow you to see UPS status and perform certain administrative
-commands from any web browser. Javascript and cookies are not required.
-http://www.networkupstools.org/
-Martin Rowe <martin.p.rowe@gmail.com>
-@@
-
-Package: nut-avahi-service
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut +avahi-daemon
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: net
-Category: Network
-Title:  (Avahi service)
-Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
-License: GPL-2.0
-LicenseFiles: LICENSE-GPL2
-Type: ipkg
-Description: This package contains the service definition for announcing the
-attached UPS via mDNS/DNS-SD.
-http://www.networkupstools.org/
-Martin Rowe <martin.p.rowe@gmail.com>
-@@
-
 Package: nut-driver-al175
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -77,7 +36,7 @@ Section: net
 Category: Network
 Title: al175 (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -87,8 +46,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bcmxcp
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -96,7 +55,7 @@ Section: net
 Category: Network
 Title: bcmxcp (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -106,8 +65,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-belkin
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -115,7 +74,7 @@ Section: net
 Category: Network
 Title: belkin (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -125,8 +84,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-belkinunv
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -134,7 +93,7 @@ Section: net
 Category: Network
 Title: belkinunv (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -144,8 +103,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bestfcom
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -153,7 +112,7 @@ Section: net
 Category: Network
 Title: bestfcom (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -163,8 +122,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bestfortress
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -172,7 +131,7 @@ Section: net
 Category: Network
 Title: bestfortress (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -182,8 +141,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bestuferrups
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -191,7 +150,7 @@ Section: net
 Category: Network
 Title: bestuferrups (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -201,8 +160,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bestups
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -210,7 +169,7 @@ Section: net
 Category: Network
 Title: bestups (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -220,8 +179,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-dummy-ups
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -229,7 +188,7 @@ Section: net
 Category: Network
 Title: dummy-ups (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -239,8 +198,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-etapro
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -248,7 +207,7 @@ Section: net
 Category: Network
 Title: etapro (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -258,8 +217,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-everups
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -267,7 +226,7 @@ Section: net
 Category: Network
 Title: everups (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -277,8 +236,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-gamatronic
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -286,7 +245,7 @@ Section: net
 Category: Network
 Title: gamatronic (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -296,8 +255,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-genericups
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -305,7 +264,7 @@ Section: net
 Category: Network
 Title: genericups (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -315,8 +274,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-isbmex
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -324,7 +283,7 @@ Section: net
 Category: Network
 Title: isbmex (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -334,8 +293,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-liebert
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -343,7 +302,7 @@ Section: net
 Category: Network
 Title: liebert (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -353,8 +312,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-liebert-esp2
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -362,7 +321,7 @@ Section: net
 Category: Network
 Title: liebert-esp2 (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -372,8 +331,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-masterguard
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -381,7 +340,7 @@ Section: net
 Category: Network
 Title: masterguard (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -391,8 +350,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-metasys
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -400,7 +359,7 @@ Section: net
 Category: Network
 Title: metasys (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -410,8 +369,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-oldmge-shut
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -419,7 +378,7 @@ Section: net
 Category: Network
 Title: oldmge-shut (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -429,8 +388,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-mge-utalk
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -438,7 +397,7 @@ Section: net
 Category: Network
 Title: mge-utalk (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -448,8 +407,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-microdowell
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -457,7 +416,7 @@ Section: net
 Category: Network
 Title: microdowell (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -467,8 +426,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-mge-shut
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -476,7 +435,7 @@ Section: net
 Category: Network
 Title: mge-shut (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -486,8 +445,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-oneac
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -495,7 +454,7 @@ Section: net
 Category: Network
 Title: oneac (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -505,8 +464,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-optiups
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -514,7 +473,7 @@ Section: net
 Category: Network
 Title: optiups (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -524,8 +483,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-powercom
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -533,7 +492,7 @@ Section: net
 Category: Network
 Title: powercom (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -543,8 +502,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-rhino
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -552,7 +511,7 @@ Section: net
 Category: Network
 Title: rhino (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -562,8 +521,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-safenet
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -571,7 +530,7 @@ Section: net
 Category: Network
 Title: safenet (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -581,8 +540,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-solis
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -590,7 +549,7 @@ Section: net
 Category: Network
 Title: solis (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -600,8 +559,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-tripplite
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -609,7 +568,7 @@ Section: net
 Category: Network
 Title: tripplite (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -619,8 +578,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-tripplitesu
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -628,7 +587,7 @@ Section: net
 Category: Network
 Title: tripplitesu (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -638,8 +597,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-upscode2
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -647,7 +606,7 @@ Section: net
 Category: Network
 Title: upscode2 (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -657,8 +616,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-victronups
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -666,7 +625,7 @@ Section: net
 Category: Network
 Title: victronups (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -676,8 +635,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-powerpanel
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -685,7 +644,7 @@ Section: net
 Category: Network
 Title: powerpanel (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -695,8 +654,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-blazer_ser
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -704,7 +663,7 @@ Section: net
 Category: Network
 Title: blazer_ser (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -714,8 +673,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-clone
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -723,7 +682,7 @@ Section: net
 Category: Network
 Title: clone (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -733,8 +692,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-ivtscd
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -742,7 +701,7 @@ Section: net
 Category: Network
 Title: ivtscd (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -752,8 +711,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-apcsmart
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -761,7 +720,7 @@ Section: net
 Category: Network
 Title: apcsmart (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -771,8 +730,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-apcsmart-old
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -780,7 +739,7 @@ Section: net
 Category: Network
 Title: apcsmart-old (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -790,8 +749,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-apcupsd-ups
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -799,7 +758,7 @@ Section: net
 Category: Network
 Title: apcupsd-ups (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -809,8 +768,8 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-riello_ser
-Version: 2.7.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut
+Version: 2.7.3-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SERIAL
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -818,7 +777,7 @@ Section: net
 Category: Network
 Title: riello_ser (NUT serial driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -828,7 +787,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-snmp-ups
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_SNMP
 Conflicts: 
 Menu-Depends: 
@@ -837,7 +796,7 @@ Section: net
 Category: Network
 Title: snmp-ups (NUT snmp driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -847,7 +806,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-usbhid-ups
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -856,7 +815,7 @@ Section: net
 Category: Network
 Title: usbhid-ups (NUT usb driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -866,7 +825,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-bcmxcp_usb
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -875,7 +834,7 @@ Section: net
 Category: Network
 Title: bcmxcp_usb (NUT usb driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -885,7 +844,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-tripplite_usb
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -894,7 +853,7 @@ Section: net
 Category: Network
 Title: tripplite_usb (NUT usb driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -904,7 +863,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-blazer_usb
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -913,7 +872,7 @@ Section: net
 Category: Network
 Title: blazer_usb (NUT usb driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -923,7 +882,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-richcomm_usb
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -932,7 +891,7 @@ Section: net
 Category: Network
 Title: richcomm_usb (NUT usb driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -942,7 +901,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-riello_usb
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -951,7 +910,7 @@ Section: net
 Category: Network
 Title: riello_usb (NUT usb driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -961,7 +920,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-nutdrv_atcl_usb
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -970,7 +929,7 @@ Section: net
 Category: Network
 Title: nutdrv_atcl_usb (NUT usb driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg
@@ -980,7 +939,7 @@ Martin Rowe <martin.p.rowe@gmail.com>
 @@
 
 Package: nut-driver-nutdrv_qx
-Version: 2.7.4-2
+Version: 2.7.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread nut @NUT_DRIVER_USB
 Conflicts: 
 Menu-Depends: 
@@ -989,7 +948,7 @@ Section: net
 Category: Network
 Title: nutdrv_qx (NUT usb driver)
 Maintainer: Martin Rowe <martin.p.rowe@gmail.com>
-Source: nut-2.7.4.tar.gz
+Source: nut-2.7.3.tar.gz
 License: GPL-2.0
 LicenseFiles: LICENSE-GPL2
 Type: ipkg

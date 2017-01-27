@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/multimedia/crtmpserver/Makefile
 Package: crtmpserver
-Version: 2012-07-18+git-b6fdcdb953d1e99c48a0c37a8c80f2cad2db443b-1
+Version: r811-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libstdcpp +liblua
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: multimedia
 Category: Multimedia
 Title: C++ RTMP Server
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
-Source: crtmpserver-2012-07-18+git-b6fdcdb953d1e99c48a0c37a8c80f2cad2db443b.tar.bz2
+Source: crtmpserver-r811.tar.bz2
 License: GPL-3.0
 Type: ipkg
 Description: C++ RTMP Server it is a high performance streaming server able to

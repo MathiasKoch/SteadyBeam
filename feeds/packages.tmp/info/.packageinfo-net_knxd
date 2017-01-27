@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/knxd/Makefile
 Package: knxd
-Version: 2016-03-12-1
+Version: 2015-07-19-be1fcfe85cc1dfcc41f791cd9a45c57fe18da6a0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +pthsem +libusb-1.0
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: net
 Category: Network
 Title: EIB KNX daemon
 Maintainer: Othmar Truniger <github@truniger.ch>
-Source: knxd-c8a4bb3b042de1fd692a93cdb7a307546f2be359.tar.gz
+Source: knxd-be1fcfe85cc1dfcc41f791cd9a45c57fe18da6a0.tar.gz
 License: GPL-2.0+
 LicenseFiles: LICENSE
 Type: ipkg
@@ -19,7 +19,7 @@ Othmar Truniger <github@truniger.ch>
 @@
 
 Package: knxd-tools
-Version: 2016-03-12-1
+Version: 2015-07-19-be1fcfe85cc1dfcc41f791cd9a45c57fe18da6a0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -29,7 +29,7 @@ Section: net
 Category: Network
 Title: EIB KNX Utils
 Maintainer: Othmar Truniger <github@truniger.ch>
-Source: knxd-c8a4bb3b042de1fd692a93cdb7a307546f2be359.tar.gz
+Source: knxd-be1fcfe85cc1dfcc41f791cd9a45c57fe18da6a0.tar.gz
 License: GPL-2.0+
 LicenseFiles: LICENSE
 Type: ipkg

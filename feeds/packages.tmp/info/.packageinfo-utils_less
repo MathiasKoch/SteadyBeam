@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/less/Makefile
 Package: less
-Version: 481-1
+Version: 458-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: utils
 Category: Utilities
 Title: Pager program similar to more
 Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
-Source: less-481.tar.gz
+Source: less-458.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -20,7 +20,7 @@ Julen Landa Alustiza <julen@zokormazo.info>
 @@
 
 Package: less-wide
-Version: 481-1
+Version: 458-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncursesw
 Conflicts: 
 Menu-Depends: 
@@ -30,7 +30,7 @@ Section: utils
 Category: Utilities
 Title: Pager program similar to more (Unicode)
 Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
-Source: less-481.tar.gz
+Source: less-458.tar.gz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg

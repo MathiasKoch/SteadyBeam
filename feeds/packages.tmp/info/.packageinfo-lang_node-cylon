@@ -1,12 +1,12 @@
 Source-Makefile: feeds/packages/lang/node-cylon/Makefile
 Package: node-cylon
 Submenu: Node.js
-Version: 0.22.0-4
+Version: 0.22.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: node/host
+Build-Depends: node
 Section: lang
 Category: Languages
 Title: CylonJS - Core
@@ -21,12 +21,12 @@ John Crispin <blogic@openwrt.org>
 
 Package: node-cylon-i2c
 Submenu: Node.js
-Version: 0.22.0-4
+Version: 0.22.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node +node-cylon
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: node/host
+Build-Depends: node
 Section: lang
 Category: Languages
 Title: CylonJS - I2C
@@ -41,12 +41,12 @@ John Crispin <blogic@openwrt.org>
 
 Package: node-cylon-gpio
 Submenu: Node.js
-Version: 0.22.0-4
+Version: 0.22.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node +node-cylon
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: node/host
+Build-Depends: node
 Section: lang
 Category: Languages
 Title: CylonJS - GPIO
@@ -61,12 +61,12 @@ John Crispin <blogic@openwrt.org>
 
 Package: node-cylon-firmata
 Submenu: Node.js
-Version: 0.22.0-4
+Version: 0.22.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node +node-cylon-gpio +node-cylon-i2c +node-arduino-firmata
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: node/host
+Build-Depends: node
 Section: lang
 Category: Languages
 Title: CylonJS - Firmata

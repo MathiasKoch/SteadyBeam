@@ -8,7 +8,7 @@ Provides:
 Section: libs
 Category: Libraries
 Title: Round Robin Database (RRD) management library
-Maintainer: Jo-Philipp Wich <jo@mein.io>
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Source: rrdtool-1.0.50.tar.gz
 Type: ipkg
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
@@ -24,7 +24,7 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  separate dynamic linked libraries.
  This package contains a shared library, used by other programs.
 http://oss.oetiker.ch/rrdtool/
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 Package: rrdcgi1
@@ -36,7 +36,7 @@ Provides:
 Section: utils
 Category: Utilities
 Title: Round Robin Database (RRD) CGI graphing tool
-Maintainer: Jo-Philipp Wich <jo@mein.io>
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Source: rrdtool-1.0.50.tar.gz
 Type: ipkg
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
@@ -53,7 +53,7 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  This package contains the rrdcgi tool used to create web pages containing
  RRD graphs based on templates.
 http://oss.oetiker.ch/rrdtool/
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 Package: rrdtool1
@@ -65,7 +65,7 @@ Provides:
 Section: utils
 Category: Utilities
 Title: Round Robin Database (RRD) management tools
-Maintainer: Jo-Philipp Wich <jo@mein.io>
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Source: rrdtool-1.0.50.tar.gz
 Type: ipkg
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
@@ -81,7 +81,7 @@ Description:  RRD is the Acronym for Round Robin Database. RRD is a system to st
  separate dynamic linked libraries.
  This package contains command line tools used to manage RRDs.
 http://oss.oetiker.ch/rrdtool/
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 

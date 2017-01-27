@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/lang/luaposix/Makefile
 Package: luaposix
 Submenu: Lua
-Version: v33.2.1-5
+Version: v33.2.1-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +lua +librt
 Conflicts: 
 Menu-Depends: 

@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/admin/debootstrap/Makefile
 Package: debootstrap
-Version: 1.0.81-1
+Version: 1.0.67-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +coreutils +coreutils-chroot +coreutils-sha1sum +ar
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: admin
 Category: Administration
 Title: Bootstrap a basic Debian system
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: debootstrap-udeb_1.0.81_all.udeb
+Source: debootstrap-udeb_1.0.67_all.udeb
 License: Unique
 LicenseFiles: debian/copyright
 Type: ipkg

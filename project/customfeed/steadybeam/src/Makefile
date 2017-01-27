@@ -29,8 +29,8 @@ gprmc.o: parsers/gprmc.c
 parse.o: parsers/parse.c
 	$(CC) $(CFLAGS) $(INCLUDE) -c parsers/parse.c -o parsers/parse.o
 
-steadybeam: steadybeam.o gpio_fcn.o nmea.o parser.o gpgga.o gpgll.o gprmc.o parse.o
-	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
+steadybeam: steadybeam.o gpio_fcn.o #nmea/nmea.o nmea/parser.o parsers/gpgga.o parsers/gpgll.o parsers/gprmc.o parsers/parse.o
+	$(CC) -pthread $(LDFLAGS) -o $@ $^ $(LIBS)
 
 
 # remove object files and executable when user executes "make clean"

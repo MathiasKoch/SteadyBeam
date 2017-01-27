@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/nsd/Makefile
 Package: nsd
 Submenu: IP Addresses and Names
-Version: 4.1.9-1
+Version: 4.1.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: net
 Category: Network
 Title: NSD Name Server Daemon (with SSL support)
 Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
-Source: nsd-4.1.9.tar.gz
+Source: nsd-4.1.2.tar.gz
 License: BSD-3c
 LicenseFiles: LICENSE
 Type: ipkg
@@ -23,7 +23,7 @@ Vasilis Tsiligiannis <acinonyx@openwrt.gr>
 
 Package: nsd-nossl
 Submenu: IP Addresses and Names
-Version: 4.1.9-1
+Version: 4.1.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -33,7 +33,7 @@ Section: net
 Category: Network
 Title: NSD Name Server Daemon (without SSL support)
 Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
-Source: nsd-4.1.9.tar.gz
+Source: nsd-4.1.2.tar.gz
 License: BSD-3c
 LicenseFiles: LICENSE
 Type: ipkg
@@ -45,7 +45,7 @@ Vasilis Tsiligiannis <acinonyx@openwrt.gr>
 
 Package: nsd-control
 Submenu: IP Addresses and Names
-Version: 4.1.9-1
+Version: 4.1.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -54,7 +54,7 @@ Section: net
 Category: Network
 Title: NSD Name Server Daemon remote control utility
 Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
-Source: nsd-4.1.9.tar.gz
+Source: nsd-4.1.2.tar.gz
 License: BSD-3c
 LicenseFiles: LICENSE
 Type: ipkg
@@ -66,7 +66,7 @@ Vasilis Tsiligiannis <acinonyx@openwrt.gr>
 
 Package: nsd-control-setup
 Submenu: IP Addresses and Names
-Version: 4.1.9-1
+Version: 4.1.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +openssl-util
 Conflicts: 
 Menu-Depends: 
@@ -75,7 +75,7 @@ Section: net
 Category: Network
 Title: NSD Name Server Daemon SSL keys setup script
 Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
-Source: nsd-4.1.9.tar.gz
+Source: nsd-4.1.2.tar.gz
 License: BSD-3c
 LicenseFiles: LICENSE
 Type: ipkg

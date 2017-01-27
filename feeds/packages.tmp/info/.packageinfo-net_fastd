@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/net/fastd/Makefile
 Package: fastd
 Submenu: VPN
-Version: 18-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-tun +librt +libpthread +FASTD_WITH_STATUS_SOCKET:libjson-c +FASTD_WITH_CAPABILITIES:libcap
+Version: 17-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-tun +librt +libpthread +FASTD_WITH_STATUS_SOCKET:libjson-c
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -11,7 +11,7 @@ Section: net
 Category: Network
 Title: Fast and Secure Tunneling Daemon
 Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
-Source: fastd-18.tar.xz
+Source: fastd-17.tar.xz
 License: BSD-2-Clause
 LicenseFiles: COPYRIGHT
 Type: ipkg

@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/sound/mpc/Makefile
 Package: mpc
-Version: 0.27-1
+Version: 0.26-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libmpdclient
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: sound
 Category: Sound
 Title: Music Player Daemon Console Client
 Maintainer: Ted Hess <thess@kitschensync.net>
-Source: mpc-0.27.tar.xz
+Source: mpc-0.26.tar.xz
 License: GPL-2.0+
 LicenseFiles: COPYING
 Type: ipkg

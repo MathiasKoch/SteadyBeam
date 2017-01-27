@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/check/Makefile
 Package: check
-Version: 0.9.14-2
+Version: 0.9.14-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt
 Conflicts: 
 Menu-Depends: 

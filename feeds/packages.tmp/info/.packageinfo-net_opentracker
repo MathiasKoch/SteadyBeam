@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/opentracker/Makefile
 Package: opentracker
 Submenu: BitTorrent
-Version: 20151211-1
+Version: 20141007-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Section: net
 Category: Network
 Title: opentracker
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: opentracker-20151211.tar.bz2
+Source: opentracker-20141007.tar.bz2
 License: Beerware
 Type: ipkg
 Description:   opentracker - An open and free bittorrent tracker
@@ -31,7 +31,7 @@ Daniel Golle <daniel@makrotopia.org>
 
 Package: opentracker6
 Submenu: BitTorrent
-Version: 20151211-1
+Version: 20141007-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -42,7 +42,7 @@ Section: net
 Category: Network
 Title: opentracker (IPv6 build)
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: opentracker-20151211.tar.bz2
+Source: opentracker-20141007.tar.bz2
 License: Beerware
 Type: ipkg
 Description:   opentracker - An open and free bittorrent tracker

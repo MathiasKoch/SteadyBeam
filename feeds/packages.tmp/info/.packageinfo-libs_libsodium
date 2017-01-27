@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/libsodium/Makefile
 Package: libsodium
-Version: 1.0.10-1
+Version: 1.0.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: libs
 Category: Libraries
 Title: P(ortable|ackageable) NaCl-based crypto library
 Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
-Source: libsodium-1.0.10.tar.gz
+Source: libsodium-1.0.2.tar.gz
 License: ISC
 Type: ipkg
 Description:   NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.

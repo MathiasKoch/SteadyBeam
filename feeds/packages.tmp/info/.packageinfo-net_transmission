@@ -1,18 +1,17 @@
 Source-Makefile: feeds/packages/net/transmission/Makefile
-Package: transmission-daemon-openssl
+Package: transmission-daemon
+Menu: 1
 Submenu: BitTorrent
-Version: 2.92-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libpthread +libevent2 +librt +libopenssl
+Version: 2.84-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libopenssl +libpthread +libevent2 +librt
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Variant: openssl
 Section: net
 Category: Network
-Title: BitTorrent client (with OpenSSL)
+Title: A free, lightweight BitTorrent client
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
-Require-User: transmission=224:transmission=224
-Source: transmission-2.92.tar.xz
+Source: transmission-2.84.tar.xz
 Type: ipkg
 Description:  Transmission is a simple BitTorrent client.
  It features a very simple, intuitive interface
@@ -22,99 +21,36 @@ http://www.transmissionbt.com
 Cezary Jackiewicz <cezary@eko.one.pl>
 @@
 
-Package: transmission-daemon-polarssl
+Package: transmission-cli
 Submenu: BitTorrent
-Version: 2.92-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libpthread +libevent2 +librt +libpolarssl +zlib
+Version: 2.84-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread transmission-daemon
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Variant: polarssl
 Section: net
 Category: Network
-Title: BitTorrent client (with PolarSSL)
+Title: A free, lightweight BitTorrent client
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
-Require-User: transmission=224:transmission=224
-Source: transmission-2.92.tar.xz
-Type: ipkg
-Description:  Transmission is a simple BitTorrent client.
- It features a very simple, intuitive interface
- on top on an efficient, cross-platform back-end.
- This package contains the daemon itself.
-http://www.transmissionbt.com
-Cezary Jackiewicz <cezary@eko.one.pl>
-@@
-
-Package: transmission-cli-openssl
-Submenu: BitTorrent
-Version: 2.92-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libpthread +libevent2 +librt +libopenssl
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Variant: openssl
-Section: net
-Category: Network
-Title: BitTorrent client (with OpenSSL)
-Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
-Source: transmission-2.92.tar.xz
+Source: transmission-2.84.tar.xz
 Type: ipkg
 Description:  CLI utilities for transmission.
 http://www.transmissionbt.com
 Cezary Jackiewicz <cezary@eko.one.pl>
 @@
 
-Package: transmission-cli-polarssl
+Package: transmission-remote
 Submenu: BitTorrent
-Version: 2.92-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libpthread +libevent2 +librt +libpolarssl +zlib
+Version: 2.84-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libopenssl +libpthread +libevent2 +librt
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Variant: polarssl
 Section: net
 Category: Network
-Title: BitTorrent client (with PolarSSL)
+Title: A free, lightweight BitTorrent client
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
-Source: transmission-2.92.tar.xz
-Type: ipkg
-Description:  CLI utilities for transmission.
-http://www.transmissionbt.com
-Cezary Jackiewicz <cezary@eko.one.pl>
-@@
-
-Package: transmission-remote-openssl
-Submenu: BitTorrent
-Version: 2.92-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libpthread +libevent2 +librt +libopenssl
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Variant: openssl
-Section: net
-Category: Network
-Title: BitTorrent client (with OpenSSL)
-Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
-Source: transmission-2.92.tar.xz
-Type: ipkg
-Description:  CLI remote interface for transmission.
-http://www.transmissionbt.com
-Cezary Jackiewicz <cezary@eko.one.pl>
-@@
-
-Package: transmission-remote-polarssl
-Submenu: BitTorrent
-Version: 2.92-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libcurl +libpthread +libevent2 +librt +libpolarssl +zlib
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Variant: polarssl
-Section: net
-Category: Network
-Title: BitTorrent client (with PolarSSL)
-Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
-Source: transmission-2.92.tar.xz
+Source: transmission-2.84.tar.xz
 Type: ipkg
 Description:  CLI remote interface for transmission.
 http://www.transmissionbt.com
@@ -123,16 +59,16 @@ Cezary Jackiewicz <cezary@eko.one.pl>
 
 Package: transmission-web
 Submenu: BitTorrent
-Version: 2.92-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @(PACKAGE_transmission-daemon-openssl||PACKAGE_transmission-daemon-polarssl)
+Version: 2.84-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread transmission-daemon
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Section: net
 Category: Network
-Title: BitTorrent client (webinterface)
+Title: A free, lightweight BitTorrent client
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
-Source: transmission-2.92.tar.xz
+Source: transmission-2.84.tar.xz
 Type: ipkg
 Description:  Webinterface resources for transmission.
 http://www.transmissionbt.com

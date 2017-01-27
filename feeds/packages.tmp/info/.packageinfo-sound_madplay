@@ -1,12 +1,11 @@
 Source-Makefile: feeds/packages/sound/madplay/Makefile
 Package: madplay-alsa
-Version: 0.15.2b-6
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libid3tag +libmad +BUILD_NLS:libintl-full +alsa-lib
+Version: 0.15.2b-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libid3tag +libmad +alsa-lib
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Build-Variant: alsa
-Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
 Section: sound
 Category: Sound
 Title: MPEG audio player in fixed point - alsa
@@ -21,13 +20,12 @@ Simon Peter <probono@puredarwin.org>
 @@
 
 Package: madplay
-Version: 0.15.2b-6
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libid3tag +libmad +BUILD_NLS:libintl-full
+Version: 0.15.2b-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libid3tag +libmad
 Conflicts: 
 Menu-Depends: 
 Provides: 
 Build-Variant: oss
-Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
 Section: sound
 Category: Sound
 Title: MPEG audio player in fixed point - oss

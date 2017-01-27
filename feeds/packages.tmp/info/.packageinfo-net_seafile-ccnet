@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/seafile-ccnet/Makefile
 Package: seafile-ccnet
-Version: 4.1.2-a73109f09af4ecc49cdc4c57cdde51b38e15c31a-2
+Version: 4.1.2-a73109f09af4ecc49cdc4c57cdde51b38e15c31a
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsearpc +libevent2 +libopenssl +glib2 +python +libzdb +libuuid +libpthread +libsqlite3 +jansson +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 

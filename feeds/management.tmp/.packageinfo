@@ -119,8 +119,8 @@ Luka Perkov <luka@openwrt.org>
 
 Source-Makefile: feeds/management/libnetconf/Makefile
 Package: libnetconf
-Version: 0.10.0-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxml2 +zlib +LIBNETCONF_ENABLE_TLS:libopenssl +LIBNETCONF_ENABLE_VALIDATION:libxslt +LIBNETCONF_ENABLE_URL:libcurl +LIBNETCONF_USE_LIBSSH:libssh
+Version: 0.9.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxml2 +zlib +LIBNETCONF_ENABLE_VALIDATION:libxslt +LIBNETCONF_ENABLE_URL:libcurl +LIBNETCONF_USE_LIBSSH2:libssh2
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -128,49 +128,26 @@ Build-Depends: !BUILD_NLS:libiconv !BUILD_NLS:libintl
 Section: libs
 Category: Libraries
 Title: NETCONF library
-Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: libnetconf-0.10.0.tar.gz
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Source: libnetconf-0.9.1.tar.gz
 License: BSD-3-Clause
 Type: ipkg
 Description:  libnetconf is the NETCONF library in C intended for building NETCONF clients and servers.
 
  libnetconf provides basic functions to connect NETCONF client and server to each other via
- SSH, to send and receive NETCONF messages and to store and work with the configuration data
+ SSH, to send and receive NETCONF messages and to store and work with the configuration data 
  in a datastore.
-https://github.com/cesnet/libnetconf
-Jiri Slachta <jiri@slachta.eu>
+http://code.google.com/p/libnetconf/
+Jiri Slachta <slachta@cesnet.cz>
 @@
 Config:
   source "feeds/management/libnetconf/Config.in"
 @@
 
 
-Source-Makefile: feeds/management/libnetconf2/Makefile
-Package: libnetconf2
-Version: 0.5.6-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang +libssh +libopenssl
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: libs
-Category: Libraries
-Title: NETCONF library
-Maintainer: 
-Source: libnetconf2-0.5.6.tar.gz
-License: BSD-3-Clause
-Type: ipkg
-Description:  libnetconf2 is the NETCONF library in C intended for building NETCONF clients and servers.
-
- libnetconf2 provides basic functions to connect NETCONF client and server to each other via
- SSH, to send and receive NETCONF messages. NETCONF datastore implementation is not included.
-https://github.com/cesnet/libnetconf2/
-
-@@
-
-
 Source-Makefile: feeds/management/libssh/Makefile
 Package: libssh
-Version: 2015-12-18-be36586d74367f562937da041ce6a5615d647f3b
+Version: 2014-07-10-59a179950150d0305d6189ce9c126a9a0c5f6ab4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt +zlib +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -179,7 +156,7 @@ Section: lib
 Category: Libraries
 Title: SSH library
 Maintainer: Luka Perkov <luka@openwrt.org>
-Source: libssh-2015-12-18-be36586d74367f562937da041ce6a5615d647f3b.tar.gz
+Source: libssh-2014-07-10-59a179950150d0305d6189ce9c126a9a0c5f6ab4.tar.gz
 License: LGPL-2.1+ BSD-2-Clause
 Type: ipkg
 Description:  libssh is a mulitplatform C library implementing the SSHv2 and SSHv1 protocol
@@ -191,7 +168,7 @@ Luka Perkov <luka@openwrt.org>
 
 Source-Makefile: feeds/management/libyang/Makefile
 Package: libyang
-Version: 0.9.125-12691264fd0a9d7b10994bb61fef6157f60519b1
+Version: 0.4.6-fcd305267837985c718890931433f35b4ffca567
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre
 Conflicts: 
 Menu-Depends: 
@@ -200,7 +177,7 @@ Section: libs
 Category: Libraries
 Title: YANG data modeling language library
 Maintainer: Luka Perkov <luka@openwrt.org>
-Source: libyang-0.9.125-12691264fd0a9d7b10994bb61fef6157f60519b1.tar.gz
+Source: libyang-0.4.6-fcd305267837985c718890931433f35b4ffca567.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description: YANG data modeling language library
@@ -209,7 +186,7 @@ Luka Perkov <luka@openwrt.org>
 @@
 
 Package: yanglint
-Version: 0.9.125-12691264fd0a9d7b10994bb61fef6157f60519b1
+Version: 0.4.6-fcd305267837985c718890931433f35b4ffca567
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang
 Conflicts: 
 Menu-Depends: 
@@ -218,50 +195,12 @@ Section: utils
 Category: Utilities
 Title: YANG data modeling language utility
 Maintainer: Luka Perkov <luka@openwrt.org>
-Source: libyang-0.9.125-12691264fd0a9d7b10994bb61fef6157f60519b1.tar.gz
+Source: libyang-0.4.6-fcd305267837985c718890931433f35b4ffca567.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description: YANG data modeling language utility
 https://github.com/CESNET/libyang
 Luka Perkov <luka@openwrt.org>
-@@
-
-
-Source-Makefile: feeds/management/netopeer2-cli/Makefile
-Package: netopeer2-cli
-Version: 2016-06-03-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang +libnetconf2 +openssl
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: util
-Category: Utilities
-Title: Netopeer2 cli
-Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
-Source: netopeer2-cli-7062c5d6ae2015586990bf9e8cf34eff4a38685d.tar.bz2
-License: BSD-3-Clause
-Type: ipkg
-Description: Netopeer2 cli
-Mislav Novakovic <mislav.novakovic@sartura.hr>
-@@
-
-
-Source-Makefile: feeds/management/netopeer2-server/Makefile
-Package: netopeer2-server
-Version: 2016-06-03-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang +libsysrepo +libnetconf2 +openssl
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: util
-Category: Utilities
-Title: Netopeer2 server
-Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
-Source: netopeer2-server-7062c5d6ae2015586990bf9e8cf34eff4a38685d.tar.bz2
-License: BSD-3-Clause
-Type: ipkg
-Description: Netopeer2 server
-Mislav Novakovic <mislav.novakovic@sartura.hr>
 @@
 
 
@@ -302,59 +241,6 @@ Type: ipkg
 Description:  GNU shtool is a compilation of small but very stable and portable shell
  scripts into a single shell tool.
 
-@@
-
-
-Source-Makefile: feeds/management/sysrepo/Makefile
-Package: libsysrepo
-Version: 2016-06-03-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libyang +libprotobuf +libprotobuf-c +libev +libavl
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: util
-Category: Utilities
-Title: YANG-based system repository
-Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
-Source: sysrepo-0b12938bf5d4bcf6d6ebeb126a2b1f489fa078a7.tar.bz2
-License: ASL-2.0
-Type: ipkg
-Description: YANG-based system repository
-Mislav Novakovic <mislav.novakovic@sartura.hr>
-@@
-
-Package: sysrepod
-Version: 2016-06-03-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsysrepo
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: util
-Category: Utilities
-Title: sysrepo deamon
-Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
-Source: sysrepo-0b12938bf5d4bcf6d6ebeb126a2b1f489fa078a7.tar.bz2
-License: ASL-2.0
-Type: ipkg
-Description: sysrepo deamon
-Mislav Novakovic <mislav.novakovic@sartura.hr>
-@@
-
-Package: sysrepoctl
-Version: 2016-06-03-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsysrepo
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: util
-Category: Utilities
-Title: sysrepo cli
-Maintainer: Mislav Novakovic <mislav.novakovic@sartura.hr>
-Source: sysrepo-0b12938bf5d4bcf6d6ebeb126a2b1f489fa078a7.tar.bz2
-License: ASL-2.0
-Type: ipkg
-Description: sysrepo cli
-Mislav Novakovic <mislav.novakovic@sartura.hr>
 @@
 
 

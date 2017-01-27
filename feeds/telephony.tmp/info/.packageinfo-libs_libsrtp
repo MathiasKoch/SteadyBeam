@@ -9,7 +9,7 @@ Provides:
 Section: libs
 Category: Libraries
 Title: Secure Real-time Transport Protocol (SRTP) library
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: srtp-1.4.4.tgz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
@@ -18,7 +18,7 @@ Description: Open-source implementation of the Secure Real-time Transport
 Protocol (SRTP) originally authored by Cisco Systems, Inc.
 It is available under a BSD-style license.
 http://sourceforge.net/projects/srtp
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 

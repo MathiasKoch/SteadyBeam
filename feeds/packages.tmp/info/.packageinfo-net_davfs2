@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/net/davfs2/Makefile
 Package: davfs2
 Submenu: Filesystem
-Version: 1.5.4-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libneon +kmod-fuse +libfuse
+Version: 1.5.2-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libneon +libiconv +libintl +libexpat +kmod-fuse +libfuse
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10,7 +10,7 @@ Section: net
 Category: Network
 Title: Mount a WebDAV resource as a regular file system.
 Maintainer: Federico Di Marco <fededim@gmail.com>
-Source: davfs2-1.5.4.tar.gz
+Source: davfs2-1.5.2.tar.gz
 Type: ipkg
 Description:  Web Distributed Authoring and Versioning (WebDAV), an extension to the HTTP-protocol,
  allows authoring of resources on a remote web server.davfs2 provides the ability to

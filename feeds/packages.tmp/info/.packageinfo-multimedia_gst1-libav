@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/multimedia/gst1-libav/Makefile
 Package: gst1-libav
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +gstreamer1-plugins-base +gst1-mod-alsa +libgst1audio +libgst1pbutils +libgst1video +libbz2
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer Libav plugin
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-libav-1.6.2.tar.xz
+Source: gst-libav-1.4.5.tar.xz
 License: GPL-2.0 LGPL-2.0
 LicenseFiles: COPYING COPYING.LIB
 Type: ipkg

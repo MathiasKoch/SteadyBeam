@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/multimedia/gst1-plugins-good/Makefile
 Package: gst1-mod-alaw
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer alaw codec plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -23,7 +23,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-alpha
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -33,7 +33,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer alpha support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -46,7 +46,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-alphacolor
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -56,7 +56,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer alphacolor support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -69,7 +69,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-apetag
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1pbutils +libgst1tag +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -79,7 +79,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer apetag support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -92,7 +92,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-audiofx
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1fft +libgst1controller
 Conflicts: 
 Menu-Depends: 
@@ -102,7 +102,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer audio effects plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -115,7 +115,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-audioparsers
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1tag +libgst1pbutils
 Conflicts: 
 Menu-Depends: 
@@ -125,7 +125,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer audioparsers plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -138,7 +138,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-auparse
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1tag +libgst1pbutils
 Conflicts: 
 Menu-Depends: 
@@ -148,7 +148,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer auparse plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -161,7 +161,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-autodetect
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -171,7 +171,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer format auto-detection plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -184,7 +184,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-avi
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1riff +libgst1tag +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -194,7 +194,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer avi support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -207,7 +207,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-cutter
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio
 Conflicts: 
 Menu-Depends: 
@@ -217,7 +217,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer audio cutter plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -230,7 +230,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-debug
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -240,7 +240,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer debugging plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -253,7 +253,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-deinterlace
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -263,7 +263,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer deinterlace support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -276,7 +276,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-dtmf
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1rtp
 Conflicts: 
 Menu-Depends: 
@@ -286,7 +286,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer dtmf support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -299,7 +299,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-effectv
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -309,7 +309,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer effectvsupport plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -322,7 +322,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-equalizer
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1controller
 Conflicts: 
 Menu-Depends: 
@@ -332,7 +332,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer audio equalizer plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -345,7 +345,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-flac
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1pbutils +libgst1tag +libflac
 Conflicts: 
 Menu-Depends: 
@@ -355,7 +355,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer FLAC codec plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -368,7 +368,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-flv
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1pbutils +libgst1tag +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -378,7 +378,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer flv codec plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -391,7 +391,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-flxdec
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -401,7 +401,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer flx codec plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -414,8 +414,8 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-goom2k1
-Version: 1.6.2-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1video
+Version: 1.4.5-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -424,7 +424,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer goom support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -437,8 +437,8 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-goom
-Version: 1.6.2-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1video
+Version: 1.4.5-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -447,7 +447,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer goom support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -460,7 +460,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-icydemux
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1tag
 Conflicts: 
 Menu-Depends: 
@@ -470,7 +470,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer icy demuxer plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -483,7 +483,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-id3demux
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1pbutils +libgst1tag
 Conflicts: 
 Menu-Depends: 
@@ -493,7 +493,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer ID3v1/v2 demuxer plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -506,7 +506,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-imagefreeze
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -516,7 +516,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer imagefreeze support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -529,7 +529,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-interleave
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio
 Conflicts: 
 Menu-Depends: 
@@ -539,7 +539,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer audio interleave plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -552,7 +552,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-isomp4
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1pbutils +libgst1riff +libgst1rtp +libgst1tag +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -562,7 +562,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer isomp4 support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -575,7 +575,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-jpeg
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video +libjpeg
 Conflicts: 
 Menu-Depends: 
@@ -585,7 +585,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer jpeg support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -598,7 +598,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-level
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio
 Conflicts: 
 Menu-Depends: 
@@ -608,7 +608,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer audio level plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -621,7 +621,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-matroska
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1pbutils +libgst1riff +libgst1tag +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -631,7 +631,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer matroska support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -644,7 +644,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-mulaw
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio
 Conflicts: 
 Menu-Depends: 
@@ -654,7 +654,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer mulaw support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -667,7 +667,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-multifile
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -677,7 +677,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer multiple files access plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -690,7 +690,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-multipart
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -700,7 +700,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer multipart stream handling plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -713,7 +713,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-navigationtest
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -723,7 +723,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer navigationtest support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -736,7 +736,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-oss4audio
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1tag
 Conflicts: 
 Menu-Depends: 
@@ -746,7 +746,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer OSS 4 audio support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -759,7 +759,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-ossaudio
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio
 Conflicts: 
 Menu-Depends: 
@@ -769,7 +769,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer OSS audio support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -782,7 +782,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-png
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video +libpng
 Conflicts: 
 Menu-Depends: 
@@ -792,7 +792,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer png support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -805,7 +805,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-replaygain
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1pbutils
 Conflicts: 
 Menu-Depends: 
@@ -815,7 +815,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer volume normalization plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -828,7 +828,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-rtpmanager
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1net +libgst1rtp +libgst1tag +libgst1pbutils +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -838,7 +838,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer RTP manager plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -851,7 +851,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-rtp
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1rtp +libgst1tag +libgst1pbutils +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -861,7 +861,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer RTP plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -874,7 +874,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-rtsp
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1net +libgst1rtp +libgst1rtsp +libgst1sdp
 Conflicts: 
 Menu-Depends: 
@@ -884,7 +884,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer RTSP plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -897,7 +897,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-shapewipe
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -907,7 +907,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer shapewipe support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -920,7 +920,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-smpte
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -930,7 +930,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer smpte support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -943,7 +943,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-souphttpsrc
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1tag +libsoup
 Conflicts: 
 Menu-Depends: 
@@ -953,7 +953,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer soup input plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -966,7 +966,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-spectrum
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1fft
 Conflicts: 
 Menu-Depends: 
@@ -976,7 +976,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer spectrum data output plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -989,7 +989,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-udp
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1net
 Conflicts: 
 Menu-Depends: 
@@ -999,7 +999,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer UDP plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1012,7 +1012,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-video4linux2
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video +libgst1allocators +libv4l
 Conflicts: 
 Menu-Depends: 
@@ -1022,7 +1022,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer video4linux2 support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1035,7 +1035,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-videobox
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -1045,7 +1045,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer videobox support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1058,7 +1058,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-videocrop
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -1068,7 +1068,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer videocrop support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1081,7 +1081,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-videofilter
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -1091,7 +1091,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer videofilter support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1104,7 +1104,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-videomixer
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1video
 Conflicts: 
 Menu-Depends: 
@@ -1114,7 +1114,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer videomixer support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1127,7 +1127,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-vpx
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1tag +libgst1video +libvpx
 Conflicts: 
 Menu-Depends: 
@@ -1137,7 +1137,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer vpx support plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1150,7 +1150,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-wavenc
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1riff
 Conflicts: 
 Menu-Depends: 
@@ -1160,7 +1160,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer Wav encoder plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1173,7 +1173,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-wavparse
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgst1audio +libgst1riff +libgst1tag
 Conflicts: 
 Menu-Depends: 
@@ -1183,7 +1183,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer Wav parser plugin (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1196,7 +1196,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gstreamer1-plugins-good
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +ALL:gst1-plugins-good +gstreamer1-plugins-base
 Conflicts: 
 Menu-Depends: 
@@ -1206,7 +1206,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer plugins collection (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -1388,7 +1388,7 @@ Config:
 @@
 
 Package: gst1-plugins-good
-Version: 1.6.2-1
+Version: 1.4.5-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +gst1-mod-alaw +gst1-mod-alpha +gst1-mod-alphacolor +gst1-mod-apetag +gst1-mod-audiofx +gst1-mod-audioparsers +gst1-mod-auparse +gst1-mod-autodetect +gst1-mod-avi +gst1-mod-cutter +gst1-mod-debug +gst1-mod-deinterlace +gst1-mod-dtmf +gst1-mod-effectv +gst1-mod-equalizer +gst1-mod-flac +gst1-mod-flv +gst1-mod-flxdec +gst1-mod-goom2k1 +gst1-mod-goom +gst1-mod-icydemux +gst1-mod-id3demux +gst1-mod-imagefreeze +gst1-mod-interleave +gst1-mod-isomp4 +gst1-mod-jpeg +gst1-mod-level +gst1-mod-matroska +gst1-mod-mulaw +gst1-mod-multifile +gst1-mod-multipart +gst1-mod-navigationtest +gst1-mod-oss4audio +gst1-mod-ossaudio +gst1-mod-png +gst1-mod-replaygain +gst1-mod-rtpmanager +gst1-mod-rtp +gst1-mod-rtsp +gst1-mod-shapewipe +gst1-mod-smpte +gst1-mod-souphttpsrc +gst1-mod-spectrum +gst1-mod-udp +gst1-mod-video4linux2 +gst1-mod-videobox +gst1-mod-videocrop +gst1-mod-videofilter +gst1-mod-videomixer +gst1-mod-vpx +gst1-mod-wavenc +gst1-mod-wavparse
 Conflicts: 
 Menu-Depends: 
@@ -1398,7 +1398,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer plugins collection (good)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-good-1.6.2.tar.xz
+Source: gst-plugins-good-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg

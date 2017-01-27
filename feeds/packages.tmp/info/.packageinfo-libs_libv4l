@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/libv4l/Makefile
 Package: libv4l
-Version: 1.10.0-1
+Version: 1.6.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: libs
 Category: Libraries
 Title: Video 4 Linux wrapper libraries
 Maintainer: Ted Hess <thess@kitschensync.net>
-Source: v4l-utils-1.10.0.tar.bz2
+Source: v4l-utils-1.6.2.tar.bz2
 License: GPL-2.0 LGPL-2.1
 LicenseFiles: COPYING COPYING.libv4l
 Type: ipkg
@@ -31,7 +31,7 @@ Ted Hess <thess@kitschensync.net>
 @@
 
 Package: v4l-utils
-Version: 1.10.0-1
+Version: 1.6.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libv4l +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -41,7 +41,7 @@ Section: utils
 Category: Utilities
 Title: Video 4 Linux utilities
 Maintainer: Ted Hess <thess@kitschensync.net>
-Source: v4l-utils-1.10.0.tar.bz2
+Source: v4l-utils-1.6.2.tar.bz2
 License: GPL-2.0 LGPL-2.1
 LicenseFiles: COPYING COPYING.libv4l
 Type: ipkg

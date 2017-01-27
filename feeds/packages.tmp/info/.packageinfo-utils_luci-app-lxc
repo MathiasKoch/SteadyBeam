@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/luci-app-lxc/Makefile
 Package: luci-app-lxc
 Submenu: 3. Applications
-Version: 20160616
+Version: 20141012
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-mod-admin-full +lxc +lxc-create +liblxc +rpcd-mod-lxc
 Conflicts: 
 Menu-Depends: 

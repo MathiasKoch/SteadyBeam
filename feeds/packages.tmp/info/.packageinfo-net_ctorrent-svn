@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/ctorrent-svn/Makefile
 Package: ctorrent-svn
 Submenu: BitTorrent
-Version: r322-2
+Version: r322-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +uclibcxx +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -23,7 +23,7 @@ Peter Wagner <tripolar@gmx.at>
 
 Package: ctorrent-svn-nossl
 Submenu: BitTorrent
-Version: r322-2
+Version: r322-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +uclibcxx
 Conflicts: 
 Menu-Depends: 

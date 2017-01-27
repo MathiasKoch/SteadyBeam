@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/devel/lttng-modules/Makefile
 Package: kmod-lttng
 Submenu: Other modules
-Version: <LINUX_VERSION>+2.6.1-1
-Depends: @!TARGET_uml @KERNEL_FTRACE_SYSCALLS
+Version: <LINUX_VERSION>+2.6.0-2
+Depends: @!TARGET_uml @KERNEL_FTRACE
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10,7 +10,7 @@ Section: kernel
 Category: Kernel modules
 Title: Linux Trace Toolkit: next generation (kernel modules)
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: lttng-modules-2.6.1.tar.bz2
+Source: lttng-modules-2.6.0.tar.bz2
 License: LGPL-2.1 GPL-2.0 MIT
 LicenseFiles: LICENSE
 Type: ipkg

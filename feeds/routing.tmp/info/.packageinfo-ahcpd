@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/ahcpd/Makefile
 Package: ahcpd
 Version: 0.53-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 +ip +librt
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-ipv6 +ip +librt
 Conflicts: 
 Menu-Depends: 
 Provides: 

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/lang/micropython/Makefile
 Package: micropython
 Submenu: Python
-Version: 1.5-20151122-4120f32292090bd811165fe76780e4e74e3450b9-1
+Version: 1.4.5-20150827-936e25b164d837fc91e4bafd76580e747b235dff-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libffi
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: lang
 Category: Languages
 Title: Micro Python
 Maintainer: Roger D <rogerdammit@gmail.com>
-Source: micropython-1.5-20151122-4120f32292090bd811165fe76780e4e74e3450b9.tar.gz
+Source: micropython-1.4.5-20150827-936e25b164d837fc91e4bafd76580e747b235dff.tar.gz
 License: MIT
 LicenseFiles: LICENSE
 Type: ipkg

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/emailrelay/Makefile
 Package: emailrelay
 Submenu: Web Servers/Proxies
-Version: 1.9-2
+Version: 1.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -29,7 +29,7 @@ Federico Di Marco <fededim@gmail.com>
 
 Package: emailrelay-nossl
 Submenu: Web Servers/Proxies
-Version: 1.9-2
+Version: 1.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 

@@ -2,7 +2,7 @@ Source-Makefile: feeds/packages/utils/xz/Makefile
 Package: xz-utils
 Menu: 1
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: utils
 Category: Utilities
 Title: XZ Utils (meta)
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -22,7 +22,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: liblzma
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +31,7 @@ Section: libs
 Category: Libraries
 Title: liblzma library from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -42,7 +42,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: lzmadec
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xz-utils +liblzma
 Conflicts: 
 Menu-Depends: 
@@ -51,7 +51,7 @@ Section: utils
 Category: Utilities
 Title: lzmadec utility from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -62,7 +62,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: lzmainfo
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xz-utils +liblzma
 Conflicts: 
 Menu-Depends: 
@@ -71,7 +71,7 @@ Section: utils
 Category: Utilities
 Title: lzmainfo utility from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -82,7 +82,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: xz
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xz-utils +liblzma
 Conflicts: 
 Menu-Depends: 
@@ -91,7 +91,7 @@ Section: utils
 Category: Utilities
 Title: xz utility from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -102,7 +102,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: xzdec
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xz-utils +liblzma
 Conflicts: 
 Menu-Depends: 
@@ -111,7 +111,7 @@ Section: utils
 Category: Utilities
 Title: xzdec utility from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -122,7 +122,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: xzdiff
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xz-utils +bash +xz
 Conflicts: 
 Menu-Depends: 
@@ -131,7 +131,7 @@ Section: utils
 Category: Utilities
 Title: xzdiff utility from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -142,7 +142,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: xzgrep
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xz-utils +bash +xz
 Conflicts: 
 Menu-Depends: 
@@ -151,7 +151,7 @@ Section: utils
 Category: Utilities
 Title: xzgrep utility from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -162,7 +162,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: xzless
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xz-utils +bash +xz
 Conflicts: 
 Menu-Depends: 
@@ -171,7 +171,7 @@ Section: utils
 Category: Utilities
 Title: xzless utility from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -182,7 +182,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: xzmore
 Submenu: Compression
-Version: 5.2.2-1
+Version: 5.2.1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread xz-utils +bash +xz
 Conflicts: 
 Menu-Depends: 
@@ -191,7 +191,7 @@ Section: utils
 Category: Utilities
 Title: xzmore utility from XZ Utils
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: xz-5.2.2.tar.bz2
+Source: xz-5.2.1.tar.bz2
 License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
 LicenseFiles: COPYING
 Type: ipkg

@@ -8,14 +8,14 @@ Provides:
 Section: libs
 Category: Libraries
 Title: Gnome XSLT library
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: libxslt-1.1.28.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
 Description:  A library for XML transformation using XSLT.
 http://xmlsoft.org/XSLT/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: libexslt
@@ -26,15 +26,15 @@ Menu-Depends:
 Provides: 
 Section: libs
 Category: Libraries
-Title: Gnome XSLT library Extension
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Title: Gnome XSLT library Extention
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: libxslt-1.1.28.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
 Description:  An extension for XSLT.
 http://xmlsoft.org/XSLT/EXSLT/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 Package: xsltproc
@@ -46,14 +46,14 @@ Provides:
 Section: utils
 Category: Utilities
 Title: Gnome XSLT xsltproc Utility
-Maintainer: Jiri Slachta <jiri@slachta.eu>
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
 Source: libxslt-1.1.28.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
 Description:  XSLT XML transformation utility.
 http://xmlsoft.org/XSLT/
-Jiri Slachta <jiri@slachta.eu>
+Jiri Slachta <slachta@cesnet.cz>
 @@
 
 

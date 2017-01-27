@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/ibrcommon/Makefile
 Package: ibrcommon
-Version: 1.0.1-2
+Version: 1.0.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libstdcpp +libpthread +librt +libnl +libopenssl
 Conflicts: 
 Menu-Depends: 

@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/libplist/Makefile
 Package: libplist
-Version: 1.13-2
+Version: 1.13-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxml2
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: libs
 Category: Libraries
 Title: Apple property list library
 Maintainer: Lukasz Baj <l.baj@radytek.com>
-Source: libplist-1.13-060eda6b1846968aa40b0d38dcf92ac46f933417.tar.gz
+Source: libplist-1.13-cc907c0f162ee84e5698b9c27ac6fb0be8bb9bc0.tar.gz
 License: LGPL-2.1+
 LicenseFiles: COPYING.LESSER
 Type: ipkg
@@ -19,7 +19,7 @@ Lukasz Baj <l.baj@radytek.com>
 @@
 
 Package: libplistcxx
-Version: 1.13-2
+Version: 1.13-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libplist +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -28,7 +28,7 @@ Section: libs
 Category: Libraries
 Title: Apple property list C++ library
 Maintainer: Lukasz Baj <l.baj@radytek.com>
-Source: libplist-1.13-060eda6b1846968aa40b0d38dcf92ac46f933417.tar.gz
+Source: libplist-1.13-cc907c0f162ee84e5698b9c27ac6fb0be8bb9bc0.tar.gz
 License: LGPL-2.1+
 LicenseFiles: COPYING.LESSER
 Type: ipkg
@@ -39,7 +39,7 @@ Lukasz Baj <l.baj@radytek.com>
 @@
 
 Package: libplist-utils
-Version: 1.13-2
+Version: 1.13-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libplist
 Conflicts: 
 Menu-Depends: 
@@ -48,7 +48,7 @@ Section: utils
 Category: Utilities
 Title: Apple property list converter
 Maintainer: Lukasz Baj <l.baj@radytek.com>
-Source: libplist-1.13-060eda6b1846968aa40b0d38dcf92ac46f933417.tar.gz
+Source: libplist-1.13-cc907c0f162ee84e5698b9c27ac6fb0be8bb9bc0.tar.gz
 License: LGPL-2.1+
 LicenseFiles: COPYING.LESSER
 Type: ipkg

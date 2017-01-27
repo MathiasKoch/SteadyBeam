@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/redsocks/Makefile
 Package: redsocks
-Version: 0.4-20150907-1
+Version: 0.4-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libevent2
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: net
 Category: Network
 Title: Redirect any TCP connection to a SOCKS or HTTPS proxy server
 Maintainer: Johannes Morgenroth <jm@m-network.de>
-Source: redsocks-0.4-20150907.tar.xz
+Source: redsocks-0.4.tar.xz
 License: Apache-2.0
 Type: ipkg
 Description:  Redsocks is a daemon running on the local system, that will transparently

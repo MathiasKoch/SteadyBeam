@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/tcsh/Makefile
 Package: tcsh
-Version: 6.19.00-4
+Version: 6.18.01-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: utils
 Category: Utilities
 Title: Enhanced Berkeley UNIX C shell
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: tcsh-6.19.00.tar.gz
+Source: tcsh-6.18.01.tar.gz
 License: BSD-4-Clause-UC
 LicenseFiles: Copyright
 Type: ipkg

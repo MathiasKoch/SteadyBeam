@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/tcpproxy/Makefile
 Package: tcpproxy
 Submenu: Routing and Redirection
-Version: 1.2-1
+Version: 1.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: net
 Category: Network
 Title: IPv4/IPv6 tcp connection proxy
 Maintainer: Christian Pointner <equinox@spreadspace.org>
-Source: tcpproxy-1.2.tar.gz
+Source: tcpproxy-1.1.tar.gz
 License: GPL-3.0+
 LicenseFiles: LICENSE
 Type: ipkg

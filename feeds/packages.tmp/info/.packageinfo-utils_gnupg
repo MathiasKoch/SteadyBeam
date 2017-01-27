@@ -1,7 +1,6 @@
 Source-Makefile: feeds/packages/utils/gnupg/Makefile
 Package: gnupg
-Menu: 1
-Version: 1.4.20-2
+Version: 1.4.19-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libncurses +libreadline
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +9,7 @@ Section: utils
 Category: Utilities
 Title: GNU privacy guard - a free PGP replacement
 Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: gnupg-1.4.20.tar.bz2
+Source: gnupg-1.4.19.tar.bz2
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -21,26 +20,6 @@ Description:  GnuPG is GNU's tool for secure communication and data storage.
  .
  GnuPG does not use any patented algorithms so it cannot be compatible
  with PGP2 because it uses IDEA (which is patented worldwide).
-http://www.gnupg.org/
-Nicolas Thill <nico@openwrt.org>
-@@
-
-Package: gnupg-utils
-Version: 1.4.20-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread gnupg +libcurl
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Section: utils
-Category: Utilities
-Title: Key management utilities for GnuPG
-Maintainer: Nicolas Thill <nico@openwrt.org>
-Source: gnupg-1.4.20.tar.bz2
-License: GPL-3.0
-LicenseFiles: COPYING
-Type: ipkg
-Description:  Key management utilies for GnuPG.
- This package is needed to import keys from a keyserver.
 http://www.gnupg.org/
 Nicolas Thill <nico@openwrt.org>
 @@

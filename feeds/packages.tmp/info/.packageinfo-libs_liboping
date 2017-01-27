@@ -8,13 +8,13 @@ Provides:
 Section: libs
 Category: Libraries
 Title: C library to generate ICMP echo requests.
-Maintainer: Jo-Philipp Wich <jo@mein.io>
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Source: liboping-1.6.2.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: C library to generate ICMP echo requests.
 http://verplant.org/liboping/
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 Package: oping
@@ -26,13 +26,13 @@ Provides:
 Section: net
 Category: Network
 Title: Send ICMP echo request to network hosts
-Maintainer: Jo-Philipp Wich <jo@mein.io>
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Source: liboping-1.6.2.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: Send ICMP echo request to network hosts
 http://verplant.org/liboping/
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 Package: noping
@@ -44,13 +44,13 @@ Provides:
 Section: net
 Category: Network
 Title: Ncurses application to send ICMP echo request to network hosts
-Maintainer: Jo-Philipp Wich <jo@mein.io>
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Source: liboping-1.6.2.tar.bz2
 License: GPL-2.0
 Type: ipkg
 Description: Ncurses application to send ICMP echo request to network hosts
 http://verplant.org/liboping/
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 

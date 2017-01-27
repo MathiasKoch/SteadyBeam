@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/ntpd/Makefile
 Package: ntpd
 Submenu: Time Synchronization
-Version: 4.2.8p7-1
+Version: 4.2.8p6-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread +libcap
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Network
 Title: ISC ntp server
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Require-User: ntp=123:ntp=123
-Source: ntp-4.2.8p7.tar.gz
+Source: ntp-4.2.8p6.tar.gz
 License: Unique
 LicenseFiles: COPYRIGHT html/copyright.html
 Type: ipkg
@@ -26,7 +26,7 @@ Peter Wagner <tripolar@gmx.at>
 
 Package: ntpdate
 Submenu: Time Synchronization
-Version: 4.2.8p7-1
+Version: 4.2.8p6-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread +libcap
 Conflicts: 
 Menu-Depends: 
@@ -35,7 +35,7 @@ Section: net
 Category: Network
 Title: ISC ntp date
 Maintainer: Peter Wagner <tripolar@gmx.at>
-Source: ntp-4.2.8p7.tar.gz
+Source: ntp-4.2.8p6.tar.gz
 License: Unique
 LicenseFiles: COPYRIGHT html/copyright.html
 Type: ipkg
@@ -50,7 +50,7 @@ Peter Wagner <tripolar@gmx.at>
 
 Package: ntp-utils
 Submenu: Time Synchronization
-Version: 4.2.8p7-1
+Version: 4.2.8p6-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread +libcap
 Conflicts: 
 Menu-Depends: 
@@ -59,7 +59,7 @@ Section: net
 Category: Network
 Title: ISC ntp utilities
 Maintainer: Peter Wagner <tripolar@gmx.at>
-Source: ntp-4.2.8p7.tar.gz
+Source: ntp-4.2.8p6.tar.gz
 License: Unique
 LicenseFiles: COPYRIGHT html/copyright.html
 Type: ipkg
@@ -74,7 +74,7 @@ Peter Wagner <tripolar@gmx.at>
 
 Package: ntp-keygen
 Submenu: Time Synchronization
-Version: 4.2.8p7-1
+Version: 4.2.8p6-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread +libcap +libevent2-core
 Conflicts: 
 Menu-Depends: 
@@ -83,7 +83,7 @@ Section: net
 Category: Network
 Title: ISC ntp keygen
 Maintainer: Peter Wagner <tripolar@gmx.at>
-Source: ntp-4.2.8p7.tar.gz
+Source: ntp-4.2.8p6.tar.gz
 License: Unique
 LicenseFiles: COPYRIGHT html/copyright.html
 Type: ipkg

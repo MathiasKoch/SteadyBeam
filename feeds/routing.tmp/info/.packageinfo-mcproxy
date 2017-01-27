@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/mcproxy/Makefile
 Package: mcproxy
 Submenu: Routing and Redirection
-Version: 2014-12-31-b7bd2d0809a0d1f177181c361b9a6c83e193b79a-3
+Version: 2014-12-31-b7bd2d0809a0d1f177181c361b9a6c83e193b79a-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libstdcpp @(!GCC_VERSION_4_4&&!GCC_VERSION_4_6)
 Conflicts: 
 Menu-Depends: 

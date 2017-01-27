@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/smartmontools/Makefile
 Package: smartmontools
-Version: 6.5-1
+Version: 6.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: utils
 Category: Utilities
 Title: S.M.A.R.T Monitoring Tool
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: smartmontools-6.5.tar.gz
+Source: smartmontools-6.3.tar.gz
 License: GPL-2.0+
 LicenseFiles: COPYING
 Type: ipkg
@@ -22,7 +22,7 @@ Maxim Storchak <m.storchak@gmail.com>
 @@
 
 Package: smartd
-Version: 6.5-1
+Version: 6.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +31,7 @@ Section: utils
 Category: Utilities
 Title: S.M.A.R.T Monitoring Daemon
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: smartmontools-6.5.tar.gz
+Source: smartmontools-6.3.tar.gz
 License: GPL-2.0+
 LicenseFiles: COPYING
 Type: ipkg

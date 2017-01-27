@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/sshtunnel/Makefile
 Package: sshtunnel
 Submenu: SSH
-Version: 4-1
+Version: 3-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +openssh-client
 Conflicts: 
 Menu-Depends: 

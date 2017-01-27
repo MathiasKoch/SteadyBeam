@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/rtklib/Makefile
 Package: convbin
 Submenu: RTKLIB Suite
-Version: 2.4.2_p11
+Version: 2.4.2_p9
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: utils
 Category: Utilities
 Title: RINEX Converter
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: rtklib-2.4.2_p11-df578f4d6708ae0b648c254d168882285d0053cc.tar.gz
+Source: rtklib-2.4.2_p9-5592bb575ceb27f2ce0f0f5a84eda38497006c15.tar.gz
 License: BSD-2-Clause
 Type: ipkg
 Description: RINEX Converter
@@ -20,7 +20,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: pos2kml
 Submenu: RTKLIB Suite
-Version: 2.4.2_p11
+Version: 2.4.2_p9
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -29,7 +29,7 @@ Section: utils
 Category: Utilities
 Title: Solution to KML converter
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: rtklib-2.4.2_p11-df578f4d6708ae0b648c254d168882285d0053cc.tar.gz
+Source: rtklib-2.4.2_p9-5592bb575ceb27f2ce0f0f5a84eda38497006c15.tar.gz
 License: BSD-2-Clause
 Type: ipkg
 Description: Solution to KML converter
@@ -39,7 +39,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: rnx2rtkp
 Submenu: RTKLIB Suite
-Version: 2.4.2_p11
+Version: 2.4.2_p9
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -48,7 +48,7 @@ Section: utils
 Category: Utilities
 Title: Post-Processing Analysis
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: rtklib-2.4.2_p11-df578f4d6708ae0b648c254d168882285d0053cc.tar.gz
+Source: rtklib-2.4.2_p9-5592bb575ceb27f2ce0f0f5a84eda38497006c15.tar.gz
 License: BSD-2-Clause
 Type: ipkg
 Description: Post-Processing Analysis
@@ -58,7 +58,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: rtkrcv
 Submenu: RTKLIB Suite
-Version: 2.4.2_p11
+Version: 2.4.2_p9
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -67,7 +67,7 @@ Section: utils
 Category: Utilities
 Title: Real-Time Positioning
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: rtklib-2.4.2_p11-df578f4d6708ae0b648c254d168882285d0053cc.tar.gz
+Source: rtklib-2.4.2_p9-5592bb575ceb27f2ce0f0f5a84eda38497006c15.tar.gz
 License: BSD-2-Clause
 Type: ipkg
 Description: Real-Time Positioning
@@ -77,7 +77,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: str2str
 Submenu: RTKLIB Suite
-Version: 2.4.2_p11
+Version: 2.4.2_p9
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt
 Conflicts: 
 Menu-Depends: 
@@ -86,7 +86,7 @@ Section: utils
 Category: Utilities
 Title: Communication Server
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: rtklib-2.4.2_p11-df578f4d6708ae0b648c254d168882285d0053cc.tar.gz
+Source: rtklib-2.4.2_p9-5592bb575ceb27f2ce0f0f5a84eda38497006c15.tar.gz
 License: BSD-2-Clause
 Type: ipkg
 Description: Communication Server

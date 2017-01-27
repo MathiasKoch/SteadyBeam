@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/engine_pkcs11/Makefile
 Package: engine_pkcs11
-Version: 20150429-0cc9d88eb291f5c545e5bc91d56866a2e0e95d48
+Version: 20131021-5abdc7e0d6d519d2514e3eccc116b335bc427254
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libp11
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: libs
 Category: Libraries
 Title: PKCS
 Maintainer: Daniel Golle <daniel@makrotopia.org>
-Source: engine_pkcs11-20150429.tar.gz
+Source: engine_pkcs11-20131021.tar.gz
 License: LGPL-2.1+
 Type: ipkg
 Description:   engine_pkcs11 is an implementation of OpenSSL engine interface.

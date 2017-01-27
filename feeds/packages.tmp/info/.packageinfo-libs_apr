@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/apr/Makefile
 Package: libapr
-Version: 1.5.2-2
+Version: 1.5.2-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +librt +libuuid
 Conflicts: 
 Menu-Depends: 

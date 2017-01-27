@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/lang/perl-test-harness/Makefile
 Package: perl-test-harness
 Submenu: Perl
-Version: 3.36-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-base +perlbase-benchmark +perlbase-config +perlbase-essential +perlbase-file +perlbase-getopt +perlbase-io +perlbase-posix +perlbase-text
+Version: 3.35-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10,7 +10,7 @@ Section: lang
 Category: Languages
 Title: Perl Test Harness
 Maintainer: Marcel Denia <naoir@gmx.net>
-Source: Test-Harness-3.36.tar.gz
+Source: Test-Harness-3.35.tar.gz
 License: GPL-1.0+ Artistic-1.0-Perl
 Type: ipkg
 Description: Perl Test Harness

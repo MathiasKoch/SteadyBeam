@@ -10,14 +10,14 @@ Build-Types: host
 Section: libs
 Category: Libraries
 Title: The Independent JPEG Group's JPEG runtime library
-Maintainer: Jo-Philipp Wich <jo@mein.io>
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Source: jpegsrc.v9a.tar.gz
 License: IJG
 LicenseFiles: README
 Type: ipkg
 Description: The Independent JPEG Group's JPEG runtime library
 http://www.ijg.org/
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 Package: jpeg-tools
@@ -31,14 +31,14 @@ Build-Types: host
 Section: utils
 Category: Utilities
 Title: The Independent JPEG Group's JPEG manipulation tools
-Maintainer: Jo-Philipp Wich <jo@mein.io>
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Source: jpegsrc.v9a.tar.gz
 License: IJG
 LicenseFiles: README
 Type: ipkg
 Description: The Independent JPEG Group's JPEG manipulation tools
 http://www.ijg.org/
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 

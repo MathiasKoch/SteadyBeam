@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/wifitoggle/Makefile
 Package: wifitoggle
-Version: 1-5
+Version: 1-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 

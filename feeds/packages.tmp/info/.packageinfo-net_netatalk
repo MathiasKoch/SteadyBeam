@@ -2,7 +2,7 @@ Source-Makefile: feeds/packages/net/netatalk/Makefile
 Package: netatalk
 Submenu: Filesystem
 Version: 2.2.4-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libattr +libdb47 +libgcrypt +libopenssl +librpc
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +attr +libdb47 +libgcrypt +libopenssl +librpc
 Conflicts: 
 Menu-Depends: 
 Provides: 

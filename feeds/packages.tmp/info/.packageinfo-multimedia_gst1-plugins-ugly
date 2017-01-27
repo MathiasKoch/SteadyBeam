@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/multimedia/gst1-plugins-ugly/Makefile
 Package: gst1-mod-asf
-Version: 1.6.2-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgstreamer1 +libgst1audio +libgst1video +libgst1riff +libgst1rtp +libgst1rtsp +libgst1sdp +libgst1tag
+Version: 1.4.5-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgstreamer1 +libgst1audio +libgst1riff +libgst1rtp +libgst1rtsp +libgst1sdp +libgst1tag
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10,7 +10,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer ASF demuxer plugin (ugly)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-ugly-1.6.2.tar.xz
+Source: gst-plugins-ugly-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -23,7 +23,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-lame
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgstreamer1 +libgst1audio +lame-lib
 Conflicts: 
 Menu-Depends: 
@@ -33,7 +33,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer MP3 encoder (using LAME) plugin (ugly)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-ugly-1.6.2.tar.xz
+Source: gst-plugins-ugly-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -46,7 +46,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-mad
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgstreamer1 +libgst1audio +libgst1tag +libid3tag +libmad
 Conflicts: 
 Menu-Depends: 
@@ -56,7 +56,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer MP3 decoder (using MAD) plugin (ugly)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-ugly-1.6.2.tar.xz
+Source: gst-plugins-ugly-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -69,7 +69,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gst1-mod-mpeg2dec
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +libgstreamer1 +libgst1video +libmpeg2
 Conflicts: 
 Menu-Depends: 
@@ -79,7 +79,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer MPEG decoder plugin (ugly)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-ugly-1.6.2.tar.xz
+Source: gst-plugins-ugly-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -92,7 +92,7 @@ W. Michael Petullo <mike@flyn.org>
 @@
 
 Package: gstreamer1-plugins-ugly
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +ALL:gst1-plugins-ugly +gstreamer1-plugins-base
 Conflicts: 
 Menu-Depends: 
@@ -102,7 +102,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer plugins collection (ugly)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-ugly-1.6.2.tar.xz
+Source: gst-plugins-ugly-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg
@@ -140,7 +140,7 @@ Config:
 @@
 
 Package: gst1-plugins-ugly
-Version: 1.6.2-1
+Version: 1.4.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgstreamer1 +BUILD_NLS:libiconv-full +gst1-mod-asf +gst1-mod-lame +gst1-mod-mad +gst1-mod-mpeg2dec
 Conflicts: 
 Menu-Depends: 
@@ -150,7 +150,7 @@ Section: multimedia
 Category: Multimedia
 Title: GStreamer plugins collection (ugly)
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: gst-plugins-ugly-1.6.2.tar.xz
+Source: gst-plugins-ugly-1.4.5.tar.xz
 License: LGPLv2
 LicenseFiles: COPYING
 Type: ipkg

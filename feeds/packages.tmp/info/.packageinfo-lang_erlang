@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/lang/erlang/Makefile
 Package: erlang
 Submenu: Erlang
-Version: 17.5-2
+Version: 17.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses +librt +zlib
 Conflicts: 
 Menu-Depends: 

@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/sound/pulseaudio/Makefile
 Package: pulseaudio-daemon
-Version: 8.0-1
+Version: 6.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libspeexdsp +libsndfile +libltdl +libpthread +librt +alsa-lib +libopenssl +libwrap +libcap +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +libjson-c
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Sound
 Title: Network sound server
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Require-User: pulse=51:pulse=51
-Source: pulseaudio-8.0.tar.xz
+Source: pulseaudio-6.0.tar.xz
 License: LGPL-2.1+
 LicenseFiles: GPL LICENSE
 Type: ipkg
@@ -21,7 +21,7 @@ Peter Wagner <tripolar@gmx.at>
 @@
 
 Package: pulseaudio-tools
-Version: 8.0-1
+Version: 6.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libsndfile +pulseaudio
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +31,7 @@ Section: sound
 Category: Sound
 Title: Tools for Pulseaudio
 Maintainer: 
-Source: pulseaudio-8.0.tar.xz
+Source: pulseaudio-6.0.tar.xz
 License: LGPL-2.1+
 LicenseFiles: GPL LICENSE
 Type: ipkg
@@ -41,7 +41,7 @@ http://www.pulseaudio.org
 @@
 
 Package: pulseaudio-profiles
-Version: 8.0-1
+Version: 6.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread pulseaudio
 Conflicts: 
 Menu-Depends: 
@@ -51,7 +51,7 @@ Section: sound
 Category: Sound
 Title: Profiles for Pulseaudio
 Maintainer: 
-Source: pulseaudio-8.0.tar.xz
+Source: pulseaudio-6.0.tar.xz
 License: LGPL-2.1+
 LicenseFiles: GPL LICENSE
 Type: ipkg

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/nmap/Makefile
 Package: nmap
 Submenu: NMAP Suite
-Version: 7.12-1
+Version: 6.47-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Section: net
 Category: Network
 Title: Utility for network exploration or security auditing
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: nmap-7.12.tar.bz2
+Source: nmap-6.47.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -22,7 +22,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: nmap-ssl
 Submenu: NMAP Suite
-Version: 7.12-1
+Version: 6.47-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap +libstdcpp +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -32,7 +32,7 @@ Section: net
 Category: Network
 Title: Nmap (with OpenSSL support)
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: nmap-7.12.tar.bz2
+Source: nmap-6.47.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -43,7 +43,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: ncat
 Submenu: NMAP Suite
-Version: 7.12-1
+Version: 6.47-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap
 Conflicts: 
 Menu-Depends: 
@@ -53,7 +53,7 @@ Section: net
 Category: Network
 Title: Much-improved reimplementation of Netcat
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: nmap-7.12.tar.bz2
+Source: nmap-6.47.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -64,7 +64,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: ncat-ssl
 Submenu: NMAP Suite
-Version: 7.12-1
+Version: 6.47-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -74,7 +74,7 @@ Section: net
 Category: Network
 Title: Ncat (with OpenSSL support)
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: nmap-7.12.tar.bz2
+Source: nmap-6.47.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -85,7 +85,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: nping
 Submenu: NMAP Suite
-Version: 7.12-1
+Version: 6.47-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap +libpthread +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -95,7 +95,7 @@ Section: net
 Category: Network
 Title: Network packet generation tool / ping utility
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: nmap-7.12.tar.bz2
+Source: nmap-6.47.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -106,7 +106,7 @@ Nuno Goncalves <nunojpg@gmail.com>
 
 Package: ndiff
 Submenu: NMAP Suite
-Version: 7.12-1
+Version: 6.47-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python
 Conflicts: 
 Menu-Depends: 
@@ -116,7 +116,7 @@ Section: net
 Category: Network
 Title: Utility to compare the results of Nmap scans
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
-Source: nmap-7.12.tar.bz2
+Source: nmap-6.47.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg

@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/grep/Makefile
 Package: grep
-Version: 2.25-1
+Version: 2.21-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre
 Conflicts: 
 Menu-Depends: 
@@ -9,7 +9,7 @@ Section: utils
 Category: Utilities
 Title: grep search utility - full version
 Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
-Source: grep-2.25.tar.xz
+Source: grep-2.21.tar.xz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg

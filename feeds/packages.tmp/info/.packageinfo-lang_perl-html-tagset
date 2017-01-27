@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/lang/perl-html-tagset/Makefile
 Package: perl-html-tagset
 Submenu: Perl
-Version: 3.20-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
+Version: 3.20-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
 Provides: 

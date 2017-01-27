@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/mac-telnet/Makefile
 Package: mac-telnet-server
-Version: 2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab
+Version: 2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox
 Conflicts: 
 Menu-Depends: 
@@ -8,14 +8,14 @@ Provides:
 Section: net
 Category: Network
 Title: MAC-Telnet / MAC-SSH server
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: mac-telnet-2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab.tar.gz
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Source: mac-telnet-2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:     Open source MAC Telnet client and server utilities for connecting to
     Mikrotik RouterOS routers and Linux machines via MAC address.
 https://github.com/jow-/MAC-Telnet
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 Config:
   config MACTELNET_PLAIN_SUPPORT
@@ -28,7 +28,7 @@ Config:
 @@
 
 Package: mac-telnet-client
-Version: 2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab
+Version: 2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox
 Conflicts: 
 Menu-Depends: 
@@ -36,18 +36,18 @@ Provides:
 Section: net
 Category: Network
 Title: MAC-Telnet / MAC-SSH client
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: mac-telnet-2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab.tar.gz
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Source: mac-telnet-2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:     Open source MAC Telnet client and server utilities for connecting to
     Mikrotik RouterOS routers and Linux machines via MAC address.
 https://github.com/jow-/MAC-Telnet
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 Package: mac-telnet-ping
-Version: 2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab
+Version: 2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox
 Conflicts: 
 Menu-Depends: 
@@ -55,18 +55,18 @@ Provides:
 Section: net
 Category: Network
 Title: MAC-Telnet / MAC-SSH ping
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: mac-telnet-2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab.tar.gz
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Source: mac-telnet-2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:     Open source MAC Telnet client and server utilities for connecting to
     Mikrotik RouterOS routers and Linux machines via MAC address.
 https://github.com/jow-/MAC-Telnet
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 Package: mac-telnet-discover
-Version: 2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab
+Version: 2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox
 Conflicts: 
 Menu-Depends: 
@@ -74,14 +74,14 @@ Provides:
 Section: net
 Category: Network
 Title: MAC-Telnet / MAC-SSH discover
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: mac-telnet-2015-09-02-37d83cbc9c07266d6c957d27bf75285b305eceab.tar.gz
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Source: mac-telnet-2014-09-23-269a5d7d53b59a2e4657ad3689e46ac057c22e28.tar.gz
 License: GPL-2.0+
 Type: ipkg
 Description:     Open source MAC Telnet client and server utilities for connecting to
     Mikrotik RouterOS routers and Linux machines via MAC address.
 https://github.com/jow-/MAC-Telnet
-Jo-Philipp Wich <jo@mein.io>
+Jo-Philipp Wich <jow@openwrt.org>
 @@
 
 

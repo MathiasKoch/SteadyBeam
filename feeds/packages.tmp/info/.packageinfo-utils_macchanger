@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/macchanger/Makefile
 Package: macchanger
-Version: 1.7.0-2
+Version: 1.7.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/ctorrent/Makefile
 Package: ctorrent
 Submenu: BitTorrent
-Version: dnh3.3.2-7
+Version: dnh3.3.2-6
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -23,7 +23,7 @@ Peter Wagner <tripolar@gmx.at>
 
 Package: ctorrent-nossl
 Submenu: BitTorrent
-Version: dnh3.3.2-7
+Version: dnh3.3.2-6
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 

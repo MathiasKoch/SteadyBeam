@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/dbus/Makefile
 Package: libdbus
-Version: 1.10.4-1
+Version: 1.9.14-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Section: utils
 Category: Libraries
 Title: Simple interprocess messaging system (library)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: dbus-1.10.4.tar.gz
+Source: dbus-1.9.14.tar.gz
 License: AFL-2.1
 Type: ipkg
 Description: Simple interprocess messaging system (library)
@@ -19,7 +19,7 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: dbus
-Version: 1.10.4-1
+Version: 1.9.14-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libexpat +libdbus
 Conflicts: 
 Menu-Depends: 
@@ -29,7 +29,7 @@ Section: utils
 Category: Utilities
 Title: Simple interprocess messaging system (daemon)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: dbus-1.10.4.tar.gz
+Source: dbus-1.9.14.tar.gz
 License: AFL-2.1
 Type: ipkg
 Description: Simple interprocess messaging system (daemon)
@@ -38,7 +38,7 @@ Steven Barth <cyrus@openwrt.org>
 @@
 
 Package: dbus-utils
-Version: 1.10.4-1
+Version: 1.9.14-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread dbus
 Conflicts: 
 Menu-Depends: 
@@ -48,7 +48,7 @@ Section: utils
 Category: Utilities
 Title: Simple interprocess messaging system (utilities)
 Maintainer: Steven Barth <cyrus@openwrt.org>
-Source: dbus-1.10.4.tar.gz
+Source: dbus-1.9.14.tar.gz
 License: AFL-2.1
 Type: ipkg
 Description: Simple interprocess messaging system (utilities)
